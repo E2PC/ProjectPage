@@ -1,7 +1,7 @@
 ---
-title: Pagina Inicial!
+title: TutorialMineChest!
 layout: template
-filename: index
+filename: TutorialMineChest
 --- 
 
 # Inicio...
