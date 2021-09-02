@@ -1,7 +1,7 @@
 ---
 title: Pagina Inicial!
 layout: template
-filename: index.md
+filename: index
 --- 
 
 # Oi!
