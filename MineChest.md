@@ -38,7 +38,7 @@ Atividade prévia: download do VSCode e Python
 	Funções drag and drop, itens/imagens aleatórios(as) e somar os valores do báu.<br>
 </p>
 
-<img src="image.png"/>
+<img src="images/image.png"/>
 
 <b style="font-weight: bold;">Resenha<br></b> 
 <p>
@@ -56,6 +56,6 @@ A oficina terá carga horária de 18 horas, e será realizado no 2º semestre de
 <p>
 Projeto “Treinamento em Lógica e Programação de Computadores no Ensino Técnico”
 </p>
-<img src="Captura de tela 2021-09-02 233925 (1).png"/>
+<img src="images/Captura de tela 2021-09-02 233925 (1).png"/>
 </body>
 </html>
