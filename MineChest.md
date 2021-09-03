@@ -39,8 +39,8 @@ Atividade prévia: download do VSCode e Python
 </p>
 
 <img src="images/image.png"/>
-<br>
-<b style="font-weight: bold;">Resenha<br></b> 
+
+<b style="font-weight: bold;"><br>Resenha<br></b> 
 <p>
 Considere que a cada vez que você acessar o seu perfil, você tem direito a um sorteio de bônus, que podem ser usados para adquirir itens de um inventário para o seu baú. 
 A partir dos bônus disponíveis, você deve selecionar os itens do inventário, maximizando a quantidade de itens do baú.
