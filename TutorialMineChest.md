@@ -1,7 +1,7 @@
 ---
-title: TutorialMineChest!
+title: MineChest
 layout: template
-filename: TutorialMineChest
+filename: MineChest
 --- 
 
 # Inicio...
