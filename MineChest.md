@@ -56,6 +56,6 @@ A oficina terá carga horária de 18 horas, e será realizado no 2º semestre de
 <p>
 Projeto “Treinamento em Lógica e Programação de Computadores no Ensino Técnico”
 </p>
-<img src="Captura de tela 2021-09-02 233925.png"/>
+<img src="Captura de tela 2021-09-02 233925 (1).png"/>
 </body>
 </html>
