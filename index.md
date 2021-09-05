@@ -1,3 +1,9 @@
+---
+title: Inicio
+layout: Inicio
+filename: index
+--- 
+
 <html>
 	<body>
 		<h1>EPC2</h1>
