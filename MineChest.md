@@ -41,7 +41,7 @@ Programação da oficina
 <img src="images/image.png"/>
 	
 <p>
-<b style="font-weight: bold;"><br>Resenha</b> 
+<b style="font-weight: bold;">Resenha</b> 
 Considere que a cada vez que você acessar o seu perfil, você tem direito a um sorteio de bônus, que podem ser usados para adquirir itens de um inventário para o seu baú. 
 A partir dos bônus disponíveis, você deve selecionar os itens do inventário, maximizando a quantidade de itens do baú.
 A oficina abordará o desenvolvimento do front e do backend do jogo, com as seguintes tecnologias: Python (e o framework Django), HTML, CSS e JavaScript.
