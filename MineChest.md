@@ -8,9 +8,9 @@ filename: MineChest
 <h1>
 Programação da oficina
 </h1>
-<b style="font-size:20px;">
-Atividade prévia: download do VSCode e Python
-</b>
+<p>
+	<b style="font-size:20px;">Atividade prévia: download do VSCode e Python</b>
+</p>
 	
 <p>
 <b style="font-weight: bold;">1° Encontro: 14/09:<br></b>
@@ -32,30 +32,31 @@ Atividade prévia: download do VSCode e Python
 	Desenvolver a interface mostrando tudo estilizado minecraft
 	(seus locais/arquivos de configurações)<br>
 </p>
-	
+
 <p>
 <b style="font-weight: bold;">5° até 7° Encontro:<br></b>
 	Funções drag and drop, itens/imagens aleatórios(as) e somar os valores do báu.<br>
 </p>
 
 <img src="images/image.png"/>
-
-<b style="font-weight: bold;"><br>Resenha<br></b> 
+	
 <p>
+<b style="font-weight: bold;"><br>Resenha<br></b> 
 Considere que a cada vez que você acessar o seu perfil, você tem direito a um sorteio de bônus, que podem ser usados para adquirir itens de um inventário para o seu baú. 
 A partir dos bônus disponíveis, você deve selecionar os itens do inventário, maximizando a quantidade de itens do baú.
 A oficina abordará o desenvolvimento do front e do backend do jogo, com as seguintes tecnologias: Python (e o framework Django), HTML, CSS e JavaScript.
 </p>
-
-<b style="font-weight: bold;">Informações<br></b>
+	
 <p>
+<b style="font-weight: bold;">Informações<br></b>
 A oficina terá carga horária de 18 horas, e será realizado no 2º semestre de 2021, em dia e horário a ser definido. Como pré-requsito, é desejável conhecimento em programação orientada a objetos e arquitetura de software.
 </p>
-
-<b style="font-weight: bold;">Realização<br></b>
+	
 <p>
+<b style="font-weight: bold;">Realização<br></b>
 Projeto “Treinamento em Lógica e Programação de Computadores no Ensino Técnico”
 </p>
+	
 <img src="images/Captura de tela 2021-09-02 233925 (1).png"/>
 </body>
 </html>
