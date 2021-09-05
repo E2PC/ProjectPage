@@ -41,19 +41,19 @@ Programação da oficina
 <img src="images/image.png"/>
 	
 <p>
-<b style="font-weight: bold;">Resenha</b> 
+<b style="font-weight: bold;">Resenha<br></b>
 Considere que a cada vez que você acessar o seu perfil, você tem direito a um sorteio de bônus, que podem ser usados para adquirir itens de um inventário para o seu baú. 
 A partir dos bônus disponíveis, você deve selecionar os itens do inventário, maximizando a quantidade de itens do baú.
 A oficina abordará o desenvolvimento do front e do backend do jogo, com as seguintes tecnologias: Python (e o framework Django), HTML, CSS e JavaScript.
 </p>
 	
 <p>
-<b style="font-weight: bold;">Informações</b>
+<b style="font-weight: bold;">Informações<br></b>
 A oficina terá carga horária de 18 horas, e será realizado no 2º semestre de 2021, em dia e horário a ser definido. Como pré-requsito, é desejável conhecimento em programação orientada a objetos e arquitetura de software.
 </p>
 	
 <p>
-<b style="font-weight: bold;">Realização</b>
+<b style="font-weight: bold;">Realização<br></b>
 Projeto “Treinamento em Lógica e Programação de Computadores no Ensino Técnico”
 </p>
 	
