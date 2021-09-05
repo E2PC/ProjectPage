@@ -1,6 +1,6 @@
 ---
 title: Inicio
-layout: Inicio
+layout: template
 filename: index
 --- 
 
@@ -52,6 +52,8 @@ filename: index
 			Er<br>
 			Jo<br>
 		</p>
-		Contato: e2pc@unicentro.br
+		<p>
+			Contato: e2pc@unicentro.br
+		</p>
 	</body>
 </html>
