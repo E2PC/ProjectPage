@@ -1,5 +1,10 @@
-# Primeiros passos oficina Python: Instalando o VScode e o interpretador python
+---
+title: Primeiro Encontro
+layout: template
+filename: PrimeiroEncontro
+--- 
 
+# Primeiros passos oficina Python: Instalando o VScode e o interpretador python
 
 ## Instalando e configurando o VSCode
 
