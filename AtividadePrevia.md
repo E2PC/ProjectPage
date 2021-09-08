@@ -1,7 +1,7 @@
 ---
-title: Atrividade Prévia
+title: Atividade Prévia
 layout: template
-filename: PrimeiroEncontro
+filename: AtividadePrevia
 --- 
 
 # Primeiros passos oficina Python: Instalando o VScode e o interpretador python
