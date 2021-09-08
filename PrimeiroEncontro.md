@@ -1,5 +1,5 @@
 ---
-title: Primeiro Encontro
+title: Atrividade Prévia
 layout: template
 filename: PrimeiroEncontro
 --- 
