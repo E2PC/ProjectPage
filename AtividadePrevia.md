@@ -23,10 +23,9 @@ https://code.visualstudio.com
 
 
 ## Instalando o interpretador Python
-Caso você esteja utilizando o Windows 10, é possível baixar diretamente da Microsoft Store, basta pesquisar Python, baixar e instalar.
-![image](https://user-images.githubusercontent.com/65428645/132421334-a462f79e-b4d1-475a-a0e3-5f790797b396.png)
 
-É possível também baixar diretamente do seguinte site:
+Para instalar o Python, acesse o seguinte site, faça o download e instale.
+
 https://www.python.org/downloads/
 
 
