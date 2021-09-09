@@ -5,9 +5,9 @@ filename: MineChest
 --- 
 <html>
 <body>
-<h2>
+<h1 style="font-size:30px">
 Oficina de Desenvolvimento de Aplicação Web em Python
-</h2>
+</h1>
 	
 <p>
 <b style="font-weight: bold;">Resenha<br></b>
