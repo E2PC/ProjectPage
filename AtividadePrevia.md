@@ -1,5 +1,4 @@
 ---
-title: Atividade Prévia
 layout: template
 filename: AtividadePrevia
 --- 
