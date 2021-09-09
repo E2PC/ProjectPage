@@ -51,16 +51,6 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 	Funções drag and drop, itens/imagens aleatórios(as) e somar os valores do báu.<br>
 </p>
 
-	
-<p>
-<b style="font-weight: bold;">Informações<br></b>
-A oficina terá carga horária de 18 horas, e será realizado no 2º semestre de 2021, em dia e horário a ser definido. Como pré-requsito, é desejável conhecimento em programação orientada a objetos e arquitetura de software.
-</p>
-	
-<p>
-<b style="font-weight: bold;">Realização<br></b>
-Projeto “Treinamento em Lógica e Programação de Computadores no Ensino Técnico”
-</p>
 
 </body>
 </html>
