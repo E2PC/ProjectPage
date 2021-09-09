@@ -15,6 +15,8 @@ Oficina de Python - Roteiro
 	<a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Roteiro</a> para download e instalação
 </p>
 	
+	
+<img src="images/image.png"/>	
 <p>
 <b style="font-weight: bold;">Resenha<br></b>
 Considere que a cada vez que você acessar o seu perfil, você tem direito a um sorteio de bônus, que podem ser usados para adquirir itens de um inventário para o seu baú. 
@@ -22,9 +24,6 @@ A partir dos bônus disponíveis, você deve selecionar os itens do inventário,
 A oficina abordará o desenvolvimento do front e do backend do jogo, com as seguintes tecnologias: Python (e o framework Django), HTML, CSS e JavaScript.
 	
 </p>
-	
-<img src="images/image.png"/>	
-
 	
 <p>
 <b style="font-weight: bold;">1° Encontro: 14/09:<br></b>
