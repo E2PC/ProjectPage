@@ -23,7 +23,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 	
 </p>
 	
-<img src="images/image.png"	
+<img src="images/image.png"/>	
 
 	
 <p>
