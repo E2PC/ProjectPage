@@ -9,9 +9,11 @@ filename: MineChest
 Oficina de Python - Roteiro
 </h1>
 <p>
-	<b style="font-size:20px;">Atividade prévia: <a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">download</a> do VSCode e Python</b>
+	<b style="font-size:20px;">Atividade prévia do VSCode e Python</b>
 </p>
-	
+<p>
+	<a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Roteiro</a> para download e instalacäo
+</p>
 	
 <p>
 <b style="font-weight: bold;">Resenha<br></b>
