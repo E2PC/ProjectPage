@@ -20,9 +20,11 @@ Oficina de Python - Roteiro
 Considere que a cada vez que você acessar o seu perfil, você tem direito a um sorteio de bônus, que podem ser usados para adquirir itens de um inventário para o seu baú. 
 A partir dos bônus disponíveis, você deve selecionar os itens do inventário, maximizando a quantidade de itens do baú.
 A oficina abordará o desenvolvimento do front e do backend do jogo, com as seguintes tecnologias: Python (e o framework Django), HTML, CSS e JavaScript.
+
+<img src="images/image.png"/
+	
 </p>
 	
-![image](https://user-images.githubusercontent.com/65428645/132767733-329f0cd5-1f93-4bd9-83b3-4e1831806788.png)
 
 	
 <p>
@@ -51,7 +53,6 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 	Funções drag and drop, itens/imagens aleatórios(as) e somar os valores do báu.<br>
 </p>
 
-<img src="images/image.png"/
 	
 <p>
 <b style="font-weight: bold;">Informações<br></b>
