@@ -8,7 +8,6 @@ filename: MineChest
 <h4>
 Oficina de Desenvolvimento de Aplicação Web em Python
 </h4>
-
 	
 <p>
 <b style="font-weight: bold;">Resenha<br></b>
