@@ -6,7 +6,7 @@ filename: MineChest
 <html>
 <body>
 <h1>
-Oficina de Python - Roteiro
+Oficina de Desenvolvimento de Aplicação Web em Python
 </h1>
 <p>
 	<b style="font-size:20px;">Atividade prévia VSCode e Python</b>
