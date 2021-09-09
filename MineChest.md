@@ -6,7 +6,7 @@ filename: MineChest
 <html>
 <body>
 <h1>
-Programação da oficina
+Oficina de Python - Roteiro
 </h1>
 <p>
 	<b style="font-size:20px;">Atividade prévia: download do VSCode e Python</b>
