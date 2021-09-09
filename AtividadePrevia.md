@@ -62,15 +62,3 @@ Juppyter
 Python
 
 vscode-icons
-
-### Instalando o Framework Django no VScode:
-
-Para instalar e testar o Django, acesse o seguinte site e siga os passos:
-
-https://code.visualstudio.com/docs/python/tutorial-django
-
-
-
-
-
-
