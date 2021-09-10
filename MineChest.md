@@ -21,7 +21,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 <img src="images/image.png"/>	
 
 <p>
-	<b style="font-size:20px;"><a href="AtividadePrevia">Atividade prévia</a> VSCode e Python</b>
+	<b style="font-size:20px;">Atividade préviaVSCode e Python</b>
 </p>
 <p>
 	<a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Roteiro</a> para download e instalação
