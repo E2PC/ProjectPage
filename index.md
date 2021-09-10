@@ -1,5 +1,5 @@
 ---
-title: Inicio
+title: Ensino Extracurricular de Programação de Computadores
 layout: template
 filename: index
 --- 
