@@ -2,6 +2,7 @@
 title: MineChest
 layout: template
 filename: MineChest
+button: MineChest
 --- 
 <html>
 <body>
