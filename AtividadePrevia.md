@@ -2,6 +2,7 @@
 title: Atividade Prévia
 layout: template
 filename: AtividadePrevia
+blocker: 1
 ---
 
 # Primeiros passos oficina Python: Instalando o VScode e o interpretador python
