@@ -48,10 +48,11 @@ button: Inicio
 		</ul>
 		<p>
 			<b>EQUIPE:</b><br>
-			An<br>
-			Al<br>
-			Er<br>
-			Jo<br>
+			Ana Elisa Tozetto Piekarski da Palma<br>
+			Mauro Miazaki<br>
+			Alexandro Luis da Rocha Junior<br>
+			Eric Patrick Militão<br>
+			João Vitor Pieczarka da Silva<br>
 		</p>
 		<p>
 			Contato: e2pc@unicentro.br
