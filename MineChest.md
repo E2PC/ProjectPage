@@ -3,6 +3,7 @@ title: MineChest
 layout: template
 filename: MineChest
 button: MineChest
+blocker: 0
 --- 
 <html>
 <body>
