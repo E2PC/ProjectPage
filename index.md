@@ -2,6 +2,7 @@
 title: Ensino Extracurricular de Programação de Computadores
 layout: template
 filename: index
+button: Inicio
 --- 
 
 <html>
