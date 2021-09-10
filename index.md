@@ -13,37 +13,10 @@ filename: index
 
 		<p>
 			<b>Objetivo</b><br>
-			O objetivo geral deste projeto é melhorar as habilidades em lógica e programação de computadores dos participantes.<br>
+			Melhorar as habilidades em lógica e programação de computadores dos participantes.<br>
 		</p>
 		<ul class="a">
-			<li>
-				Pesquisar ferramental teórico para o desenvolvimento de ferramentas/métodos para o ensino de lógica e programação de computadores;
-			</li>
-			<li>
-				Oferecer atividades lúdicas para a aprendizagem de lógica e programação de computadores;
-			</li>
-			<li>
-				Oferecer oficinas com conteúdos relacionados a linguagens de programação e tecnologias de desenvolvimento de software;
-			</li>
-			<li>
-				Treinar alunos para participação na primeira fase da Olimpíada Brasileira de Informática;
-				
-			</li>
-			<li>
-				Incentivar a participação na Olimpíada Brasileira de Informática;
-			</li>
-			<li>
-				Estimular os alunos ingressantes do Bacharelado em Ciência da Computação a disputar a OBI, bem como participar dos treinamentos preparatórios;
-			</li>
-			<li>
-				Criar, organizar e estruturar o conteúdo das ações em ferramentas web, possibilitando a replicação das atividades;
-			</li>
-			<li>
-				Discutir o planejamento e acompanhamento das ações com a equipe executora, possibilitando prática extensionista aos bolsistas envolvidas;
-			</li>
-			<li>
-				Sistematizar e registrar as experiências e resultados do projeto para eventual divulgação técnico-científica.
-			</li>
+			
 		</ul>
 		<p>
 			<b>EQUIPE:</b><br>
