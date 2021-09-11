@@ -28,7 +28,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 </p>
 	
 <p>
-<b style="font-weight: bold;">1° Encontro: 14/09:<br></b>
+<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro1">1° Encontro</a>: 14/09:<br></b>
 	Explicar o projeto a ser desenvolvido<br>
 	Introduzir ao python e o frame work Django e sua usabilidade com python (usabilidade na resolução dos problemas)<br>
 	Explicar sobre sua arquitetura (MVT -  Model View Template)<br>
@@ -37,19 +37,19 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 </p>
 	
 <p>
-<b style="font-weight: bold;">2° e 3° Encontro:<br></b>
+<b style="font-weight: bold;"<a href="https://e2pc.github.io/ProjectPage/Encontro23">2° e 3° Encontro</a>:<br></b>
 	Criar as telas base do sistema<br>
 	Desenvolver o Cadastro/Login com o django allauth(imports, seus locais/arquivos de configurações)<br>
 </p>
 	
 <p>
-<b style="font-weight: bold;">4° Encontro:<br></b>
+	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro4">4° Encontro</a>:<br></b>
 	Desenvolver a interface mostrando tudo estilizado minecraft
 	(seus locais/arquivos de configurações)<br>
 </p>
 
 <p>
-<b style="font-weight: bold;">5° até 7° Encontro:<br></b>
+<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro57">5° até 7° Encontro</a>:<br></b>
 	Funções drag and drop, itens/imagens aleatórios(as) e somar os valores do báu.<br>
 </p>
 
