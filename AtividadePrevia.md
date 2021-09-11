@@ -5,7 +5,7 @@ filename: AtividadePrevia
 blocker: 1
 ---
 
-# Primeiros passos oficina Python: Instalando o VScode e o interpretador python
+# Primeiros passos: Instalando o VScode e o interpretador Python
 
 ## Instalando e configurando o VSCode
 
