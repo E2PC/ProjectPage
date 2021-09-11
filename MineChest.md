@@ -1,5 +1,5 @@
 ---
-title: MineChest
+title: Projeto MineChest
 layout: template
 filename: MineChest
 button: MineChest
@@ -37,7 +37,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 </p>
 	
 <p>
-<b style="font-weight: bold;"<a href="https://e2pc.github.io/ProjectPage/Encontro23">2° e 3° Encontro</a>:<br></b>
+<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro23">2° e 3° Encontro</a>:<br></b>
 	Criar as telas base do sistema<br>
 	Desenvolver o Cadastro/Login com o django allauth(imports, seus locais/arquivos de configurações)<br>
 </p>
