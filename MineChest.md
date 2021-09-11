@@ -11,7 +11,7 @@ blocker: 0
 Oficina de Desenvolvimento de Aplicação Web em Python
 </h1>
 	
-<p>
+<p align="justify">
 <b style="font-weight: bold;">Resenha<br></b>
 Considere que a cada vez que você acessar o seu perfil, você tem direito a um sorteio de bônus, que podem ser usados para adquirir itens de um inventário para o seu baú. 
 A partir dos bônus disponíveis, você deve selecionar os itens do inventário, maximizando a quantidade de itens do baú.
@@ -23,7 +23,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 <img src="images/image.png"/>	
 	</p>
 <p align="justify">
-	<b style="font-size:20px;">Atividade préviaVSCode e Python</b>
+	<b style="font-size:20px;">Atividade prévia VSCode e Python</b>
 </p>
 <p>
 	<a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Roteiro</a> para download e instalação
@@ -32,20 +32,6 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro1">1° Encontro</a>: 14/09:<br></b>
 	Introdução ao Python, ao framework Django, a arquitetura MVT e configurações do projeto
-	
-	
-	--- Mover para a página do 1º encontro: ---
-	
-	Qual a ideia do Projeto Minechest?<br>
-	Introdução ao Python 
-	(Para saber mais: link recomendado?) <br>
-	Introdução ao framework Django e sua usabilidade com Python (para a resolução dos problemas)
-	(Para saber mais: link recomendado?)<br>
-	O que é a arquitetura MVT (Model View Template)?
-	(Para saber mais: link recomendado?)<br>
-	Configuração dos arquivos do projeto (settings, urls, views)
-	(Para saber mais: link recomendado?)<br>
-	Criação do projeto Base e execução no servidor local<br>
 </p>
 	
 <p>
