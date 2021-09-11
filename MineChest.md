@@ -17,10 +17,12 @@ Considere que a cada vez que você acessar o seu perfil, você tem direito a um 
 A partir dos bônus disponíveis, você deve selecionar os itens do inventário, maximizando a quantidade de itens do baú.
 A oficina abordará o desenvolvimento do front e do backend do jogo, com as seguintes tecnologias: Python (e o framework Django), HTML, CSS e JavaScript.	
 </p>
+<>
 	
+<p align="center">
 <img src="images/image.png"/>	
-
-<p>
+	</p>
+<p align="justify">
 	<b style="font-size:20px;">Atividade préviaVSCode e Python</b>
 </p>
 <p>
