@@ -41,5 +41,6 @@ blocker: 0
 			(42)3629-8344  -  e2pc@unicentro.br<br>
 			</p>
 </ul>
+</p>
 </body>
 </html>
