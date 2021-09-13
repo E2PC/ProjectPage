@@ -1,8 +1,8 @@
 ---
-title: 2° ao 3° Encontro
+title: 2° Encontro
 layout: template
-filename: Encontro23
-button: Encontro23
+filename: Encontro2
+button: Encontro2
 blocker: 1
 --- 
 
