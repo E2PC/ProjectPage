@@ -6,8 +6,8 @@ button: Encontro2
 blocker: 1
 --- 
 
-#oioi
-
+## oioi
+Bla bla bla <a href="#" onclick="ShowCode()">Mostrar Código</button>
 <script>
 	function ShowCode() {
 	   var buttonArea = document.getElementById( 'button-area' );
@@ -23,4 +23,4 @@ blocker: 1
 	 }
 </script>
 <div class="button-area" id="button-area"></div>
-<button onclick="ShowCode()">Mostrar Código</button>
+
