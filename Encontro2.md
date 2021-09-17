@@ -7,7 +7,23 @@ blocker: 1
 --- 
 
 ## oioi
-Bla bla bla <a href="#" onclick="ShowCode()">Mostrar Código</button>
+  - Criar a pasta "templates"
+	- Código da página Base.html <a href="#" onclick="ShowCode()">Mostrar Código</a>
+	<div class="button-area" id="button-area"></div>
+	
+	- Código da página home.html <a href="#" onclick="ShowCode()">Mostrar Código</a>
+	<div class="button-area" id="button-area"></div>
+	
+	- Na pasta templates, criar "account"
+	  - Código da página login.html <a href="#" onclick="ShowCode()">Mostrar Código</a>
+	  <div class="button-area" id="button-area"></div>
+	
+	  - Código da página logout.html <a href="#" onclick="ShowCode()">Mostrar Código</a>
+	  <div class="button-area" id="button-area"></div>
+	
+	  - Código da página signup.html <a href="#" onclick="ShowCode()">Mostrar Código</a>
+	  <div class="button-area" id="button-area"></div>
+	
 <script>
 	function ShowCode() {
 	   var buttonArea = document.getElementById( 'button-area' );
@@ -22,5 +38,3 @@ Bla bla bla <a href="#" onclick="ShowCode()">Mostrar Código</button>
 	  }
 	 }
 </script>
-<div class="button-area" id="button-area"></div>
-
