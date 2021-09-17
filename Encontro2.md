@@ -7,7 +7,7 @@ blocker: 1
 --- 
   - Criar a pasta "templates"
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
-	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>{% raw %}
+	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>
 <html>
 <head>
     <meta charset = "utf-8">
@@ -15,7 +15,7 @@ blocker: 1
 	<link rel="stylesheet" href="{% static 'css/style.css' %}" />
 	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon" />
 	<link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon" />
-	<title>{% block title %}{% endblock %}</title>
+	<title>{% raw %}{% block title %}{% endblock %}{% endraw %}</title>
 </head>
 <body id="panorama">
 	<!-- Logo MineChest, para alterar o texto piscando alterar: -->
@@ -23,9 +23,9 @@ blocker: 1
 	<div id="flashingtext"><!-- Aqui -->V 1.0!<!-- :S --></div>
 	
 	<!-- Bloco de conteúdos que se extende a todas as partes do sistema -->
-    <main class="container">
+    <main class="container">{% raw %}
         {% block content %}
-        {% endblock %}
+        {% endblock %}{% endraw %}
     </main>
 	<!-- Fim do Bloco que se extende a outras bases -->
 	
@@ -36,7 +36,7 @@ blocker: 1
 	</footer>
 </body>
 </html>	
-{% endraw %}</textarea></div>
+</textarea></div>
 	
 	- Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
 	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>{% raw %}
