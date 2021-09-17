@@ -5,10 +5,10 @@ filename: Encontro2
 button: Encontro2
 blocker: 1
 --- 
-  - Criar a pasta "templates"<br>
+  - Criar a pasta "templates"
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
 	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>
-{% raw %}
+{% comment %}
 <html>
 <head>
     <meta charset = "utf-8">
@@ -39,7 +39,7 @@ blocker: 1
 </body>
 </html>	
 {% endraw %}
-</textarea></div><br>
+</textarea></div>
 
 <script>
 	function Mudarestado(el) {
