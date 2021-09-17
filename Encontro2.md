@@ -5,11 +5,10 @@ filename: Encontro2
 button: Encontro2
 blocker: 1
 --- 
-{% raw %}
   - Criar a pasta "templates"
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
 	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>oioi
-
+{% raw %}
 <html>
 <head>
     <meta charset = "utf-8">
@@ -22,7 +21,7 @@ blocker: 1
 <body id="panorama">
 	<!-- Logo MineChest, para alterar o texto piscando alterar: -->
 	<img alt="Minecraft" id="logo" src="{% static 'img/minecraft.png' %}" />
-	<div id="flashingtext"><!-- Aqui -->V 1.0!<!-- :S --></div>
+	<div id="flashingtext">V 1.0!</div>
 	
 	<!-- Bloco de conteúdos que se extende a todas as partes do sistema -->
     <main class="container">
@@ -39,6 +38,16 @@ blocker: 1
 	</footer>
 </body>
 </html>	
-
-</textarea></div>
 {% endraw %}
+</textarea></div>
+
+
+<script>
+	function Mudarestado(el) {
+        var display = document.getElementById(el).style.display;
+        if(display == "block")
+            document.getElementById(el).style.display = 'none';
+        else
+            document.getElementById(el).style.display = 'block';
+    }
+</script>
