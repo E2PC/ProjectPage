@@ -5,7 +5,7 @@ filename: Encontro2
 button: Encontro2
 blocker: 1
 --- 
-  - Criar a pasta "templates"
+  - Criar a pasta "templates"<br>
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
 	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>
 {% comment %}
@@ -38,8 +38,8 @@ blocker: 1
 	</footer>
 </body>
 </html>	
-{% endcomment %}
-</textarea></div>
+{% endraw %}
+</textarea></div><br>
 	
 	- Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
 	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>
@@ -354,7 +354,7 @@ blocker: 1
     </form>
 {% endblock %}	 
 {% endraw %} 
-</textarea></div><br>
+</textarea></div>
 
 <script>
 	function Mudarestado(el) {
