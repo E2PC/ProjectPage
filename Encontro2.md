@@ -39,7 +39,7 @@ blocker: 1
 </body>
 </html>	
 {% endraw %}
-</textarea></div><br>
+</textarea></div>
 	- Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
 	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>
 {% raw %}
@@ -291,7 +291,7 @@ blocker: 1
 	{% endif %}
 {% endblock %}	
 {% endraw %}
-</textarea></div><br>
+</textarea></div>
 	- Na pasta templates, criar a pasta "account"<br>
 	  - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
 	  <div style="display:none" id="login"><textarea readonly rows='20' cols='100'>
@@ -330,7 +330,7 @@ blocker: 1
     </form>
 {% endblock %}	
 {% endraw %}  
-</textarea></div><br>
+</textarea></div>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('signup')">signup.html</a>
 	  <div style="display:none" id="signup"><textarea readonly rows='20' cols='100'>
@@ -352,8 +352,7 @@ blocker: 1
     </form>
 {% endblock %}	 
 {% endraw %} 
-</textarea></div><br>
-
+</textarea></div>
 
 <script>
 	function Mudarestado(el) {
