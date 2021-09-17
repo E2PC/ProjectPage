@@ -7,8 +7,8 @@ blocker: 1
 --- 
   - Criar a pasta "templates"
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
-	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>oioi
-{% raw %}
+	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>
+{% comment %}
 <html>
 <head>
     <meta charset = "utf-8">
@@ -38,8 +38,9 @@ blocker: 1
 	</footer>
 </body>
 </html>	
-{% endraw %}
+{% endcomment %}
 </textarea></div>
+	
 	- Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
 	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>
 {% raw %}
@@ -291,8 +292,9 @@ blocker: 1
 	{% endif %}
 {% endblock %}	
 {% endraw %}
-</textarea></div>
-	- Na pasta templates, criar a pasta "account"<br>
+</textarea></div><br>
+	
+	- Na pasta templates, criar a pasta "account"
 	  - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
 	  <div style="display:none" id="login"><textarea readonly rows='20' cols='100'>
 {% raw %}
@@ -312,7 +314,7 @@ blocker: 1
     </form>
 {% endblock %}
 {% endraw %}	  
-</textarea></div>
+</textarea></div><br>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('logout')">logout.html</a>
 	  <div style="display:none" id="logout"><textarea readonly rows='20' cols='100'>
@@ -330,7 +332,7 @@ blocker: 1
     </form>
 {% endblock %}	
 {% endraw %}  
-</textarea></div>
+</textarea></div><br>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('signup')">signup.html</a>
 	  <div style="display:none" id="signup"><textarea readonly rows='20' cols='100'>
@@ -352,7 +354,7 @@ blocker: 1
     </form>
 {% endblock %}	 
 {% endraw %} 
-</textarea></div>
+</textarea></div><br>
 
 <script>
 	function Mudarestado(el) {
