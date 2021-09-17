@@ -26,7 +26,8 @@ blocker: 1
 	<!-- Bloco de conteúdos que se extende a todas as partes do sistema -->
     <main class="container">
         {% block content %}
-        {% endblock %}{% endraw %}
+        
+		{% endblock %}
     </main>
 	<!-- Fim do Bloco que se extende a outras bases -->
 	
@@ -42,6 +43,7 @@ blocker: 1
 	
 	- Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
 	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>
+{% comment %}
 {% extends 'base.html' %}
 
 {% load static %}
@@ -289,11 +291,13 @@ blocker: 1
 		</div>
 	{% endif %}
 {% endblock %}	
+{% endcomment %}
 </textarea></div><br>
 	
 	- Na pasta templates, criar a pasta "account"
 	  - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
 	  <div style="display:none" id="login"><textarea readonly rows='20' cols='100'>
+{% comment %}
 {% extends 'base.html' %}
 
 {% load crispy_forms_tags %}
@@ -308,11 +312,13 @@ blocker: 1
         {{ form|crispy }}
         <button class="btn btn-success" type="submit">Entrar</button>
     </form>
-{% endblock %}	  
+{% endblock %}
+{% endcomment %}	  
 </textarea></div><br>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('logout')">logout.html</a>
 	  <div style="display:none" id="logout"><textarea readonly rows='20' cols='100'>
+{% comment %}
 {% extends 'base.html' %}
 
 {% block title %}Sair{% endblock %}
@@ -324,11 +330,13 @@ blocker: 1
         {% csrf_token %}
         <button class="btn btn-danger" type="submit">Sair</button>
     </form>
-{% endblock %}	  
+{% endblock %}	
+{% endcomment %}  
 </textarea></div><br>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('signup')">signup.html</a>
 	  <div style="display:none" id="signup"><textarea readonly rows='20' cols='100'>
+{% comment %}
 {% extends 'base.html' %}
 
 {% load crispy_forms_tags %}
@@ -344,7 +352,8 @@ blocker: 1
 		<br>
         <button class="btn btn-success" type="submit">Cadastrar</button>
     </form>
-{% endblock %}	  
+{% endblock %}	 
+{% endcomment %} 
 </textarea></div><br>
 
 <script>
