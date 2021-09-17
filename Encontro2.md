@@ -5,7 +5,7 @@ filename: Encontro2
 button: Encontro2
 blocker: 1
 --- 
-  - Criar a pasta "templates"<br>
+  - Criar a pasta "templates"
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
 	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>oioi
 {% raw %}
@@ -312,7 +312,7 @@ blocker: 1
     </form>
 {% endblock %}
 {% endraw %}	  
-</textarea></div><br>
+</textarea></div>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('logout')">logout.html</a>
 	  <div style="display:none" id="logout"><textarea readonly rows='20' cols='100'>
