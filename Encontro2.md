@@ -5,10 +5,9 @@ filename: Encontro2
 button: Encontro2
 blocker: 1
 --- 
-{% raw %}
   - Criar a pasta "templates"
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
-	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>
+	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>{% raw %}
 <html>
 <head>
     <meta charset = "utf-8">
@@ -37,10 +36,10 @@ blocker: 1
 	</footer>
 </body>
 </html>	
-</textarea></div>
+{% endraw %}</textarea></div>
 	
 	- Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
-	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>
+	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>{% raw %}
 {% extends 'base.html' %}
 
 {% load static %}
@@ -290,11 +289,11 @@ blocker: 1
 {% endblock %}	
 	
 	
-	</textarea></div><br>
+{% endraw %}	</textarea></div><br>
 	
 	- Na pasta templates, criar a pasta "account"
 	  - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
-	  <div style="display:none" id="login"><textarea readonly rows='20' cols='100'>
+	  <div style="display:none" id="login"><textarea readonly rows='20' cols='100'>{% raw %}
 {% extends 'base.html' %}
 
 {% load crispy_forms_tags %}
@@ -310,10 +309,10 @@ blocker: 1
         <button class="btn btn-success" type="submit">Entrar</button>
     </form>
 {% endblock %}	  
-	  </textarea></div><br>
+	{% endraw %}  </textarea></div><br>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('logout')">logout.html</a>
-	  <div style="display:none" id="logout"><textarea readonly rows='20' cols='100'>
+	  <div style="display:none" id="logout"><textarea readonly rows='20' cols='100'>{% raw %}
 {% extends 'base.html' %}
 
 {% block title %}Sair{% endblock %}
@@ -326,10 +325,10 @@ blocker: 1
         <button class="btn btn-danger" type="submit">Sair</button>
     </form>
 {% endblock %}	  
-	  </textarea></div><br>
+	 {% endraw %} </textarea></div><br>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('signup')">signup.html</a>
-	  <div style="display:none" id="signup"><textarea readonly rows='20' cols='100'>
+	  <div style="display:none" id="signup"><textarea readonly rows='20' cols='100'>{% raw %}
 {% extends 'base.html' %}
 
 {% load crispy_forms_tags %}
@@ -346,8 +345,8 @@ blocker: 1
         <button class="btn btn-success" type="submit">Cadastrar</button>
     </form>
 {% endblock %}	  
-	  </textarea></div><br>
-{% endraw %}
+	 {% endraw %} </textarea></div><br>
+
 <script>
 	function Mudarestado(el) {
         var display = document.getElementById(el).style.display;
