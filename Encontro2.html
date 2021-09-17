@@ -7,7 +7,8 @@ blocker: 1
 --- 
   - Criar a pasta "templates"
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
-	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'><"--
+	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>
+{% comment %}
 <html>
 <head>
     <meta charset = "utf-8">
@@ -15,7 +16,7 @@ blocker: 1
 	<link rel="stylesheet" href="{% static 'css/style.css' %}" />
 	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon" />
 	<link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon" />
-	<title>{% raw %}{% block title %}{% endblock %}{% endraw %}</title>
+	<title>{% block title %}{% endblock %}</title>
 </head>
 <body id="panorama">
 	<!-- Logo MineChest, para alterar o texto piscando alterar: -->
@@ -23,7 +24,7 @@ blocker: 1
 	<div id="flashingtext"><!-- Aqui -->V 1.0!<!-- :S --></div>
 	
 	<!-- Bloco de conteúdos que se extende a todas as partes do sistema -->
-    <main class="container">{% raw %}
+    <main class="container">
         {% block content %}
         {% endblock %}{% endraw %}
     </main>
@@ -36,10 +37,11 @@ blocker: 1
 	</footer>
 </body>
 </html>	
---></textarea></div>
+{% endcomment %}
+</textarea></div>
 	
 	- Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
-	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>{% raw %}
+	<div style="display:none" id="home"><textarea readonly rows='20' cols='100'>
 {% extends 'base.html' %}
 
 {% load static %}
@@ -287,13 +289,11 @@ blocker: 1
 		</div>
 	{% endif %}
 {% endblock %}	
-	
-	
-{% endraw %}	</textarea></div><br>
+</textarea></div><br>
 	
 	- Na pasta templates, criar a pasta "account"
 	  - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
-	  <div style="display:none" id="login"><textarea readonly rows='20' cols='100'>{% raw %}
+	  <div style="display:none" id="login"><textarea readonly rows='20' cols='100'>
 {% extends 'base.html' %}
 
 {% load crispy_forms_tags %}
@@ -309,10 +309,10 @@ blocker: 1
         <button class="btn btn-success" type="submit">Entrar</button>
     </form>
 {% endblock %}	  
-	{% endraw %}  </textarea></div><br>
+</textarea></div><br>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('logout')">logout.html</a>
-	  <div style="display:none" id="logout"><textarea readonly rows='20' cols='100'>{% raw %}
+	  <div style="display:none" id="logout"><textarea readonly rows='20' cols='100'>
 {% extends 'base.html' %}
 
 {% block title %}Sair{% endblock %}
@@ -325,10 +325,10 @@ blocker: 1
         <button class="btn btn-danger" type="submit">Sair</button>
     </form>
 {% endblock %}	  
-	 {% endraw %} </textarea></div><br>
+</textarea></div><br>
 	
 	  - Criar a página <a href="#" onclick="Mudarestado('signup')">signup.html</a>
-	  <div style="display:none" id="signup"><textarea readonly rows='20' cols='100'>{% raw %}
+	  <div style="display:none" id="signup"><textarea readonly rows='20' cols='100'>
 {% extends 'base.html' %}
 
 {% load crispy_forms_tags %}
@@ -345,7 +345,7 @@ blocker: 1
         <button class="btn btn-success" type="submit">Cadastrar</button>
     </form>
 {% endblock %}	  
-	 {% endraw %} </textarea></div><br>
+</textarea></div><br>
 
 <script>
 	function Mudarestado(el) {
