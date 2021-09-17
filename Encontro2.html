@@ -292,6 +292,68 @@ blocker: 1
 {% endblock %}	
 {% endraw %}
 </textarea></div><br>
+	- Na pasta templates, criar a pasta "account"
+	  - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
+	  <div style="display:none" id="login"><textarea readonly rows='20' cols='100'>
+{% raw %}
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Entrar{% endblock %}
+
+{% block content %}
+	<br><br>
+    <h2>Entrar</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button class="btn btn-success" type="submit">Entrar</button>
+    </form>
+{% endblock %}
+{% endraw %}	  
+</textarea></div><br>
+	
+	  - Criar a página <a href="#" onclick="Mudarestado('logout')">logout.html</a>
+	  <div style="display:none" id="logout"><textarea readonly rows='20' cols='100'>
+{% raw %}
+{% extends 'base.html' %}
+
+{% block title %}Sair{% endblock %}
+
+{% block content %}
+    <h2>Sair</h2>
+    <p>Você tem certeza que deseja sair?</p>
+    <form method="post" action="{% url 'account_logout' %}">
+        {% csrf_token %}
+        <button class="btn btn-danger" type="submit">Sair</button>
+    </form>
+{% endblock %}	
+{% endraw %}  
+</textarea></div><br>
+	
+	  - Criar a página <a href="#" onclick="Mudarestado('signup')">signup.html</a>
+	  <div style="display:none" id="signup"><textarea readonly rows='20' cols='100'>
+{% raw %}
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Cadastro{% endblock %}
+
+{% block content %}
+	<br><br>
+    <h2>Cadastrar Conta</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+		<br>
+        <button class="btn btn-success" type="submit">Cadastrar</button>
+    </form>
+{% endblock %}	 
+{% endraw %} 
+</textarea></div><br>
+
 
 <script>
 	function Mudarestado(el) {
