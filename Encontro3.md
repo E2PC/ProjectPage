@@ -6,4 +6,6 @@ button: Encontro3
 blocker: 1
 --- 
 
-#oioi
+<p>
+Desenvolver o Cadastro/Login com o django allauth(imports, seus locais/arquivos de configurações)<br>
+</p>
