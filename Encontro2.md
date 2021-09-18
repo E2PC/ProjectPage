@@ -300,6 +300,31 @@ blocker: 1
 </div>
 <br>
 
+- Na pasta templates, criar a pasta "account"
+  - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
+<div style="display:none" id="login">
+<textarea readonly rows='20' cols='100'>
+{% raw %}
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}Entrar{% endblock %}
+
+{% block content %}
+	<br><br>
+    <h2>Entrar</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button class="btn btn-success" type="submit">Entrar</button>
+    </form>
+{% endblock %}
+{% endraw %}	  
+</textarea>
+</div>
+<br>
+
 <script>
 	function Mudarestado(el) {
         var display = document.getElementById(el).style.display;
