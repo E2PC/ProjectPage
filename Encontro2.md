@@ -7,7 +7,8 @@ blocker: 1
 --- 
   - Criar a pasta "templates"
 	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
-	<div style="display:none" id="base"><textarea readonly rows='20' cols='100'>
+	<div style="display:none" id="base">
+<textarea readonly rows='20' cols='100'>
 {% raw %}
 <html>
 <head>
@@ -39,7 +40,8 @@ blocker: 1
 </body>
 </html>	
 {% endraw %}
-</textarea></div>
+</textarea>
+</div>
 
 
 <script>
