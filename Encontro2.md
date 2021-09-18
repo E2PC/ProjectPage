@@ -223,7 +223,6 @@ blocker: 1
 				</div>
 				<!-- Fim da inserção de itens -->
 					
-				<!-- Galardão, Não mexer -->
 				<div class="slotSpace">
 					<div class="slot">
 						<div>
@@ -298,7 +297,6 @@ blocker: 1
 {% endraw %}
 </textarea>
 </div>
-<br>
 
 - Na pasta templates, criar a pasta "account"
   - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
@@ -323,7 +321,25 @@ blocker: 1
 {% endraw %}	  
 </textarea>
 </div>
-<br>
+  - Criar a página <a href="#" onclick="Mudarestado('logout')">logout.html</a>
+<div style="display:none" id="logout">
+<textarea readonly rows='20' cols='100'>
+{% raw %}
+{% extends 'base.html' %}
+
+{% block title %}Sair{% endblock %}
+
+{% block content %}
+    <h2>Sair</h2>
+    <p>Você tem certeza que deseja sair?</p>
+    <form method="post" action="{% url 'account_logout' %}">
+        {% csrf_token %}
+        <button class="btn btn-danger" type="submit">Sair</button>
+    </form>
+{% endblock %}	
+{% endraw %}  
+</textarea>
+</div>
 
 <script>
 	function Mudarestado(el) {
