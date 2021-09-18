@@ -40,8 +40,7 @@ blocker: 1
 </body>
 </html>	
 {% endraw %}
-</textarea>
-</div>
+</textarea></div>
 
 
 <script>
