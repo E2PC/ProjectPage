@@ -5,8 +5,8 @@ filename: Encontro2
 button: Encontro2
 blocker: 1
 --- 
-  - Criar a pasta "templates"
-	- Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
+- Criar a pasta "templates"
+  - Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
 <div style="display:none" id="base">
 <textarea readonly rows='20' cols='100'>
 {% raw %}
@@ -44,7 +44,7 @@ blocker: 1
 </div>
 
 	
-- Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
+  - Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
 <div style="display:none" id="home">
 <textarea readonly rows='20' cols='100'>
 {% raw %}
