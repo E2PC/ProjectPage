@@ -340,7 +340,29 @@ blocker: 1
 {% endraw %}  
 </textarea>
 </div>
+  - Criar a página <a href="#" onclick="Mudarestado('signup')">signup.html</a>
+<div style="display:none" id="signup">
+<textarea readonly rows='20' cols='100'>
+{% raw %}
+{% extends 'base.html' %}
 
+{% load crispy_forms_tags %}
+
+{% block title %}Cadastro{% endblock %}
+
+{% block content %}
+	<br><br>
+    <h2>Cadastrar Conta</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+		<br>
+        <button class="btn btn-success" type="submit">Cadastrar</button>
+    </form>
+{% endblock %}	 
+{% endraw %} 
+</textarea>
+</div>
 <script>
 	function Mudarestado(el) {
         var display = document.getElementById(el).style.display;
