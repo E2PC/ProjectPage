@@ -41,11 +41,9 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro3">3° Encontro</a>:<br></b>
-	Implementação da autenticação do sistema com o django allauth 
+	Implementação da autenticação do sistema com o django allauth <br>
 	
-	--- Mover para a página do 3º encontro: ---
 	
-	Desenvolver o Cadastro/Login com o django allauth(imports, seus locais/arquivos de configurações)<br>
 </p>
 
 <p>
