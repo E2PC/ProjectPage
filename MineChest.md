@@ -31,7 +31,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 	
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro1">1° Encontro</a>: 14/09:<br></b>
-	Introdução ao Python, ao framework Django, a arquitetura MVT e configurações do projeto
+	Introdução ao Python, ao framework Django, à arquitetura MVT e configurações do projeto
 </p>
 	
 <p>
@@ -54,7 +54,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro57">5° até 7° Encontro</a>:<br></b>
-	Funções drag and drop, itens/imagens aleatórios(as) e somar os valores do báu.<br>
+	Funções drag and drop, itens/imagens aleatórios(as) e somar os valores do baú<br>
 </p>
 
 
