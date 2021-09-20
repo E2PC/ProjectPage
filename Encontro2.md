@@ -5,129 +5,199 @@ filename: Encontro2
 button: Encontro2
 blocker: 1
 --- 
-- Criar a pasta "templates"
-  - Criar a página <a href="#" onclick="Mudarestado('base')">Base.html</a>
-<div style="display:none" id="base">
-<textarea readonly rows='20' cols='100'>
+- Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/templates.rar?raw=true" download>templates"</a>
+  - Criar a página Base.html
+  - Criar a página home.html
+  - Na pasta templates, criar a pasta "account"
+    - Criar a página login.html
+    - Criar a página logout.html
+    - Criar a página signup.html
+- Na pasta MineChest
+  - Arquivo de configurações "<a href="#" onclick="Mudarestado('settings')">settings.py</a>"
+  - Arquivo das urls "<a href="#" onclick="Mudarestado('minechesturls')">urls.py</a>"
+  
+ - Na pasta pages
+  - Arquivo das urls "<a href="#" onclick="Mudarestado('pagesurls')">urls.py</a>"
+  - Arquivo de views "<a href="#" onclick="Mudarestado('pagesviews')">views.py</a>"
+  
+<br><br>  
+ 
+<div style="display:none" class="TableBody" id="pagesurls">
+<textarea readonly rows='20' cols='100'> 
 {% raw %}
-<html>
-<head>
-    <meta charset = "utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="{% static 'css/style.css' %}" />
-	<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon" />
-	<link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon" />
-	<title>{% block title %}{% endblock %}</title>
-</head>
-<body id="panorama">
-	<!-- Bloco de conteúdos que se extende a todas as partes do sistema -->
-    <main class="container">
-        {% block content %}
-        
-		{% endblock %}
-    </main>
-	<!-- Fim do Bloco que se extende a outras bases -->
-</body>
-</html>	
+from django.urls import path
+from . import views
+
+app_name = "pages"
+
+urlpatterns = [
+	path("", views.HomePageView.as_view(), name="home"),
+]
 {% endraw %}
 </textarea>
 </div>
 
-	
-  - Criar a página <a href="#" onclick="Mudarestado('home')">home.html</a>
-<div style="display:none" id="home">
-<textarea readonly rows='20' cols='100'>
+<div style="display:none" class="TableBody" id="pagesviews">
+<textarea readonly rows='20' cols='100'> 
 {% raw %}
-{% extends 'base.html' %}
+from django.views.generic import TemplateView
+from django.http import HttpResponse
+from django.shortcuts import render
 
-{% block title %}Página Inicial{% endblock %}
-
-{% block content %}
-
-	{% if user.is_authenticated %}	
-		<p>Olá!</p>
-	{% else %}
-		<div align="center" class="button-wrapper">
-			<a href="{% url 'account_login' %}"><div class="button"><span>Entrar</span></div></a>
-			<a href="{% url 'account_signup' %}"><div class="button"><span>Criar Conta</span></div></a>
-		</div>
-	{% endif %}
-{% endblock %}	
+class HomePageView(TemplateView):
+	template_name = "home.html"
 {% endraw %}
 </textarea>
 </div>
-
-- Na pasta templates, criar a pasta "account"
-  - Criar a página <a href="#" onclick="Mudarestado('login')">login.html</a>
-<div style="display:none" id="login">
+  
+<div style="display:none" class="TableBody" id="settings">
 <textarea readonly rows='20' cols='100'>
 {% raw %}
-{% extends 'base.html' %}
+from pathlib import Path
+import os
+import allauth
 
-{% load crispy_forms_tags %}
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-{% block title %}Entrar{% endblock %}
+SECRET_KEY = 'django-insecure-wgx)lh*&*2dhx*2j$vgk828)98wsb+^kp5y&8^c&&v+=zr64(w'
 
-{% block content %}
-	<br><br>
-    <h2>Entrar</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form|crispy }}
-        <button class="btn btn-success" type="submit">Entrar</button>
-    </form>
-{% endblock %}
-{% endraw %}	  
-</textarea>
-</div>
-  - Criar a página <a href="#" onclick="Mudarestado('logout')">logout.html</a>
-<div style="display:none" id="logout">
-<textarea readonly rows='20' cols='100'>
-{% raw %}
-{% extends 'base.html' %}
+DEBUG = True
 
-{% block title %}Sair{% endblock %}
+ALLOWED_HOSTS = []
 
-{% block content %}
-    <h2>Sair</h2>
-    <p>Você tem certeza que deseja sair?</p>
-    <form method="post" action="{% url 'account_logout' %}">
-        {% csrf_token %}
-        <button class="btn btn-danger" type="submit">Sair</button>
-    </form>
-{% endblock %}	
-{% endraw %}  
-</textarea>
-</div>
-  - Criar a página <a href="#" onclick="Mudarestado('signup')">signup.html</a>
-<div style="display:none" id="signup">
-<textarea readonly rows='20' cols='100'>
-{% raw %}
-{% extends 'base.html' %}
 
-{% load crispy_forms_tags %}
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    "django.contrib.sites", 
+	# 3rd party
+	"allauth",
+	"allauth.account",
+	"allauth.socialaccount",
+	"crispy_forms",
+    "pages.apps.PagesConfig",
+]
 
-{% block title %}Cadastro{% endblock %}
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
 
-{% block content %}
-	<br><br>
-    <h2>Cadastrar Conta</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form|crispy }}
-		<br>
-        <button class="btn btn-success" type="submit">Cadastrar</button>
-    </form>
-{% endblock %}	 
+ROOT_URLCONF = 'MineChest.urls'
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR / "templates"],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
+WSGI_APPLICATION = 'MineChest.wsgi.application'
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+    },
+]
+
+LANGUAGE_CODE = 'en-us'
+
+TIME_ZONE = 'UTC'
+
+USE_I18N = True
+
+USE_L10N = True
+
+USE_TZ = True
+
+STATIC_URL = '/static/'
+
+SITE_ID = 1
+
+# Django-allauth
+
+AUTHENTICATION_BACKENDS = [
+	"django.contrib.auth.backends.ModelBackend",
+	"allauth.account.auth_backends.AuthenticationBackend",
+]
+SITE_ID = 1
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+LOGIN_REDIRECT_URL = "/"
+ACCOUNT_SESSION_REMEMBER = True
+ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
+ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_AUTHENTICATION_METHOD = "email"
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_UNIQUE_EMAIL = True
+
+
+# crispy-forms
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+ 
 {% endraw %} 
 </textarea>
 </div>
+	
+<div style="display:none" class="TableBody" id="minechesturls">
+<textarea readonly rows='20' cols='100'>
+{% raw %}
+from django.contrib import admin
+from django.urls import include, path
+
+urlpatterns = [
+	path("admin/", admin.site.urls),
+	path("accounts/", include("allauth.urls")),
+	# Local
+	path("", include("pages.urls", namespace="pages")),
+]
+{% endraw %}
+</textarea>
+</div>	
+	
+	
 <script>
-	function Mudarestado(el) {
-        var display = document.getElementById(el).style.display;
-        if(display == "block")
-            document.getElementById(el).style.display = 'none';
-        else
-            document.getElementById(el).style.display = 'block';
-    }
+	function Mudarestado(id) {
+		document.querySelectorAll(".TableBody").forEach(function(div) {
+		if (div.id == id) {
+			div.style.display = div.style.display == "none" ? "block" : "none";
+		} else {
+			div.style.display = "none";
+		}
+	  });
+	}
 </script>
