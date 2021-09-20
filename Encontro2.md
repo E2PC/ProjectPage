@@ -12,11 +12,12 @@ blocker: 1
     - Criar a página login.html
     - Criar a página logout.html
     - Criar a página signup.html
+	
 - Na pasta MineChest
   - Arquivo de configurações "<a href="#" onclick="Mudarestado('settings')">settings.py</a>"
   - Arquivo das urls "<a href="#" onclick="Mudarestado('minechesturls')">urls.py</a>"
   
- - Na pasta pages
+- Na pasta pages
   - Arquivo das urls "<a href="#" onclick="Mudarestado('pagesurls')">urls.py</a>"
   - Arquivo de views "<a href="#" onclick="Mudarestado('pagesviews')">views.py</a>"
   
