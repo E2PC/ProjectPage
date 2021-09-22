@@ -5,6 +5,12 @@ filename: Encontro2
 button: Encontro2
 blocker: 1
 --- 
+- Na pasta MineChest
+  - Arquivo de configurações "<a href="#" onclick="Mudarestado('settings')">settings.py</a>"
+  - Arquivo das urls "<a href="#" onclick="Mudarestado('minechesturls')">urls.py</a>"
+- Na pasta pages
+  - Arquivo das urls "<a href="#" onclick="Mudarestado('pagesurls')">urls.py</a>"
+  - Arquivo de views "<a href="#" onclick="Mudarestado('pagesviews')">views.py</a>"
 - Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/templates.rar?raw=true" download>templates"</a>
   - Criar a página Base.html
   - Criar a página home.html
@@ -13,18 +19,11 @@ blocker: 1
     - Criar a página logout.html
     - Criar a página signup.html
 	
-- Na pasta MineChest
-  - Arquivo de configurações "<a href="#" onclick="Mudarestado('settings')">settings.py</a>"
-  - Arquivo das urls "<a href="#" onclick="Mudarestado('minechesturls')">urls.py</a>"
-  
-- Na pasta pages
-  - Arquivo das urls "<a href="#" onclick="Mudarestado('pagesurls')">urls.py</a>"
-  - Arquivo de views "<a href="#" onclick="Mudarestado('pagesviews')">views.py</a>"
-  
 <br><br>  
  
 <div style="display:none" class="TableBody" id="pagesurls">
 <textarea readonly rows='20' cols='100'> 
+#Arquivo Pages/urls.py
 {% raw %}
 from django.urls import path
 from . import views
@@ -40,6 +39,7 @@ urlpatterns = [
 
 <div style="display:none" class="TableBody" id="pagesviews">
 <textarea readonly rows='20' cols='100'> 
+#Arquivo Pages/views.py
 {% raw %}
 from django.views.generic import TemplateView
 from django.http import HttpResponse
@@ -53,6 +53,7 @@ class HomePageView(TemplateView):
   
 <div style="display:none" class="TableBody" id="settings">
 <textarea readonly rows='20' cols='100'>
+#Arquivo MineChest/settings.py
 {% raw %}
 from pathlib import Path
 import os
@@ -176,6 +177,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap4"
 	
 <div style="display:none" class="TableBody" id="minechesturls">
 <textarea readonly rows='20' cols='100'>
+#Arquivo MineChest/Urls
 {% raw %}
 from django.contrib import admin
 from django.urls import include, path
