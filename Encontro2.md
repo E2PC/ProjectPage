@@ -6,8 +6,8 @@ button: Encontro2
 blocker: 1
 --- 
 - Na pasta MineChest
-  - Arquivo de configurações "<a href="#" onclick="Mudarestado('settings')">settings.py</a>"
-  - Arquivo das urls "<a href="#" onclick="Mudarestado('minechesturls')">urls.py</a>"
+  - Arquivo de configurações "<a href="#settings" onclick="Mudarestado('settings')">settings.py</a>"
+  - Arquivo das urls "<a href="#minechesturls" onclick="Mudarestado('minechesturls')">urls.py</a>"
 - Na pasta pages
   - Arquivo das urls "<a href="#" onclick="Mudarestado('pagesurls')">urls.py</a>"
   - Arquivo de views "<a href="#" onclick="Mudarestado('pagesviews')">views.py</a>"
