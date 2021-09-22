@@ -6,11 +6,11 @@ button: Encontro2
 blocker: 1
 --- 
 - Na pasta MineChest
-  - Arquivo de configurações "<a href="#settings" onclick="Mudarestado('settings')">settings.py</a>"
-  - Arquivo das urls "<a href="#minechesturls" onclick="Mudarestado('minechesturls')">urls.py</a>"
+  - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('settings')">settings.py</a>"
+  - Arquivo das urls "<a href="#gotoseecode" onclick="Mudarestado('minechesturls')">urls.py</a>"
 - Na pasta pages
-  - Arquivo das urls "<a href="#" onclick="Mudarestado('pagesurls')">urls.py</a>"
-  - Arquivo de views "<a href="#" onclick="Mudarestado('pagesviews')">views.py</a>"
+  - Arquivo das urls "<a href="#gotoseecode" onclick="Mudarestado('pagesurls')">urls.py</a>"
+  - Arquivo de views "<a href="#gotoseecode" onclick="Mudarestado('pagesviews')">views.py</a>"
 - Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/templates.rar?raw=true" download>templates"</a>
   - Criar a página Base.html
   - Criar a página home.html
@@ -20,7 +20,7 @@ blocker: 1
     - Criar a página signup.html
 	
 <br><br>  
- 
+<div type="hidden" id="gotoseecode"></div><br>
 <div style="display:none" class="TableBody" id="pagesurls">
 <textarea readonly rows='20' cols='100'> 
 #Arquivo Pages/urls.py
