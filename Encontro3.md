@@ -5,19 +5,18 @@ filename: Encontro3
 button: Encontro3
 blocker: 1
 --- 
+- Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/static.rar?raw=true" download>static"</a>
+  - Criar a Pasta dos arquivos css
+    - Desenvolver os arquivos de fonte/estilo
+  - Criar a Pasta dos arquivos de imagem
+    - Inserir as imagens necessárias no projeto
 - Na pasta MineChest
   - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('settings')">settings.py</a>"
   - Arquivo das urls "<a href="#gotoseecode" onclick="Mudarestado('minechesturls')">urls.py</a>"
 - Na pasta pages
   - Arquivo das urls "<a href="#gotoseecode" onclick="Mudarestado('pagesurls')">urls.py</a>"
   - Arquivo de views "<a href="#gotoseecode" onclick="Mudarestado('pagesviews')">views.py</a>"
-- Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/templates.rar?raw=true" download>templates"</a>
-  - Criar a página Base.html
-  - Criar a página home.html
-  - Na pasta templates, criar a pasta "account"
-    - Criar a página login.html
-    - Criar a página logout.html
-    - Criar a página signup.html
+
 	
 <br><br>  
 <div type="hidden" id="gotoseecode"></div><br>
