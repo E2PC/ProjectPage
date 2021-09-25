@@ -3,7 +3,7 @@ title: Projeto MineChest
 layout: template
 filename: MineChest
 button: MineChest
-blocker: 0
+blocker: TL&PC
 --- 
 <html>
 <body>
