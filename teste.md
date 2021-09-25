@@ -3,6 +3,6 @@ title: TESTE
 layout: template
 filename: teste
 button: Teste
-blocker: 3
+blocker: 2
 --- 
 Olá!
