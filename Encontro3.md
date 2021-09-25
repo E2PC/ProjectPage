@@ -12,7 +12,7 @@ blocker: 1
     - Inserir as imagens necessárias no projeto
 - Na pasta MineChest
   - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('settings')">settings.py</a>"
-- Na pasta <a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/templates-3E.rar?raw=true" download>templates</a>
+- Na pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/templates-3E.rar?raw=true" download>templates</a>"
   - Alterar os arquivos html inserindo a estrutura e importando os arquivos estáticos
 	
 <br><br>  
