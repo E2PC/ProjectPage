@@ -5,6 +5,7 @@ filename: Encontro4
 button: Encontro4
 blocker: 1
 --- 
+<div type="hidden">
 - Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/static-4E.rar?raw=true" download>static</a>"
   - Criar a Pasta dos arquivos css
     - Desenvolver os arquivos de fonte/estilo
@@ -160,7 +161,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap4"
 </textarea>
 </div>	
 <div type="hidden" id="gotoseecode"></div><br>	
-	
+</div>
 <script>
 	function Mudarestado(id) {
 		document.querySelectorAll(".TableBody").forEach(function(div) {
