@@ -33,7 +33,7 @@
 			<a href="#" class="btn">E2PC</a>
 			<div class="dropdown-content">
 				{% for page in site.pages %}
-					{% if page.blocker == E2PC %}
+					{% if page.blocker == 2 %}
 						<a href= {{ page.filename }} class="btn">{{ page.button }}</a>
 					{% endif %}
 				{% endfor %}
@@ -45,7 +45,7 @@
 			<a href="#" class="btn">TL&PC</a>
 			<div class="dropdown-content">
 				{% for page in site.pages %}
-					{% if page.blocker == TL&PC %}
+					{% if page.blocker == 3 %}
 						<a href= {{ page.filename }} class="btn">{{ page.button }}</a>
 					{% endif %}
 				{% endfor %}
