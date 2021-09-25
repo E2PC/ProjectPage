@@ -18,7 +18,7 @@ A partir dos bônus disponíveis, você deve selecionar os itens do inventário,
 A oficina abordará o desenvolvimento do front e do backend do jogo, com as seguintes tecnologias: Python (e o framework Django), HTML, CSS e JavaScript.	
 </p>
 
-	
+
 <p align="center">
 <img src="images/image.png"/>	
 	</p>
@@ -28,35 +28,22 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 <p>
 	<a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Roteiro</a> para download e instalação
 </p>
-	
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro1">1° Encontro</a>: 14/09:<br></b>
 	Introdução ao Python, ao framework Django, à arquitetura MVT e configurações do projeto
 </p>
-	
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro2">2° Encontro</a>:<br></b>
 	Criação das telas base do projeto<br>
+	Implementação da autenticação do sistema com o django allauth <br>
 </p>
-
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro3">3° Encontro</a>:<br></b>
-	Implementação da autenticação do sistema com o django allauth <br>
-	
-	
+	Desenvolver a interface mostrando tudo estilizado minecraft<br>
 </p>
-
 <p>
 	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro4">4° Encontro</a>:<br></b>
-	Desenvolver a interface mostrando tudo estilizado minecraft
-	(seus locais/arquivos de configurações)<br>
+	Desenvolver a interface mostrando tudo estilizado minecraft<br>
 </p>
-
-<p>
-<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro57">5° até 7° Encontro</a>:<br></b>
-	Funções drag and drop, itens/imagens aleatórios(as) e somar os valores do baú<br>
-</p>
-
-
 </body>
 </html>
