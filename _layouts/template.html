@@ -12,36 +12,54 @@
 -->
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
+	<head>
+		<meta charset="UTF-8">
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	</head>
+<body>
     <section class="page-header">
-      <h1 class="project-name">{{ page.title }}</h1>
-      <h2 class="project-tagline"></h2>
-       <a href="https://e2pc.github.io/ProjectPage/index" class="btn">Inicio</a>
-      {% for page in site.pages %}
-        {% if page.blocker == 0 %}
-          <a href= {{ page.filename }} class="btn">{{ page.button }}</a>
-        {% endif %}
-      {% endfor %}
-    </section>
-    <section class="main-content">
-      
-      {{ content }}
-
-      <footer class="site-footer" align="center">
-          <img src="images/footer.png" style="margin-top: 25px" width="384" height="77"/>
-          <span class="site-footer-owner">Este projeto é manutenido por <a href="https://github.com/E2PC">E2PC</a>.</span>
-      </footer>
-    </section>  
-  </body>
+		<h1 class="project-name">{{ page.title }}</h1>
+		<h2 class="project-tagline"></h2>
+		<a href="https://e2pc.github.io/ProjectPage/index" class="btn">Inicio</a>
+		
+		<!-- E2PC -->
+		<div class="dropdown">
+			<a href="#" class="btn">E2PC</a>
+			<div class="dropdown-content">
+				{% for page in site.pages %}
+					{% if page.blocker == E2PC %}
+						<a href= {{ page.filename }} class="btn">{{ page.button }}</a>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>	
+		
+		<!-- TL&PC -->
+		<div class="dropdown">
+			<a href="#" class="btn">TL&PC</a>
+			<div class="dropdown-content">
+				{% for page in site.pages %}
+					{% if page.blocker == TL&PC %}
+						<a href= {{ page.filename }} class="btn">{{ page.button }}</a>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+		
+	</section>
+	<section class="main-content">	  
+		{{ content }}
+		
+		<footer class="site-footer" align="center">
+			<img src="images/footer.png" style="margin-top: 25px" width="384" height="77"/>
+			<span class="site-footer-owner">Este projeto é manutenido por <a href="https://github.com/E2PC">E2PC</a>.</span>
+		</footer>
+	</section>  
+</body>
 </html>
-
