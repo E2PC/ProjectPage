@@ -9,11 +9,8 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
+  min-width: 120px;
+  background-color: #ff0059d6;
 }
 
 .dropdown:hover .dropdown-content {
@@ -52,6 +49,17 @@ a {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
+
+.btn2 {
+  display: inline-block;
+  color: #04098e;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+  .btn2 + .btn2 {
+    margin-left: 1rem; }
+
+.btn2:hover {
+  color: #04098e;
+  text-decoration: none;}
 
 @media screen and (min-width: 64em) {
   .btn {
