@@ -12,44 +12,12 @@ blocker: 1
     - Inserir as imagens necessárias no projeto
 - Na pasta MineChest
   - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('settings')">settings.py</a>"
-  - Arquivo das urls "<a href="#gotoseecode" onclick="Mudarestado('minechesturls')">urls.py</a>"
 - Na pasta pages
   - Arquivo das urls "<a href="#gotoseecode" onclick="Mudarestado('pagesurls')">urls.py</a>"
   - Arquivo de views "<a href="#gotoseecode" onclick="Mudarestado('pagesviews')">views.py</a>"
 
 	
 <br><br>  
-<div type="hidden" id="gotoseecode"></div><br>
-<div style="display:none" class="TableBody" id="pagesurls">
-<textarea readonly rows='20' cols='100'> 
-#Arquivo Pages/urls.py
-{% raw %}
-from django.urls import path
-from . import views
-
-app_name = "pages"
-
-urlpatterns = [
-	path("", views.HomePageView.as_view(), name="home"),
-]
-{% endraw %}
-</textarea>
-</div>
-
-<div style="display:none" class="TableBody" id="pagesviews">
-<textarea readonly rows='20' cols='100'> 
-#Arquivo Pages/views.py
-{% raw %}
-from django.views.generic import TemplateView
-from django.http import HttpResponse
-from django.shortcuts import render
-
-class HomePageView(TemplateView):
-	template_name = "home.html"
-{% endraw %}
-</textarea>
-</div>
-  
 <div style="display:none" class="TableBody" id="settings">
 <textarea readonly rows='20' cols='100'>
 #Arquivo MineChest/settings.py
@@ -111,6 +79,15 @@ TEMPLATES = [
     },
 ]
 
+TEMPLATE_CONTEXT_PROCESSORS = (
+    "django.contrib.auth.context_processors.auth",
+    "django.core.context_processors.debug",
+    "django.core.context_processors.i18n",
+    "django.core.context_processors.media",
+    "django.core.context_processors.static",
+    "django.contrib.messages.context_processors.messages"
+)
+
 WSGI_APPLICATION = 'MineChest.wsgi.application'
 
 
@@ -136,7 +113,16 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-LANGUAGE_CODE = 'en-us'
+MEDIA_ROOT = 'static/'
+RANDOM_IMAGE_DIR = '/item/'
+RANDOM_IMAGE_EXTENSIONS = ['.jpg','.jpeg','.png','.gif']
+MEDIA_URL = '/img/item/'
+
+STATICFILES_DIRS = [
+   os.path.join(BASE_DIR, 'static')
+]
+
+LANGUAGE_CODE = "pt-br"
 
 TIME_ZONE = 'UTC'
 
@@ -169,24 +155,6 @@ ACCOUNT_UNIQUE_EMAIL = True
 
 # crispy-forms
 CRISPY_TEMPLATE_PACK = "bootstrap4"
- 
-{% endraw %} 
-</textarea>
-</div>
-	
-<div style="display:none" class="TableBody" id="minechesturls">
-<textarea readonly rows='20' cols='100'>
-#Arquivo MineChest/Urls
-{% raw %}
-from django.contrib import admin
-from django.urls import include, path
-
-urlpatterns = [
-	path("admin/", admin.site.urls),
-	path("accounts/", include("allauth.urls")),
-	# Local
-	path("", include("pages.urls", namespace="pages")),
-]
 {% endraw %}
 </textarea>
 </div>	
