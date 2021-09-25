@@ -39,11 +39,11 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 </p>
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro3">3° Encontro</a>:<br></b>
-	Desenvolver a interface mostrando tudo estilizado minecraft<br>
+	Desenvolver a interface com o estilo do minecraft<br>
 </p>
 <p>
 	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro4">4° Encontro</a>:<br></b>
-	Desenvolver a interface mostrando tudo estilizado minecraft<br>
+	Desenvolver as funções de somar os pontos e mover os itens<br>
 </p>
 </body>
 </html>
