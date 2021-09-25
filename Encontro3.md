@@ -156,7 +156,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap4"
 {% endraw %}
 </textarea>
 </div>	
-	
+<div type="hidden" id="gotoseecode"></div><br>	
 	
 <script>
 	function Mudarestado(id) {
