@@ -23,27 +23,24 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 <img src="images/image.png"/>	
 	</p>
 <p align="justify">
-	<b style="font-size:20px;">Atividade prévia VSCode e Python</b>
-</p>
-<p>
-	<a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Roteiro</a> para download e instalação
+	<b style="font-size:20px;"><a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Atividade prévia</a>: </b><br>
+	Roteiro para download e instalação do ambiente de desenvolvimento - Visual Studio Code e Python
 </p>
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro1">1° Encontro</a>: 14/09:<br></b>
 	Introdução ao Python, ao framework Django, à arquitetura MVT e configurações do projeto
 </p>
 <p>
-<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro2">2° Encontro</a>:<br></b>
-	Criação das telas base do projeto<br>
-	Implementação da autenticação do sistema com o django allauth <br>
+<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro2">2° Encontro</a>: 21/09:<br></b>
+	Criação das telas base do projeto e implementação da autenticação do sistema com o Django Allauth <br>
 </p>
 <p>
-<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro3">3° Encontro</a>:<br></b>
-	Desenvolver a interface com o estilo do minecraft<br>
+<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro3">3° Encontro</a>: 28/09:<br></b>
+	Desenvolvimento da interface com o estilo do Minecraft<br>
 </p>
 <p>
-	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro4">4° Encontro</a>:<br></b>
-	Desenvolver as funções de somar os pontos e mover os itens<br>
+	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro4">4° Encontro</a>: 05/10: <br></b>
+	Desenvolvimento do back-end (funções para somar os pontos e mover os itens)<br>
 </p>
 </body>
 </html>
