@@ -32,7 +32,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 </p>
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro2">2° Encontro</a>: 21/09:<br></b>
-	Criação das telas base do projeto e implementação da autenticação do sistema com o Django Allauth <br>
+	Criação das telas base e implementação do sistema de autenticação com Django Allauth<br>
 </p>
 <p>
 <b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro3">3° Encontro</a>: 28/09:<br></b>
