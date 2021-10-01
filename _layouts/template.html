@@ -26,11 +26,11 @@
     <section class="page-header">
 		<h1 class="project-name">{{ page.title }}</h1>
 		<h2 class="project-tagline"></h2>
-		<a href="https://e2pc.github.io/ProjectPage/index" class="btn">Inicio</a>
+		<a href="/index" class="btn">Inicio</a>
 		
 		<!-- E2PC -->
 		<div class="dropdown">
-			<a href="#" class="btn">E2PC</a>
+			<a href="#" class="btn dropdown-header">E2PC</a>
 			<div class="dropdown-content">
 				{% for page in site.pages %}
 					{% if page.blocker == 2 %}
@@ -42,7 +42,7 @@
 		
 		<!-- TL&PC -->
 		<div class="dropdown">
-			<a href="#" class="btn">TL&PC</a>
+			<a href="#" class="btn dropdown-header">TL&PC</a>
 			<div class="dropdown-content">
 				{% for page in site.pages %}
 					{% if page.blocker == 3 %}
@@ -58,7 +58,7 @@
 		
 		<footer class="site-footer" align="center">
 			<img src="images/footer.png" style="margin-top: 25px" width="384" height="77"/>
-			<span class="site-footer-owner">Este projeto é manutenido por <a href="https://github.com/E2PC">E2PC</a>.</span>
+			<span class="site-footer-owner">Este projeto é manutenido por <a href="https://github.com/E2PC">E2PC</a>.</span>	
 		</footer>
 	</section>  
 </body>
