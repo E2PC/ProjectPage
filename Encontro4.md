@@ -22,8 +22,8 @@ blocker: 1
   - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('forms')">forms.py</a>"
   - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('apps')">apps.py</a>"
   - Criar a Pasta dos arquivos de "templatetags"
-    - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('admin')">random_image.py</a>"
-	- Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('admin')">random_numbers.py</a>"
+    - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('random_image')">random_image.py</a>"
+	- Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('random_numbers')">random_numbers.py</a>"
 
 	
 <br><br>  
