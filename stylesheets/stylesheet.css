@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box; }
 
+.dropdown-header{
+  pointer-events: none;
+}
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
