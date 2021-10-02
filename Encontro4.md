@@ -28,7 +28,7 @@ blocker: 1
 	
 <br><br>  
 <div type="hidden" id="gotoseecode"></div>
-
+<br><br>
 <div style="display:none" class="TableBody" id="random_image">
 <textarea readonly rows='20' cols='100'>
 #Arquivo users/random_image.py
