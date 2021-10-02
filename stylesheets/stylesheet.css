@@ -297,3 +297,10 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.maratona{
+  color: #383e41;
+}
+.maratona-p{
+  background: #ff0059;
+}
