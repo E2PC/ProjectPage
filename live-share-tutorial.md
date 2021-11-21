@@ -2,7 +2,8 @@
 title: Tutorial de Como Usar o Live Share
 layout: template
 filename: live-share-tutorial
-blocker: 1
+blocker: 2
+button: Live Share
 ---
 
 ## Como Usar o Live Share para compatilhar código
