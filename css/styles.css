@@ -1,0 +1,36 @@
+body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.content{
+  margin-top: 20px;
+  max-width: 640px;
+  padding-inline:20px;
+}
+
+.content-section{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+  min-height: 100vh;
+}
+
+.navbar-brand{
+  width: 60px;
+}
+
+.bg-default{
+  background-color: #bed6d5;
+}
+
+.bg-default-dark{
+  background-color: #a7c0bf;
+}

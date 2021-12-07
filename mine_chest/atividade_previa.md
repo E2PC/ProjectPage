@@ -1,8 +1,9 @@
 ---
 title: Atividade Prévia
-layout: template
-filename: AtividadePrevia
-blocker: 1
+layout: post
+filename: atividade_previa
+button: Atividade Prévia
+blocker: minechest
 ---
 
 # Primeiros passos: Instalando o VScode e o interpretador Python
@@ -20,14 +21,14 @@ Requisitos recomendados para o VScode:
 ### Instalando o VScode:
 Acesse o seguinte site e faça o download da aplicação
 
-https://code.visualstudio.com
+[Visual Studio Code](https://code.visualstudio.com)
 
 
 ## Instalando o interpretador Python
 
 Para instalar o Python, acesse o seguinte site, faça o download e instale.
 
-https://www.python.org/downloads/
+[Python](https://www.python.org/downloads/)
 
 
 Para verificar se foi instalado corretamente, abra o CMD e digite “python”.
@@ -42,7 +43,7 @@ ou também digitando “py -3 --version”
 ### Configurando as extensões no VScode:
 
 Para instalar e testar o python no VScode, acesse o seguinte site e siga o tutorial.
-https://code.visualstudio.com/docs/python/python-tutorial
+[Python no Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
 
 O site está em inglês, mas é possível fazer a tradução usando a função do Chrome, localizada na parte superior direita do navegador.
 
@@ -56,7 +57,7 @@ Para instalar uma extensão, clique no botão circulado em vermelho e pesquise o
 
 HTML snipperts
 
-JavaScript(ES)¨code snippets
+JavaScript(ES) code snippets
 
 Juppyter
 

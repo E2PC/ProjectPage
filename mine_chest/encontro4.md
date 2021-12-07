@@ -1,9 +1,9 @@
 ---
 title: 4° Encontro
-layout: template
-filename: Encontro4
+layout: post
+filename: encontro4
 button: Encontro4
-blocker: 1
+blocker: minechest
 --- 
 - Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/static-4E.rar?raw=true" download>static</a>"
   - Criar a Pasta dos arquivos css

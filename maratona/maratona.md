@@ -1,9 +1,10 @@
 ---
 title: Maratona de Programação
-layout: template
+layout: post
+permalink: /maratona/
 filename: maratona
 button: Maratona
-blocker: 2
+blocker: maratona
 ---
 
 # Ensino Extracurricular de Programação de Computadores
