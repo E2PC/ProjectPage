@@ -4,11 +4,13 @@ layout: template
 filename: EntradaSaida
 ---
 
+
 # Entrada/Saída de Dados
 
 Comandos de entrada e saída de dados são os que permitem uma interação com o usuário através de dispositivos de saída, por exemplo, o monitor e por dispositivos de entrada de dados, como o teclado. Assista a videoaula sobre esse conteúdo [aqui](https://www.youtube.com/watch?v=sh_fBYbWXSA&ab_channel=COBI)
 
 Sintaxe:
+
 ```
 Pseudocódigo            
                         
@@ -43,6 +45,7 @@ Exemplo:
 Apresentar o dobro do valor lido.
 
 var **VN**: Inteiro
+
 ```
 Pseudocódigo               
                            
@@ -103,6 +106,7 @@ int main(){
 
 # Problemas
 Para praticar, resolva os seguintes problemas na plataforma Uri:
+
 [Soma Simples - 1003](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
 
 [Produto Simples - 1004](https://www.beecrowd.com.br/judge/pt/problems/view/1004)
