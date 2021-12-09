@@ -9,14 +9,14 @@ O objetivo da [Olimpíada Brasileira de Informática (OBI)](https://olimpiada.ic
 
 # Conteudo
 
-- Formato dos problemas
-- Sistemas automáticos de avaliação
-- Erros comuns
-- Entrada/Saída de Dados
-- Operadores Lógicos
-- Estruturas de Seleção
-- Estruturas de Repetição
-- Vetores
+- [Formato dos problemas](Wiki/FormatoProblemas.md)
+- [Sistemas automáticos de avaliação](Wiki/SistemaAutomaticos.md)
+- [Erros comuns](Wiki/ErrosComuns.md)
+- [Entrada/Saída de Dados](Wiki/EntradaSaida.md)
+- [/Operadores Lógicos](Wiki/EntradaSaida.md)
+- [/Estruturas de Seleção](Wiki/EntradaSaida.md)
+- [/Estruturas de Repetição](Wiki/EntradaSaida.md)
+- [/Vetores](Wiki/EntradaSaida.md)
 
 
 # Equipe de execução
@@ -24,4 +24,9 @@ O objetivo da [Olimpíada Brasileira de Informática (OBI)](https://olimpiada.ic
 ## Coordenação:
 - Ana Elisa T. P. da Palma
 - Mauro Miazaki
-## Monitores:
+## Equipe:
+- Alexandro Luis da Rocha Junior
+- Eric Patrick Militão
+- João Vitor Pieczarka da Silva
+- Gabriel Utzig
+- Daniel M Brasil
