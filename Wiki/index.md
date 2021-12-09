@@ -15,21 +15,21 @@ O objetivo da [Olimpíada Brasileira de Informática (OBI)](https://olimpiada.ic
 
 # Conteudo
 
-- [Formato dos problemas](Wiki/FormatoProblemas.md)
+- [Formato dos problemas](https://ericakpm.github.io/ProjectPage/Wiki/FormatoProblemas)
 - 
-- [Sistemas automáticos de avaliação](Wiki/SistemaAutomaticos.md)
+- [Sistemas automáticos de avaliação](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
 - 
-- [Erros comuns](https://github.com/EricAKPM/ProjectPage/blob/c05e78e4dfb25cf4a55dc061370d4d85d87c58cd/Wiki/ErrosComuns.md)
+- [Erros comuns](https://ericakpm.github.io/ProjectPage/Wiki/ErrosComuns)
 - 
-- [Entrada/Saída de Dados](https://github.com/EricAKPM/ProjectPage/blob/c05e78e4dfb25cf4a55dc061370d4d85d87c58cd/Wiki/EntradaSaida.md)
+- [Entrada/Saída de Dados](https://ericakpm.github.io/ProjectPage/Wiki/EntradaSaida.md)
 - 
-- [/Operadores Lógicos](Wiki/EntradaSaida.md)
+- [/Operadores Lógicos](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
 - 
-- [/Estruturas de Seleção](Wiki/EntradaSaida.md)
+- [/Estruturas de Seleção](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
 - 
-- [/Estruturas de Repetição](Wiki/EntradaSaida.md)
+- [/Estruturas de Repetição](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
 - 
-- [/Vetores](Wiki/EntradaSaida.md)
+- [/Vetores](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
 
 
 # Equipe de execução
