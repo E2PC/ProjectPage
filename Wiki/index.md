@@ -1,5 +1,5 @@
 ---
-title: TL_PC
+title: TL PC
 layout: template
 filename: index
 ---
