@@ -3,7 +3,7 @@ title: TL PC
 layout: template
 filename: index
 ---
-
+![TLPC](https://github.com/EricAKPM/ProjectPage/images/67c1aa8a-0608-4500-8ca7-33b7ee4532c8.jpg)
 # Treinamento em Lógica e Programação de Computadores no Ensino Técnico
 
 O enfoque do projeto é proporcionar treinamento para alunos do ensino técnico que possuem maior interesse em programação, sobretudo, que participam da [Olimpíada Brasileira de Informática (OBI)](https://olimpiada.ic.unicamp.br/)
