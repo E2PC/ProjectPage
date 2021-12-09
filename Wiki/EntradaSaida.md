@@ -1,6 +1,6 @@
 ---
 title: Entrada e saída de dados
-layout: template.html
+layout: .//template
 filename: EntradaSaida
 ---
 
