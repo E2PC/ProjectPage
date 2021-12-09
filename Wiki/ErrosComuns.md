@@ -1,3 +1,9 @@
+---
+title: Erros Comuns
+layout: template
+filename: ErrosComuns
+---
+
 Nesse tópico abordaremos quais são os erros mais comuns que os estudantes podem estar cometendo na hora de escrever seu código e enviar para a avaliação. Então se estiver tendo algum problema em uma dessas duas etapas talvez esse tópico possa te ajudar!
 
 # Observações gerais
