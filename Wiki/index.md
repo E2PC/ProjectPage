@@ -1,7 +1,7 @@
 ---
-title: TL PC
+title: TL_PC
 layout: template
-filename: WikiHome
+filename: index
 ---
 
 # Treinamento em Lógica e Programação de Computadores no Ensino Técnico
