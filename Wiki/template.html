@@ -1,0 +1,60 @@
+<!--
+                        
+                            Não mexer!
+-->
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="https://ericakpm.github.io/ProjectPage/stylesheets/normalize.css" media="screen">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="https://ericakpm.github.io/ProjectPage/stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="https://ericakpm.github.io/ProjectPage/stylesheets/github-light.css" media="screen">
+	</head>
+<body>
+    <section class="page-header">
+		<h1 class="project-name">{{ page.title }}</h1>
+		<h2 class="project-tagline"></h2>
+		<a href="/index" class="btn">Inicio</a>
+		
+		<!-- E2PC -->
+		<div class="dropdown">
+			<a href="#" class="btn dropdown-header">E2PC</a>
+			<div class="dropdown-content">
+				{% for page in site.pages %}
+					{% if page.blocker == 2 %}
+						<a href= {{ page.filename }} class="btn2">{{ page.button }}</a>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>	
+		
+		<!-- TL&PC -->
+		<div class="dropdown">
+			<a href="#" class="btn dropdown-header">TL&PC</a>
+			<div class="dropdown-content">
+				{% for page in site.pages %}
+					{% if page.blocker == 3 %}
+						<a href= {{ page.filename }} class="btn2">{{ page.button }}</a>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	    
+	    <!-- Wiki -->
+		<a href="https://ericakpm.github.io/ProjectPage/Wiki/index" class="btn">WIKI</a>
+		
+	</section>
+	<section class="main-content">	  
+		{{ content }}
+		
+		<footer class="site-footer" align="center">
+			<img src="images/footer.png" style="margin-top: 25px" width="384" height="77"/>
+			<span class="site-footer-owner">Este projeto é manutenido por <a href="https://github.com/E2PC">E2PC</a>.</span>	
+		</footer>
+	</section>  
+</body>
+</html>
