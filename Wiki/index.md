@@ -16,19 +16,12 @@ O objetivo da [Olimpíada Brasileira de Informática (OBI)](https://olimpiada.ic
 # Conteudo
 
 - [Formato dos problemas](https://ericakpm.github.io/ProjectPage/Wiki/FormatoProblemas)
-- 
 - [Sistemas automáticos de avaliação](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
-- 
 - [Erros comuns](https://ericakpm.github.io/ProjectPage/Wiki/ErrosComuns)
-- 
 - [Entrada/Saída de Dados](https://ericakpm.github.io/ProjectPage/Wiki/EntradaSaida.md)
-- 
 - [/Operadores Lógicos](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
-- 
 - [/Estruturas de Seleção](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
-- 
 - [/Estruturas de Repetição](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
-- 
 - [/Vetores](https://ericakpm.github.io/ProjectPage/Wiki/SistemaAutomaticos)
 
 
