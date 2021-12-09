@@ -8,7 +8,7 @@ A URI Online Judge é um projeto desenvolvido pelo departamento de ciência da c
 Antes de iniciar as atividades, é necessário se cadastrar no site.
 
 ## Anatomia de um problema URI
-![Anatomia](link)
+![Anatomia](Imagens/Uri_anatomia.png)
 
 
 ### 1 - Numero
@@ -100,7 +100,7 @@ No caso do pascal a função "writeln" quebra a linha após apresentar a informa
 ### Enviando o código para avaliação
 
 No site da URI, logo ao lado da apresentação do problema, existe uma area para enviar seu código para a avaliação.
-![Anatomia](link)
+![Anatomia](Imagens/Uri_envio.png)
 
 #### 1 - Identificação
 Nesse campo há a identificação do problema que o código solucionará.
