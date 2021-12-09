@@ -1,3 +1,9 @@
+---
+title: TL PC
+layout: template
+filename: index
+---
+
 # Treinamento em Lógica e Programação de Computadores no Ensino Técnico
 
 O enfoque do projeto é proporcionar treinamento para alunos do ensino técnico que possuem maior interesse em programação, sobretudo, que participam da [Olimpíada Brasileira de Informática (OBI)](https://olimpiada.ic.unicamp.br/)
