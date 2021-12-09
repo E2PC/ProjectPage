@@ -12,6 +12,7 @@ O enfoque do projeto é proporcionar treinamento para alunos do ensino técnico 
 # Sobre a Olimpíada Brasileira de Informática
 
 O objetivo da [Olimpíada Brasileira de Informática (OBI)](https://olimpiada.ic.unicamp.br/) é despertar nos alunos o interesse por uma ciência importante na formação básica hoje em dia (no caso, ciência da computação), através de uma atividade que envolve desafio, engenhosidade e uma saudável dose de competição. A organização da OBI está cargo do Instituto de Computação da UNICAMP.
+[** SAIBA MAIS **](https://github.com/EricAKPM/ProjectPage/blob/gh-pages/Wiki/Olimpiada.md)
 
 # Conteudo
 
