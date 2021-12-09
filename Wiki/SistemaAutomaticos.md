@@ -1,3 +1,9 @@
+---
+title: Sistemas automáticos de avaliação
+layout: template
+filename: SistemaAutomaticos
+---
+
 # Sistemas automáticos de avaliação
 Durante esse projeto haverá diversas atividades sugeridas para fixar e colocar em prática os conteúdos aqui estudados. Tanto para a leitura quanto para a avaliação da resolução das atividades serão utilizado dois sites: o [Uri](https://www.beecrowd.com.br/judge/en/login) e o site da [OBI](https://olimpiada.ic.unicamp.br/)
 
