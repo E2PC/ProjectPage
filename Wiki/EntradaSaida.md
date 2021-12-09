@@ -1,6 +1,6 @@
 ---
 title: Entrada e saída de dados
-layout: template
+layout: https://ericakpm.github.io/ProjectPage/_layouts/template.html
 filename: EntradaSaida
 ---
 
