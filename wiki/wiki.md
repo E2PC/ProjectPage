@@ -1,11 +1,12 @@
 ---
-title: TL PC
-layout: _layouts/post.md
+title: TL PC WIKI
+layout: post
 permalink: /wiki/
 filename: wiki
 button: Wiki
 blocker: wiki
 --- 
+
 ![TLPC](image/67c1aa8a-0608-4500-8ca7-33b7ee4532c8.jpg)
 # Treinamento em Lógica e Programação de Computadores no Ensino Técnico
 
