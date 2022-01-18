@@ -1,6 +1,6 @@
 ---
 title: TL PC
-layout: _layouts/post.md
+layout: https://github.com/EricAKPM/ProjectPage/blob/0eb38c4ad9fcd814123cf2ef9a1e8681fc702180/_layouts/post.md
 permalink: /wiki/
 filename: wiki
 button: Wiki
