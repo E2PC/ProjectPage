@@ -1,9 +1,9 @@
 ---
 title: Tutorial de Como Usar o Live Share
-layout: post
-filename: live_share_tutorial
+layout: template
 button: Live Share
-blocker: maratona
+filename: live_share_tutorial
+type: post
 ---
 
 ## Como Usar o Live Share para compatilhar código

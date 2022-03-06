@@ -1,9 +1,9 @@
 ---
 title: 1° Encontro
-layout: post
+layout: template
 filename: encontro1
 button: encontro1
-blocker: minechest
+type: post
 --- 
 
 ## Introdução ao Python, ao framework Django, a arquitetura MVT e configurações do projeto
