@@ -1,44 +1,31 @@
 ---
-title: Ensino Extracurricular de Programação de Computadores
+title: Ensino Extracurricular de Programação de Computadores e Difusão de TICs
 layout: template
 permalink: /
 filename: index
 button: Inicio
-blocker: index
 ---
-<div class="content">
-	<p align="center">
-	<img width="500" height="350" align="center" src="images/logo.jpg"/>
-	</p>
-	<p align="justify">
-		O Projeto de Extensão “Treinamento em Lógica e Programação de Computadores no Ensino Técnico”, vinculado ao Departameno de Ciência da Computação da Unicentro (Guarapuava, PR), é destinado aos alunos do ensino técnico em Informática dos colégios estaduais do município de Guarapuava (Colégios Francisco Carneiro Martins e Ana Vanda Bassara). <br>
-		Por meio de atividades que incluem oficinas, treinamentos e monitorias, o objetivo do projeto é introduzir os conceitos e melhorar as habilidades em lógica, metodologias e linguagens de programação de computadores dos participantes.
-	<br>
-	O projeto pretende estimular a participação dos alunos na Olimpíada Brasileira de Informática (OBI) e pode ser estendido a outros estabelecimentos de ensino médio.	</p>
+{%- assign post_pages = site.pages | where: 'type', 'post' -%}
+{%- assign info_pages = site.pages | where: 'type', 'info' -%}
 
-<p><br>
-	<b style="font-size:20px;">Equipe</b><br>
-</p>
-<ul>
-			<p>
-			Ana Elisa Tozetto Piekarski da Palma<br>
-			Mauro Miazaki<br>
-			Alexandro Luis da Rocha Junior<br>
-			Eric Patrick Militão<br>
-			João Vitor Pieczarka da Silva<br>
-			</p>
-</ul>
-<p>
-<p><br>
-	<b style="font-size:20px;">Contato</b><br>
-</p>
-<ul>
-			<p>
-			Universidade Estadual do Centro-Oeste <br>
-			Departamento de Ciência da Computação - Campus Cedeteg<br>
-			Alameda Élio Antonio Dalla Vecchia, 838 - Guarapuava - PR<br>
-			(42)3629-8344  -  e2pc@unicentro.br<br>
-			</p>
-</ul>
-</p>
+			
+| ![](../images/logo_tlpc.png) | ![](../images/logo_e2pc.png) | 
+
+## Ensino Extracurricular de Programação de Computadores e Difusão de TICs
+### Sobre o Programa
+O Programa Ensino Extracurricular de Programação de Computadores e Difusão de TICs congrega duas iniciativas distintas: a primeira, denominada “Ensino Extracurricular de Programação de Computadores”, tem como objetivo treinamentos e eventos envolvendo programação competitiva, em especial a Maratona de Programação da SBC. A segunda, intitulada “Treinamento em Lógica e Programação de Computadores no Ensino Técnico”, destinada aos alunos de nível médio, objetiva introduzir os conceitos e/ou melhorar as habilidades dos interessados em lógica, metodologias e linguagens de programação de computadores. O estímulo à participação na Olimpíada Brasileira de Informática também é abordado com o público dos dois projetos.
+
+<div class="list-group">
+	{%- for page in post_pages -%}
+		<a href="{{page.url}}" class="list-group-item list-group-item-action">{{page.button}}</a>
+	{% endfor %}
 </div>
+<br/>
+
+### Informações do Programa: 
+<div class="list-group">
+	{%- for page in info_pages -%}
+		<a href="{{page.url}}" class="list-group-item list-group-item-action">{{page.button}}</a>
+	{% endfor %}
+</div>
+<br/>

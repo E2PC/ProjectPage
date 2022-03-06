@@ -1,9 +1,9 @@
 ---
 title: Atividade Prévia
-layout: post
+layout: template
 filename: atividade_previa
 button: Atividade Prévia
-blocker: minechest
+type: post
 ---
 
 # Primeiros passos: Instalando o VScode e o interpretador Python

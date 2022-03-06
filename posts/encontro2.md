@@ -1,9 +1,9 @@
 ---
 title: 2° Encontro
-layout: post
+layout: template
 filename: encontro2
 button: Encontro2
-blocker: minechest
+type: post
 --- 
 - Na pasta MineChest
   - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('settings')">settings.py</a>"
