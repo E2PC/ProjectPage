@@ -1,12 +1,10 @@
 ---
 title: Projeto MineChest
 layout: template
-filename: MineChest
-button: MineChest
-blocker: 3
+button: Mine Chest
+filename: mine_chest_python
+type: post
 --- 
-<html>
-<body>
 <h1 style="font-size:30px">
 Oficina de Desenvolvimento de Aplicação Web em Python
 </h1>
@@ -20,7 +18,7 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 
 
 <p align="center">
-<img src="images/image.png"/>	
+<img src="../images/minechest.png"/>	
 	</p>
 <p align="justify">
 	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Atividade prévia</a>: </b><br>
@@ -42,5 +40,3 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro4">4° Encontro</a>: 05/10: <br></b>
 	Desenvolvimento do back-end (funções para somar os pontos e mover os itens)<br>
 </p>
-</body>
-</html>
