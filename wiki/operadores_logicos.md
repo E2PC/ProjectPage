@@ -5,7 +5,7 @@ filename: operadores_logicos
 button: Operadores logicos
 blocker: wiki
 ---
-
+# Operadores lógicos
 <p>As estruturas de programação, como a  estrutura de seleção e a  estrutura de repetição</a> podem mudar o comportamento de um código. Dependendo de como o código está montado essas estruturas permitem a execução (ou repetição) de parte do código apenas em determinadas situações. O que vai decidir se o código dentro daquela estrutura deve ser executado (como em estruturas de seleção) ou se deve ser repetido (como em estruturas de repetição) é seu parâmetro lógico.
 </p><p>Os parâmetros lógicos podem ser verdadeiros ou falsos, se forem verdadeiros a condição é cumprida e o código dentro da estrutura é executado (ou repetido, dependendo da estrutura), se não, aquela área do código é ignorada ou redirecionada.
 </p><p>Por exemplo:
