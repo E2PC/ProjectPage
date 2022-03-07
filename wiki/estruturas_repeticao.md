@@ -5,7 +5,7 @@ filename: estruturas_repeticao
 button: Estrutura de repeticao
 blocker: wiki
 ---
-#Estrutura de repetição
+# Estrutura de repetição
 
 <p>As estruturas de repetição também são conhecidas como laços (loops) e são utilizados para executar, repetidamente, uma instrução ou bloco de instrução enquanto determinada condição estiver sendo satisfeita. Assista a videoaula sobre este tipo de estrutura <a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=iGCccMqmJZ0&amp;feature=youtu.be">aqui</a>.
 </p><p>As principais formas de implementar o loop são o <b>enquanto</b> (ou while) e o <b>para de até</b> (ou for).
