@@ -5,7 +5,7 @@ filename: olimpiada
 button: Olimpiada
 blocker: wiki
 ---
-
+# Olimpiada
 O objetivo da OBI é despertar nos alunos o interesse por uma ciência importante na formação básica hoje em dia (no caso, ciência da computação), através de uma atividade que envolve desafio, engenhosidade e uma saudável dose de competição. A organização da OBI está cargo do Instituto de Computação da UNICAMP.
 
 A Olimpíada Brasileira de Informática (OBI), realizada pela Sociedade Brasileira de Computação (SBC), é uma competição organizada nos moldes das outras olimpíadas científicas brasileiras, como Matemática (OBMEP), Física (OBF) e Astronomia (OBA). A OBI tem como objetivo despertar nos alunos o interesse por Ciência da Computação por meio de atividades que envolvem problemas, desafios e competição. A OBI é organizada pelo Instituto de Computação da UNICAMP (OBI, 2018a).
