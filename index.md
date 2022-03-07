@@ -15,17 +15,17 @@ O Programa de Extensão "Ensino Extracurricular de Programação de Computadores
 Os dois projetos incluem treinamentos preparatórios e estímulo à participação na [Olimpíada Brasileira de Informática](https://olimpiada.ic.unicamp.br/).
 
 ### Conteúdos
-<div class="list-group">
+<ul>
 	{%- for page in post_pages -%}
-		<a href="{{page.url}}" class="list-group-item list-group-item-action">{{page.button}}</a>
+		<li><a href="{{page.url}}">{{page.button}}</a></li>
 	{% endfor %}
-</div>
+</ul>
 <br/>
 
 ### Sobre o Programa 
-<div class="list-group">
+<ul>
 	{%- for page in info_pages -%}
-		<a href="{{page.url}}" class="list-group-item list-group-item-action">{{page.button}}</a>
+		<li><a href="{{page.url}}">{{page.button}}</a></li>
 	{% endfor %}
-</div>
+</ul>
 <br/>
