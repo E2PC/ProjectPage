@@ -5,7 +5,7 @@ filename: estruturas_selecao
 button: Estrutura de selecao
 blocker: wiki
 ---
-
+# Estrutura de seleção 
 <p>É uma estrutura de desvio do fluxo de controle presente em linguagens de programação que realiza diferentes computações ou ações dependendo se a seleção (ou condição) é verdadeira ou falsa. Assista a videoaula sobre este tipo de estrutura <a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=sVkU_wXwO9s&amp;feature=youtu.be">aqui</a>.
 </p><p>Sintaxe:
 </p>
