@@ -3,7 +3,7 @@ title: 2° Encontro
 layout: template
 filename: encontro2
 button: Encontro2
-type: post
+type: minechest
 --- 
 - Na pasta MineChest
   - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('settings')">settings.py</a>"
@@ -11,7 +11,7 @@ type: post
 - Na pasta pages
   - Arquivo das urls "<a href="#gotoseecode" onclick="Mudarestado('pagesurls')">urls.py</a>"
   - Arquivo de views "<a href="#gotoseecode" onclick="Mudarestado('pagesviews')">views.py</a>"
-- Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/templates-2E.rar?raw=true" download>templates</a>"
+- Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/assets/archieves/templates-2E.rar?raw=true" download>templates</a>"
   - Criar a página Base.html
   - Criar a página home.html
   - Na pasta templates, criar a pasta "account"
