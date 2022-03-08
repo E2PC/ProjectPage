@@ -3,7 +3,7 @@ title: Atividade Prévia
 layout: template
 filename: atividade_previa
 button: Atividade Prévia
-type: post
+type: minechest
 ---
 
 # Primeiros passos: Instalando o VScode e o interpretador Python
@@ -59,7 +59,7 @@ HTML snipperts
 
 JavaScript(ES) code snippets
 
-Juppyter
+Jupyter
 
 Python
 

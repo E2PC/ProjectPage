@@ -3,16 +3,16 @@ title: 4° Encontro
 layout: template
 filename: encontro4
 button: Encontro4
-type: post
+type: minechest
 --- 
-- Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/static-4E.rar?raw=true" download>static</a>"
+- Criar a pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/assets/archieves/static-4E.rar?raw=true" download>static</a>"
   - Criar a Pasta dos arquivos css
     - Desenvolver os arquivos de fonte/estilo
   - Criar a Pasta dos arquivos de imagem
     - Inserir as imagens necessárias no projeto
   - Criar a Pasta dos arquivos de scripts
     - Desenvolver a função de drag and drop
-- Na pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/archieves/templates-4E.rar?raw=true" download>templates</a>"
+- Na pasta "<a href="https://github.com/E2PC/ProjectPage/blob/gh-pages/assets/archieves/templates-4E.rar?raw=true" download>templates</a>"
   - Alterar os arquivos html inserindo a estrutura e importando os arquivos estáticos
 - Na pasta MineChest
   - Arquivo de configurações "<a href="#gotoseecode" onclick="Mudarestado('settings')">settings.py</a>"

@@ -18,25 +18,25 @@ A oficina abordará o desenvolvimento do front e do backend do jogo, com as segu
 
 
 <p align="center">
-<img src="../images/minechest.png"/>	
+<img src="../assets/images/minechest.png"/>	
 	</p>
 <p align="justify">
-	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/AtividadePrevia">Atividade prévia</a>: </b><br>
+	<b style="font-weight: bold;"><a href="ProjectPage/pages/minechest/AtividadePrevia">Atividade prévia</a>: </b><br>
 	Roteiro para download e instalação do ambiente de desenvolvimento - Visual Studio Code e Python
 </p>
 <p>
-<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro1">1° Encontro</a>: 14/09:<br></b>
+<b style="font-weight: bold;"><a href="ProjectPage/pages/minechest/Encontro1">1° Encontro</a>: 14/09:<br></b>
 	Introdução ao Python, ao framework Django, à arquitetura MVT e configurações do projeto
 </p>
 <p>
-<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro2">2° Encontro</a>: 21/09:<br></b>
+<b style="font-weight: bold;"><a href="ProjectPage/pages/minechest/Encontro2">2° Encontro</a>: 21/09:<br></b>
 	Criação das telas base e implementação do sistema de autenticação com Django Allauth<br>
 </p>
 <p>
-<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro3">3° Encontro</a>: 28/09:<br></b>
+<b style="font-weight: bold;"><a href="ProjectPage/pages/minechest/Encontro3">3° Encontro</a>: 28/09:<br></b>
 	Desenvolvimento da interface com o estilo do Minecraft<br>
 </p>
 <p>
-	<b style="font-weight: bold;"><a href="https://e2pc.github.io/ProjectPage/Encontro4">4° Encontro</a>: 05/10: <br></b>
+	<b style="font-weight: bold;"><a href="ProjectPage/pages/minechest/Encontro4">4° Encontro</a>: 05/10: <br></b>
 	Desenvolvimento do back-end (funções para somar os pontos e mover os itens)<br>
 </p>

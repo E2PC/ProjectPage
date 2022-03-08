@@ -3,7 +3,7 @@ title: 1° Encontro
 layout: template
 filename: encontro1
 button: encontro1
-type: post
+type: minechest
 --- 
 
 ## Introdução ao Python, ao framework Django, a arquitetura MVT e configurações do projeto
