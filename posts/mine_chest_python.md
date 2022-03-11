@@ -1,7 +1,7 @@
 ---
 title: Projeto MineChest
 layout: template
-button: Mine Chest
+button: MineChest
 filename: mine_chest_python
 type: post
 --- 
