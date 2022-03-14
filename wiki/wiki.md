@@ -1,10 +1,9 @@
 ---
 title: TL PC WIKI
-layout: post
-permalink: /wiki/
+layout: template
 filename: wiki
 button: Wiki
-blocker: wiki
+type: wiki
 --- 
 
 ![TLPC](./image/logo.jpg)
