@@ -7,6 +7,7 @@ button: Inicio
 ---
 {%- assign post_pages = site.pages | where: 'type', 'post' -%}
 {%- assign info_pages = site.pages | where: 'type', 'info' -%}
+{%- assign info_pages = site.pages | where: 'type', 'wiki' -%}
 
 
 | ![](../assets/images/logo_e2pc.png) |
