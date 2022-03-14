@@ -3,7 +3,7 @@ title: TL PC WIKI
 layout: template
 filename: wiki
 button: Wiki
-type: post
+type: wiki
 --- 
 
 ![TLPC](./image/logo.jpg)
