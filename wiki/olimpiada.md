@@ -1,6 +1,6 @@
 ---
 title: Olimpiada
-layout: post
+layout: template
 filename: olimpiada
 button: Olimpiada
 blocker: wiki
