@@ -1,6 +1,6 @@
 ---
 title: Maratona
-layout: post
+layout: template
 filename: maratona
 button: Maratona
 blocker: wiki
