@@ -1,6 +1,6 @@
 ---
 title: Operadores
-layout: post
+layout: template
 filename: operadores_logicos
 button: Operadores logicos
 blocker: wiki
