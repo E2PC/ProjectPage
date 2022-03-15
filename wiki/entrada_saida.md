@@ -5,7 +5,6 @@ filename: entrada_saida
 button: Entrada e saida
 blocker: wiki
 ---
-
 # Entrada/Saída de Dados
 
 Comandos de entrada e saída de dados são os que permitem uma interação com o usuário através de dispositivos de saída, por exemplo, o monitor e por dispositivos de entrada de dados, como o teclado. Assista a videoaula sobre esse conteúdo [aqui](https://www.youtube.com/watch?v=sh_fBYbWXSA&ab_channel=COBI)
