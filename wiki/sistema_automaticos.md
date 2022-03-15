@@ -1,6 +1,6 @@
 ---
 title: Sistemas automaticos
-layout: post
+layout: template
 filename: sistema_automaticos
 button: Sistemas automaticos
 blocker: wiki
