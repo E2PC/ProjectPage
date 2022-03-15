@@ -1,6 +1,6 @@
 ---
 title: Problemas
-layout: post
+layout: template
 filename: formato_problemas
 button: Formato dos problemas
 blocker: wiki
