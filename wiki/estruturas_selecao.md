@@ -1,6 +1,6 @@
 ---
 title: Estrutura de selecao
-layout: post
+layout: template
 filename: estruturas_selecao
 button: Estrutura de selecao
 blocker: wiki
