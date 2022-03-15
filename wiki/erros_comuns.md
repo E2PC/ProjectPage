@@ -6,6 +6,7 @@ button: Erros comuns
 blocker: Erros comuns
 ---
 
+
 Nesse tópico abordaremos quais são os erros mais comuns que os estudantes podem estar cometendo na hora de escrever seu código e enviar para a avaliação. Então se estiver tendo algum problema em uma dessas duas etapas talvez esse tópico possa te ajudar!
 
 # Observações gerais
