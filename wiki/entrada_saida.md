@@ -1,6 +1,6 @@
 ---
 title: Entrada e saida
-layout: post
+layout: template
 filename: entrada_saida
 button: Entrada e saida
 blocker: wiki
