@@ -1,6 +1,6 @@
 ---
 title: Erros comuns
-layout: post
+layout: template
 filename: erros_comuns
 button: Erros comuns
 blocker: Erros comuns
