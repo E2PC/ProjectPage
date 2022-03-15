@@ -1,6 +1,6 @@
 ---
 title: Estrutura de repeticao
-layout: post
+layout: template
 filename: estruturas_repeticao
 button: Estrutura de repeticao
 blocker: wiki
