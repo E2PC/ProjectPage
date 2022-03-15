@@ -1,6 +1,6 @@
 ---
 title: Vetores
-layout: post
+layout: template
 filename: vetores
 button: Vetores
 blocker: wiki
