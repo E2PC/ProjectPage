@@ -3,7 +3,6 @@ title: Erros comuns
 layout: template
 filename: erros_comuns
 button: Erros comuns
-type: wiki
 ---
 
 
