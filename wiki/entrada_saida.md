@@ -3,7 +3,7 @@ title: Entrada e saida
 layout: template
 filename: entrada_saida
 button: Entrada e saida
-blocker: wiki
+type: wiki
 ---
 # Entrada/Saída de Dados
 
