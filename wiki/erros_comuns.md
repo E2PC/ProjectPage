@@ -3,7 +3,7 @@ title: Erros comuns
 layout: template
 filename: erros_comuns
 button: Erros comuns
-blocker: Erros comuns
+type: Erros comuns
 ---
 
 
