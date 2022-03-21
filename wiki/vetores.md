@@ -3,7 +3,6 @@ title: Vetores
 layout: template
 filename: vetores
 button: Vetores
-type: wiki
 ---
 # Vetores
 <p>Vetor (array uni-dimensional) é uma estrutura simples que armazena vários valores do mesmo tipo em um espaço de memória. Assista a videoaula sobre este tipo de estrutura <a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=B6MUlVNzWQQ&amp;feature=youtu.be">aqui</a>.
