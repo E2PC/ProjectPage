@@ -3,7 +3,6 @@ title: Estrutura de repeticao
 layout: template
 filename: estruturas_repeticao
 button: Estrutura de repeticao
-type: wiki
 ---
 # Estrutura de repetição
 
