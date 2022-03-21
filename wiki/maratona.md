@@ -3,7 +3,6 @@ title: Maratona
 layout: template
 filename: maratona
 button: Maratona
-type: wiki
 ---
 
 # Ensino Extracurricular de Programação de Computadores
