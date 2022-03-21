@@ -3,7 +3,6 @@ title: Olimpiada
 layout: template
 filename: olimpiada
 button: Olimpiada
-type: wiki
 ---
 # Olimpiada
 O objetivo da OBI é despertar nos alunos o interesse por uma ciência importante na formação básica hoje em dia (no caso, ciência da computação), através de uma atividade que envolve desafio, engenhosidade e uma saudável dose de competição. A organização da OBI está cargo do Instituto de Computação da UNICAMP.
