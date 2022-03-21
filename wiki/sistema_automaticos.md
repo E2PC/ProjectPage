@@ -3,7 +3,7 @@ title: Sistemas automaticos
 layout: template
 filename: sistema_automaticos
 button: Sistemas automaticos
-blocker: wiki
+type: wiki
 ---
 
 # Sistemas automáticos de avaliação
