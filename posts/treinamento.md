@@ -6,7 +6,9 @@ filename: treinamento
 type: post
 ---
 # Treinamento introdutório de programação competitiva
-O objetivo dos conteudos abaixo é possibilitar que os interessados em aprender programacao, seguindo o modelo da programacao competitiva, possam iniciar essa jornada
+O objetivo dos conteudos abaixo é possibilitar que os interessados em aprender programacao, seguindo o modelo da programacao competitiva, possam iniciar essa jornada.
+
+Esse material é utilizado nos treinamentos, realizados utilizando os problemas da plataforma [**Beecrowd**](https://www.beecrowd.com.br) e assim como as competições, tem como objetivo promover o trabalho em equipe e as capacidades resolução de problemas dos participantes.
 
 # Conteúdo
 {%- for page in post_pages -%}
