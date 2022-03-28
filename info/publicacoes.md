@@ -5,7 +5,7 @@ filename: publicacoes
 button: Publicações
 type: info
 ---
-
+![](../assets/images/logo_e2pc.png)
 ### Publicações
 
 MILITÃO, E. P.; SILVA, J. V. P.; ROCHA JUNIOR, A. L.; PIEKARSKI, A. E. T.; MIAZAKI, M. Oficinas Remotas com a Plataforma Code.org para o Ensino Técnico em Informática. In: XIV EAEX - Encontro Anual de Extensão da UNICENTRO, 2021, Online. Anais..., 2021.  
