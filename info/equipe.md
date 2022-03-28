@@ -5,7 +5,7 @@ filename: equipe
 button: Equipe
 type: info
 ---
-
+![](../assets/images/logo_e2pc.png) 
 ## Equipe do Projeto  
 Gabriel Maurício Utzig (2021 - )  
 Daniel Machado Brasil (2021 - )  
