@@ -3,12 +3,13 @@ title: Sistemas automaticos
 layout: template
 filename: sistema_automaticos
 button: Sistemas automaticos
+type: programacao_competitiva
 ---
 
 # Sistemas automáticos de avaliação
-Durante esse projeto haverá diversas atividades sugeridas para fixar e colocar em prática os conteúdos aqui estudados. Tanto para a leitura quanto para a avaliação da resolução das atividades serão utilizado dois sites: o [Uri](https://www.beecrowd.com.br/judge/en/login) e o site da [OBI](https://olimpiada.ic.unicamp.br/)
+Durante esse projeto haverá diversas atividades sugeridas para fixar e colocar em prática os conteúdos aqui estudados. Tanto para a leitura quanto para a avaliação da resolução das atividades serão utilizado dois sites: o [Beecrowd](https://www.beecrowd.com.br/judge/en/login) e o site da [OBI](https://olimpiada.ic.unicamp.br/)
 
-# [Uri](https://www.beecrowd.com.br/judge/en/login)
+# [Beecrowd](https://www.beecrowd.com.br/judge/en/login)
 
 A URI Online Judge é um projeto desenvolvido pelo departamento de ciência da computação da universidade URI. Esse portal apresenta um repositório com diversos problemas com diversos níveis de dificuldades para serem resolvidos por meio da programação.
 
