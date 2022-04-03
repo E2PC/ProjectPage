@@ -3,6 +3,7 @@ title: Erros comuns
 layout: template
 filename: erros_comuns
 button: Erros comuns
+type: programacao_competitiva
 ---
 # Erros Comuns
 
@@ -41,35 +42,34 @@ if(i == 0){
 
 - Condição incorreta (atribuição e não igualdade, várias condições separadas por vírgula) ou estrutura de seleção mal escrita (vários if's sem operador lógico)
 
-//TABELA **????**
 
 ### Presentation error
 Formatação dos dados de saída
 
 - Falta de quebrar linha no final da apresentação
 Exemplo:
-**Código errado**
-```
-    //Em C
-   printf("Olá");
-   //Em C++
-   cout << "Olá";
-   //Em Python
-   print('Olá');
-```
-**Código certo**
-```
-    //Em C
-   printf("Olá\n");
-   //Em C++
-   cout << "Olá" << endl;
-   //Em Python
-   print('Olá\n');
-```
 
-- Falta de espaço
+<table>
+  <tr>
+    <th>LINGUAGEM:</th>
+    <th>C</th>
+    <th>C++</th>
+    <th>Python</th>
+  </tr>
+  <tr>
+    <td>ERRADO</td>
+    <td>printf("Olá");</td>
+    <td>cout << "Olá";</td>
+    <td>print('Olá');</td>
+  </tr>
+  <tr>
+    <td>ERRADO</td>
+    <td>printf("Olá\n");</td>
+    <td>cout << "Olá" << endl;</td>
+    <td>print('Olá\n');</td>
+  </tr>
+</table>
 
-//TABELA **?????**
 
 ### Compilation error
 - Linguagem errada selecionada na hora de submeter
@@ -88,3 +88,9 @@ Exemplo:
 Se mesmo depois de conferir todas as opções da pagina o erro ainda persistir, consulte um monitor ou um colega mais experiente. Muitas vezes o programador está tão imerso em seu próprio código que não consegue ver um erro simples bem na sua frente.
 
 É muito comum se frustrar com os erros do seu código, e isso não some com o tempo, porem, quando mais se pratica mais fácil fica de se identificar e corrigir esses erros de formas muito mais fáceis e rápidas.
+
+<style>
+   table, th, td {
+      border:1px solid black;
+   }
+</style>
