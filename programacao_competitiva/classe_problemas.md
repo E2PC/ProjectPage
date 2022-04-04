@@ -9,7 +9,7 @@ type: programacao_competitiva
 
 A maioria dos problemas de programação possuem padrões de entrada/saída sugeridos em casos de teste que, por vezes, conseguimos identificar tanto o tipo de dado quanto se o problema faz uso uma estrutura, como repetição, vetor, matriz, etc... Dessa forma é possível classificá-los quanto ao conhecimento necessário para a realização e qual estrutura (caso haja) predomina no problema. Sendo assim, estas são possíveis categorias empregadas à maioria dos desafios:
 
-[![UriN1.jpg](/images/6/6c/UriN1.jpg)](/Arquivo:UriN1.jpg)
+[![1uri.png](/images/6/6c/1uri.jpng)](/Arquivo:1uri.png)
 
 **Iniciante:** São problemas mais fáceis de resolução, é o começo para quem está se habituando aos padrões de competições de maratonas de programação, como a contextualização do problema e funcionamento de entrada/saída de dados. Para resolver problemas nessa categoria, normalmente é necessário apenas o conhecimento dos tipos de dados, estruturas de seleção/repetição e operações matemáticas básicas que são vistas durante o colegial.  
 **Exemplos:**
@@ -20,7 +20,7 @@ A maioria dos problemas de programação possuem padrões de entrada/saída suge
 
   
 
-[![UriN2.jpg](/images/f/f3/UriN2.jpg)](/Arquivo:UriN2.jpg)
+[![2uri.png](/images/6/6c/2uri.jpng)](/Arquivo:2uri.png)
 
 **Ad-Hoc** São problemas muito específicos, que não dependem de estruturas de dados, algoritmos ou técnicas genéricas. Cada problema ad-hoc possui sua própria característica de resolução, sendo assim, tem uma alta variação de dificuldade. Podendo serem resolvidos com simples estruturas de seleção e lógica ou até mesmo, usar cálculos avançados tornando difícil a resolução.  
 **Exemplos:**
@@ -31,7 +31,7 @@ A maioria dos problemas de programação possuem padrões de entrada/saída suge
 
   
 
-[![UriN3.jpg](/images/5/55/UriN3.jpg)](/Arquivo:UriN3.jpg)
+[![3uri.png](/images/6/6c/3uri.jpng)](/Arquivo:3uri.png)
 
 **Strings** São problemas que trabalham, em essência, com a manipulação de caracteres e palavras, sendo necessário desenvolver algoritmos para os mais diversificados propósitos, a diferença de resolução desses problemas pode variar significativamente dependendo da linguagem de programação utilizada, por conta das funções existentes dentro de cada linguagem.  
 **Exemplos:**
@@ -42,7 +42,7 @@ A maioria dos problemas de programação possuem padrões de entrada/saída suge
 
   
 
-[![UriN4.jpg](/images/1/1a/UriN4.jpg)](/Arquivo:UriN4.jpg)
+[![4uri.png](/images/6/6c/4uri.jpng)](/Arquivo:4uri.png)
 
 **Estruturas e Bibliotecas** São problemas que fazem utilização de estruturas bem definidas na literatura (p.e. Lista, Pilha, Fila, Árvore, Mapas, etc) e que podem ser facilmente encontradas em livros ou internet. A estratégia aqui é conhecer e saber aplicar diferentes estruturas que realizam as mesmas tarefas, todavia, que tem diferenças de desempenho e gasto computacional, pois todos os problemas possuem um tempo determinado de execução, caso o tempo de execução seja excedido, a submissão não é válida.  
 **Exemplos:**
@@ -52,7 +52,7 @@ A maioria dos problemas de programação possuem padrões de entrada/saída suge
 
   
 
-[![UriN5.jpg](/images/a/a3/UriN5.jpg)](/Arquivo:UriN5.jpg)
+[![5uri.png](/images/6/6c/5uri.jpng)](/Arquivo:5uri.png)
 
 **Matemática** São problemas que normalmente apresentam enunciado bem contextualizado para facilitar (ou dificultar, em alguns casos) a realização. Como proposto, utilizam conceitos matemáticos, fórmulas e lógica matemática no algoritmo. Se assemelham ao ad-hoc por possuir grande variação na dificuldade, tal como, desde as quatro operações básicas até a utilização de integrais.  
 **Exemplos:**
@@ -63,7 +63,7 @@ A maioria dos problemas de programação possuem padrões de entrada/saída suge
 
   
 
-[![UriN6.jpg](/images/9/9e/UriN6.jpg)](/Arquivo:UriN6.jpg)
+[![6uri.png](/images/6/6c/6uri.jpng)](/Arquivo:6uri.png)
 
 **Paradigmas** São problemas mais complexos e difícil detecção de qual estrutura ou caminho seguir, se não for explicitado no enunciado. Usando algoritmos de busca comuns, ou busca de soluções ótimas. Por exemplo programação dinâmica, algoritmos gulosos, backtracking ou busca binária.  
 **Exemplos:**
@@ -75,7 +75,7 @@ A maioria dos problemas de programação possuem padrões de entrada/saída suge
   
   
 
-[![UriN7.jpg](/images/8/88/UriN7.jpg)](/Arquivo:UriN7.jpg)
+[![7uri.png](/images/6/6c/7uri.jpng)](/Arquivo:7uri.png)
 
 **Grafos** São problemas que utilizam estruturas para representar um modelo em que existem relações entre os objetos de uma certa coleção ou conjunto. Há diversos algoritmos presentes na literatura para se lidar com problemas desse tipo. Como Matriz de adjacência, Algoritmo de Kruskal, Algoritmo de Prim, Algoritmo de Floyd-Warshall, etc... Normalmente, problemas nessa categoria possuem maior dificuldade de realização.  
 **Exemplos:**
@@ -86,7 +86,7 @@ A maioria dos problemas de programação possuem padrões de entrada/saída suge
 
   
 
-[![UriN8.jpg](/images/c/c2/UriN8.jpg)](/Arquivo:UriN8.jpg)
+[![8uri.png](/images/6/6c/8uri.jpng)](/Arquivo:8uri.png)
 
 **Geometria Computacional** São problemas que envolvem Geometria Computacional na sua resolução, isto é, algoritmos e estruturas de dados para a resolução computacional de problemas geométricos. São, em essência, complexos e de difícil realização.  
 **Exemplos:**
