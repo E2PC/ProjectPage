@@ -1,15 +1,17 @@
 ---
-title: Estrutura de selecao
+title: Estrutura de seleção
 layout: template
 filename: estruturas_selecao
-button: Estrutura de selecao
+button: Estrutura de seleção
 type: treinamento
 ---
 # Estrutura de seleção 
-<p>É uma estrutura de desvio do fluxo de controle presente em linguagens de programação que realiza diferentes computações ou ações dependendo se a seleção (ou condição) é verdadeira ou falsa. Assista a videoaula sobre este tipo de estrutura <a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=sVkU_wXwO9s&amp;feature=youtu.be">aqui</a>.
-</p><p>Sintaxe:
-</p>
-<pre>Pseudocódigo            
+É uma estrutura de desvio do fluxo de controle presente em linguagens de programação que realiza diferentes computações ou ações dependendo se a seleção (ou condição) é verdadeira ou falsa. Assista a videoaula sobre este tipo de estrutura [aqui](https://www.youtube.com/watch?v=sVkU_wXwO9s&ab_channel=COBI)
+
+## Sintaxe:
+
+<pre>
+Pseudocódigo            
                         
 Se (condição) Então     
    (bloco de código)    
@@ -45,11 +47,14 @@ if(condição){
 }
                   
 </pre>
-<p>Exemplo:<br />
-Verificar e apresentar se x é par ou impar.<br />
-var <b>x</b>&#160;: Inteiro.
-</p>
-<pre>Pseudocódigo           
+Exemplo:
+
+Verificar e apresentar se x é par ou impar.
+
+var ***x**&#160;: Inteiro.
+
+<pre>
+Pseudocódigo           
                        
 Se (x mod 2 = 0) Então 
    escreva('PAR');     
@@ -97,9 +102,11 @@ if(x&#160;% 2 == 0){
 }
 
 </pre>
-<h3><span class="mw-headline" id="Exemplo">Exemplo</span></h3>
-<h4><span class="mw-headline" id="Gangorra_-_2455"><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2455">Gangorra - 2455</a></span></h4>
-<pre>#include &lt;stdio.h&gt;
+### Exemplo
+#### [Gangorra - 2455](https://www.beecrowd.com.br/judge/pt/problems/view/2455)
+
+<pre>
+#include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 
 int main(){
@@ -118,16 +125,15 @@ int main(){
    }
 }
 </pre>
-<p><br />
-</p>
-<h3><span class="mw-headline" id="Problemas">Problemas</span></h3>
-<ul><li><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2455">2455 - Gangorra</a></li>
-<li><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2417">2417 - Campeonato</a></li>
-<li><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1050">1050 - DDD</a></li>
-<li><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1035">1035 - Teste de Seleção 1</a></li>
-<li><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2342">2342 - Overflow</a></li></ul>
-<p>Quer mais?
-</p>
-<ul><li><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1037">1037 - Intervalo</a></li>
-<li><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1046">1046 - Tempo de Jogo</a></li>
-<li><a rel="nofollow" class="external text" href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1048">1048 - Aumento de Salário</a></li></ul>
+
+### Problemas
+- [2455 - Gangorra](https://www.beecrowd.com.br/judge/pt/problems/view/2455)
+- [2417 - Campeonato](https://www.beecrowd.com.br/judge/pt/problems/view/2417)
+- [1050 - DDD](https://www.beecrowd.com.br/judge/pt/problems/view/1050)
+- [1035 - Teste de Seleção 1](https://www.beecrowd.com.br/judge/pt/problems/view/1035)
+- [2342 - Overflow](https://www.beecrowd.com.br/judge/pt/problems/view/2342)
+
+#### Quer mais?
+- [1037 - Intervalo](https://www.beecrowd.com.br/judge/pt/problems/view/1037)
+- [1046 - Tempo de Jogo](https://www.beecrowd.com.br/judge/pt/problems/view/1046)
+- [1048 - Aumento de Salário](https://www.beecrowd.com.br/judge/pt/problems/view/1048)

@@ -52,7 +52,7 @@ A maioria dos problemas de programação possuem padrões de entrada/saída suge
     <img src="/assets/images/4uri.png" style="height: 200px;width: auto">
 </div>
 
-**Estruturas e Bibliotecas** São problemas que fazem utilização de estruturas bem definidas na literatura (p.e. Lista, Pilha, Fila, Árvore, Mapas, etc) e que podem ser facilmente encontradas em livros ou internet. A estratégia aqui é conhecer e saber aplicar diferentes estruturas que realizam as mesmas tarefas, todavia, que tem diferenças de desempenho e gasto computacional, pois todos os problemas possuem um tempo determinado de execução, caso o tempo de execução seja excedido, a submissão não é válida.  
+**Estruturas e Bibliotecas** São problemas que fazem utilização de estruturas bem definidas na literatura (p.e. Lista, Pilha, Fila, Árvore, Mapas, etc) e que podem ser facilmente encontradas em livros ou Internet. A estratégia aqui é conhecer e saber aplicar diferentes estruturas que realizam as mesmas tarefas, todavia, que tem diferenças de desempenho e gasto computacional, pois todos os problemas possuem um tempo determinado de execução, caso o tempo de execução seja excedido, a submissão não é válida.  
 **Exemplos:**
 
 *   [Diamantes e Areia](https://www.urionlinejudge.com.br/judge/pt/problems/view/1069)

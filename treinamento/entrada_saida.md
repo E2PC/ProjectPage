@@ -1,8 +1,8 @@
 ---
-title: Entrada e saida
+title: Entrada e saída
 layout: template
 filename: entrada_saida
-button: Entrada e saida
+button: Entrada e saída
 type: treinamento
 ---
 # Entrada/Saída de Dados
@@ -105,7 +105,7 @@ int main(){
 ```
 
 # Problemas
-Para praticar, resolva os seguintes problemas na plataforma Uri:
+Para praticar, resolva os seguintes problemas na plataforma Beecrowd:
 
 [Soma Simples - 1003](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
 

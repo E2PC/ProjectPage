@@ -159,7 +159,7 @@ fff
 +hhh
 
   
-A ferramenta diff provavelmente já estará na sua distribuição linux assim que você instalar o sistema operacional. Mas o colordiff geralmente não é distribuído junto. Você pode instalar o pacote pelo repositório do seu sistema ou efetuando o download de colordiff.sourceforge.net.
+A ferramenta diff provavelmente já estará na sua distribuição Linux assim que você instalar o sistema operacional. Mas o colordiff geralmente não é distribuído junto. Você pode instalar o pacote pelo repositório do seu sistema ou efetuando o download de colordiff.sourceforge.net.
 
 Para instalar o colordiff em um sistema baseado em Debian:
 

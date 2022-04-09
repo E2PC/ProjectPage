@@ -87,7 +87,7 @@ Exemplo:
 ## Consulte outras pessoas
 Se mesmo depois de conferir todas as opções da pagina o erro ainda persistir, consulte um monitor ou um colega mais experiente. Muitas vezes o programador está tão imerso em seu próprio código que não consegue ver um erro simples bem na sua frente.
 
-É muito comum se frustrar com os erros do seu código, e isso não some com o tempo, porem, quando mais se pratica mais fácil fica de se identificar e corrigir esses erros de formas muito mais fáceis e rápidas.
+É muito comum se frustrar com os erros do seu código, e isso não some com o tempo, porém, quanto mais se pratica mais fácil fica de se identificar e corrigir esses erros de formas muito mais fáceis e rápidas.
 
 <style>
    table, th, td {

@@ -85,7 +85,7 @@ Redirecionamento de Fluxo
 
 *   Exemplo:
 
-![image](https://user-images.githubusercontent.com/65428645/160487260-68b3e0f2-51b2-4c49-8196-37f7ea031cda.png)
+![image](/assets/images/redirecionamento.png)
 
   
 
