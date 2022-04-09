@@ -17,7 +17,8 @@
 	<script src="../assets/js/offcanvas.js"></script>
 </head>
 {%- assign filtered_pages = site.pages | where: 'type', 'post' -%}
-
+{%- assign filtered_pages_wiki = site.pages | where: 'type', 'wiki' -%}
+	
 <body>
 	<!-- start header -->
 	<nav class="navbar navbar-expand-md bg-default navbar-light fixed-top shadow-sm">
@@ -29,6 +30,11 @@
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav me-auto mb-2 mb-md-0">
 					{% for page in filtered_pages %}
+						<li class="nav-item"></li>
+							<a class="nav-link" aria-current="page" href={{ page.url }}>{{ page.button }}</a>	
+						</li>
+					{% endfor %}
+					{% for page in filtered_pages_wiki %}
 						<li class="nav-item"></li>
 							<a class="nav-link" aria-current="page" href={{ page.url }}>{{ page.button }}</a>	
 						</li>
