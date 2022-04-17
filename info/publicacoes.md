@@ -8,11 +8,11 @@ type: info
 ![](../assets/images/logo_e2pc.png)
 ### Publicações
 
-MILITÃO, E. P.; SILVA, J. V. P.; ROCHA JUNIOR, A. L.; PIEKARSKI, A. E. T.; MIAZAKI, M. Oficinas Remotas com a Plataforma Code.org para o Ensino Técnico em Informática. In: XIV EAEX - Encontro Anual de Extensão da UNICENTRO, 2021, Online. Anais..., 2021.  
+MILITÃO, E. P.; SILVA, J. V. P.; [ROCHA JUNIOR, A. L.]; PIEKARSKI, A. E. T.; MIAZAKI, M. [Oficinas Remotas com a Plataforma Code.org para o Ensino Técnico em Informática]. In: XIV EAEX - Encontro Anual de Extensão da UNICENTRO, 2021, Online. Anais..., 2021.  
 
-ROCHA JUNIOR, A. L.; MILITÃO, E. P.; SILVA, J. V. P.; PIEKARSKI, A. E. T.; MIAZAKI, M. Proposta de Oficina de Desenvolvimento Web com Python para o Ensino Técnico em Informática. In: XIV EAEX - Encontro Anual de Extensão da UNICENTRO, 2021, Online. Anais..., 2021.  
+[ROCHA JUNIOR, A. L.]; MILITÃO, E. P.; SILVA, J. V. P.; PIEKARSKI, A. E. T.; MIAZAKI, M. Proposta de Oficina de Desenvolvimento Web com Python para o Ensino Técnico em Informática. In: XIV EAEX - Encontro Anual de Extensão da UNICENTRO, 2021, Online. Anais..., 2021.  
 
-PRESTES, M. A.; ROCHA JUNIOR, A. L.; PIEKARSKI, A. E. T.; MIAZAKI, M. Programação em Blocos: A Experiência do Projeto "Treinamento em Lógica e Programação de Computadores". In: XIII EAEX - Encontro Anual de Extensão da UNICENTRO, 2020, Online. Anais..., 2020. v. 3.  
+PRESTES, M. A.; [ROCHA JUNIOR, A. L.]; PIEKARSKI, A. E. T.; MIAZAKI, M. Programação em Blocos: A Experiência do Projeto "Treinamento em Lógica e Programação de Computadores". In: XIII EAEX - Encontro Anual de Extensão da UNICENTRO, 2020, Online. Anais..., 2020. v. 3.  
 
 SILVA, E. A.; PIEKARSKI, A. E. T. A Influência de Atividades Externas para a Formação Acadêmica: A Experiência da Maratona de Programação para os Calouros. In: XIII EAEX - Encontro Anual de Extensão da UNICENTRO, 2020, Online. Anais..., 2020. v. 3.
 
@@ -42,3 +42,8 @@ GONCALVES, P. D.; LIMA, R. H. R.; PIEKARSKI, A. E. T.; KIKUTI, D.; MULATI, M. H.
 
 PIEKARSKI, A. E. T.; KIKUTI, D.; PAVELSKI, L. M.; URIO, P. R.; BATISTA, A. D. Ensino Extracurricular de Programação de Computadores. In: II Semana de Integração Ensino, Pesquisa e Extensão - SIEPE, 2011, Guarapuava. Anais..., 2011.
 
+<!-- Coloque aqui o link para os perfis no lattes -->
+[ROCHA JUNIOR, A. L.]: http://lattes.cnpq.br/6114786229801553 
+
+<!-- Coloque aqui o link para a publicação -->
+[Oficinas Remotas com a Plataforma Code.org para o Ensino Técnico em Informática]: https://google.com
