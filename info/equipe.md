@@ -11,7 +11,7 @@ Gabriel Maurício Utzig (2021 - )
 Daniel Machado Brasil (2021 - )  
 João Vitor Pieczarka da Silva (2020 - )    
 Eric Patrick Militão (2020 - )  
-Alexandro Luis da Rocha Jr (2019 - )  
+[Alexandro Luis da Rocha Jr] (2019 - )  
 Erick Ascencio (2019 - 2020)  
 Gabriel Krysa (2018 - 2019)  
 Moises Alonso Prestes (2017 - 2020)  
@@ -28,3 +28,6 @@ Alexandre Silvestre Ferreira (2012)
 Paulo Roberto Urio (2011)  
 Lucas Marcondes Pavelski (2011)  
 Alessandro Dias Batista (2011)  
+
+
+[Alexandro Luis da Rocha Jr]: https://alexandroluis.github.io/Portfolio/
