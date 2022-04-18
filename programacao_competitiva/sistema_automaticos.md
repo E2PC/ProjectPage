@@ -8,9 +8,9 @@ type: programacao_competitiva
 
 # Sistemas automáticos de avaliação
 Existem vários sistemas para treinamento em programação competitiva, que disponibilizam problemas das diversas categorias e um sistema de avaliação automáticos das solulções.
-Para as atividades do E2PC, a plataforma [Beecrowd](https://www.beecrowd.com.br/judge/en/login) é a mais comumente utilizada, mas também .
+Para as atividades do E2PC, a plataforma [Beecrowd](https://www.beecrowd.com.br/judge/en/login) é a mais comumente utilizada, mas também pode-se usar:
 
-- [hacker Rank](https://www.hackerrank.com/domains/algorithms)
+- [HackerRank](https://www.hackerrank.com/domains/algorithms)
 - [Neps Academy](https://neps.academy/)
 - [CodeForce](https://codeforces.com/)
 
