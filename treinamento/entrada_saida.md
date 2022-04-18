@@ -89,16 +89,17 @@ cout << "Dobro: " << NV * 2;
 [Soma Simples - 1003](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
 
 ```
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+
+using namespace std;
 
 int main(){
-   int primeiroValor = 0,segundoValor = 0, soma = 0;
+   int a, b, soma;
 
-   cin >> primeirovalor;
-   cin >> segundovalor;
+   cin >> a;
+   cin >> b;
 
-   soma = primeiroValor + segundoValor;
+   soma = a + b;
 
    cout << "SOMA = " << soma << endl;
 }
