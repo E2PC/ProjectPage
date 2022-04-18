@@ -10,14 +10,14 @@ As estruturas de programação, como a  estrutura de seleção e a  estrutura de
 Os parâmetros lógicos podem ser verdadeiros ou falsos, se forem verdadeiros a condição é cumprida e o código dentro da estrutura é executado (ou repetido, dependendo da estrutura), se não, aquela área do código é ignorada ou redirecionada.
 
 ## Por exemplo:
-[Estrutura de seleção](/Estruturas_selecao)
+[Estrutura de seleção](/treinamento/Estruturas_selecao)
 
 <pre>
 SE chovendo ENTÃO
    ESCREVA("Melhor levar um guarda-chuva");
 
 </pre>
-[Estrutura de repetição](/Estruturas_repeticao)
+[Estrutura de repetição](/treinamento/Estruturas_repeticao)
 
 <pre>
 ENQUANTO chovendo FAÇA
