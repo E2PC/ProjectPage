@@ -27,10 +27,12 @@ Origem (leitura) dos dados
 
 `scanf("%d",&n);` 
 
+`cin >> n;`
+
 `while (n != 0)`
 `{`    // Le a entrada para um caso de teste e a processa...    
 
-`scanf("%d",&n); 
+`cin >> n;`
 `}`
 
 *   Concatenação de todas as instâncias terminada por um fim de arquivo (EOF):

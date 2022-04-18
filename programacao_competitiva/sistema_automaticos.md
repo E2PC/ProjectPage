@@ -7,15 +7,18 @@ type: programacao_competitiva
 ---
 
 # Sistemas automáticos de avaliação
-Durante esse projeto haverá diversas atividades sugeridas para fixar e colocar em prática os conteúdos aqui estudados. Tanto para a leitura quanto para a avaliação da resolução das atividades serão utilizado dois sites: o [Beecrowd](https://www.beecrowd.com.br/judge/en/login) e o site da [OBI](https://olimpiada.ic.unicamp.br/)
+Existem vários sistemas para treinamento em programação competitiva, que disponibilizam problemas das diversas categorias e um sistema de avaliação automáticos das solulções.
+Para as atividades do E2PC, a plataforma [Beecrowd](https://www.beecrowd.com.br/judge/en/login) é a mais comumente utilizada, mas também pode-se usar:
 
-# [Beecrowd](https://www.beecrowd.com.br/judge/en/login)
+- [HackerRank](https://www.hackerrank.com/domains/algorithms)
+- [Neps Academy](https://neps.academy/)
+- [CodeForce](https://codeforces.com/)
 
-A URI Online Judge, agora conhecida como Beecrowd, é um projeto desenvolvido pelo departamento de ciência da computação da universidade URI. Esse portal apresenta um repositório com diversos problemas com diversos níveis de dificuldades para serem resolvidos por meio da programação.
 
-Antes de iniciar as atividades, é necessário se cadastrar no site.
 
-## Anatomia de um problema URI
+O site da [OBI](https://olimpiada.ic.unicamp.br/) também disponibiliza sistemas de treinamento para os interessados.
+
+## Anatomia de um problema Beecrowd
 ![Anatomia](/assets/images/Uri_anatomia.png)
 
 
@@ -23,13 +26,13 @@ Antes de iniciar as atividades, é necessário se cadastrar no site.
 Esse número é o número referente ao problema, é ele quem identifica qual é o problema na hora de enviar a resolução para avaliação. Você também consegue acessar a página referente ao problema com esse número nesse formato.
 
 ```
-https://www.urionlinejudge.com.br/judge/pt/problems/view/NUMERO/
+https://www.beecrowd.com.br/judge/pt/problems/view/NUMERO/
 ```
 
 Por exemplo:
 ```
-//página da URI referente ao problema "Soma Simples - 1003"
-https://www.urionlinejudge.com.br/judge/pt/problems/view/1003/
+//página da Beecrowd referente ao problema "Soma Simples - 1003"
+https://www.beecrowd.com.br/judge/pt/problems/view/1003/
 ```
 
 ### 2 - Nome
@@ -107,7 +110,7 @@ No caso do pascal a função "writeln" quebra a linha após apresentar a informa
 
 ### Enviando o código para avaliação
 
-No site da URI, logo ao lado da apresentação do problema, existe uma area para enviar seu código para a avaliação.
+No site da Beecrowd, logo ao lado da apresentação do problema, existe uma area para enviar seu código para a avaliação.
 ![Anatomia](/assets/images/Uri_envio.png)
 
 #### 1 - Identificação

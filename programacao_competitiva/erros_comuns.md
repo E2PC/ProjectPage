@@ -14,7 +14,7 @@ A saída deve apresentar estritamente o que foi solicitado, qualquer texto, espa
 
 Os intervalos dos dados de entrada e saída, definidos no enunciado de um problema, servem para que as variáveis sejam corretamente dimensionadas. Esses intervalos não precisam ser testados, os valores de entrada dos conjuntos de teste estarão de acordo com essa especificação.
 
-## Por que o URI não aceita minha solução?
+## Por que o juiz automático não aceita minha solução?
 Dentre os erros mais comuns, baseado nos problemas “Iniciante” estão:
 
 ### Wrong Answer (Resposta errada)
@@ -49,9 +49,9 @@ Formatação dos dados de saída
 - Falta de quebrar linha no final da apresentação
 Exemplo:
 
-<table>
+<table style="text-align:center;">
   <tr>
-    <th>LINGUAGEM:</th>
+    <th>LINGUAGEM</th>
     <th>C</th>
     <th>C++</th>
     <th>Python</th>
@@ -63,7 +63,7 @@ Exemplo:
     <td>print('Olá');</td>
   </tr>
   <tr>
-    <td>ERRADO</td>
+    <td>CERTO</td>
     <td>printf("Olá\n");</td>
     <td>cout << "Olá" << endl;</td>
     <td>print('Olá\n');</td>
@@ -76,7 +76,7 @@ Exemplo:
 - Vírgula para demarcar casa decimal
 - Sem ; no fim da linha
 - Sem ; no fim da linha
-- Colocar ; no fim de um if
+- Colocar ; na linha de uma condição (if, for ou while)
 - Troca de << por >> em cin/cout (C++)
 - Falta ou excesso de parênteses
 - Nomes de variáveis incorretos

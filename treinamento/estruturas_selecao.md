@@ -6,7 +6,7 @@ button: Estrutura de seleção
 type: treinamento
 ---
 # Estrutura de seleção 
-É uma estrutura de desvio do fluxo de controle presente em linguagens de programação que realiza diferentes computações ou ações dependendo se a seleção (ou condição) é verdadeira ou falsa. Assista a videoaula sobre este tipo de estrutura [aqui](https://www.youtube.com/watch?v=sVkU_wXwO9s&ab_channel=COBI)
+É uma estrutura de desvio do fluxo de controle presente em linguagens de programação que realiza diferentes computações ou ações dependendo se a seleção (ou condição) é verdadeira ou falsa. Assista a video aula sobre este tipo de estrutura [aqui](https://www.youtube.com/watch?v=sVkU_wXwO9s&ab_channel=COBI)
 
 ## Sintaxe:
 
