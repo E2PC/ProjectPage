@@ -95,12 +95,12 @@ cout << "Dobro: " << NV * 2;
 int main(){
    int primeiroValor = 0,segundoValor = 0, soma = 0;
 
-   scanf("%d",&primeiroValor);
-   scanf("%d",&segundoValor );
+   cin >> primeirovalor;
+   cin >> segundovalor;
 
    soma = primeiroValor + segundoValor;
 
-   printf("%d\n",soma);
+   cout << "SOMA = " << soma << endl;
 }
 ```
 
