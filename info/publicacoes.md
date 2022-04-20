@@ -59,12 +59,12 @@ GONCALVES, P. D.; LIMA, R. H. R.; [PIEKARSKI, A. E. T.]; KIKUTI, D.; MULATI, M. 
 [Plataforma de apoio ao treinamento para a Olimpíada Brasileira de Informática.]: https://e2pc.unicentro.br/assets/Articles/2016%20-%209%20SEC%20(OBI).pdf
 [Treinamentos em Estrutura de Dados no Projeto E2PC.]: https://e2pc.unicentro.br/assets/Articles/2017%20-%20V%20SIEPE.pdf
 [Programação de computadores no ensino médio: o estímulo da Olimpíada Brasileira de Informática.]: https://e2pc.unicentro.br/assets/Articles/2018%20-%208%20CBEU%20(OBI).pdf
-[Extensão para os cursos Ténicos de Informática em Guarapuava/PR: O caso das oficinas de Greenfoot.]: https://e2pc.unicentro.br/assets/Articles/
+[Extensão para os cursos Ténicos de Informática em Guarapuava/PR: O caso das oficinas de Greenfoot.]: https://e2pc.unicentro.br
 [Ambientes de apoio às competições computacionais no projeto “Ensino Extracurricular de Programação de Computadores”.]: https://e2pc.unicentro.br/assets/Articles/2018%20-%20XI%20EAEX.pdf
 [Quizz como Ferramenta de Avaliação nos Treinamentos de Programação de Computadores para o Ensino Técnico.]: https://e2pc.unicentro.br/assets/Articles/2019%20-%20VI%20SIEPE%20(OBI).pdf
 [Oficinas de Greenfoot no Ensino Técnico de Informática.]: https://e2pc.unicentro.br/assets/Articles/2019%20-%20VI%20SIEPE%20(Greenfoot).pdf
 [A Influência de Atividades Externas para a Formação Acadêmica: A Experiência da Maratona de Programação para os Calouros.]: https://e2pc.unicentro.br/assets/Articles/2020%20-%20XIII%20EAEX%20(Maratona).pdf
 [Programação em Blocos: A Experiência do Projeto “Treinamento em Lógica e Programação de Computadores”.]: https://e2pc.unicentro.br/assets/Articles/2020%20-%20XIII%20EAEX%20(Code).pdf
-[Proposta de Oficina de Desenvolvimento Web com Python para o Ensino Técnico em Informática.]: https://e2pc.unicentro.br/assets/Articles/
-[Oficinas Remotas com a Plataforma Code.org para o Ensino Técnico em Informática.]: https://e2pc.unicentro.br/assets/Articles/
+[Proposta de Oficina de Desenvolvimento Web com Python para o Ensino Técnico em Informática.]: https://e2pc.unicentro.br
+[Oficinas Remotas com a Plataforma Code.org para o Ensino Técnico em Informática.]: https://e2pc.unicentro.br
 
