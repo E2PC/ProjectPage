@@ -50,21 +50,21 @@ GONCALVES, P. D.; LIMA, R. H. R.; [PIEKARSKI, A. E. T.]; KIKUTI, D.; MULATI, M. 
 [MIAZAKI, M.]: http://lattes.cnpq.br/6722436779210499
 
 <!-- Coloque aqui o link para a publicação -->
-[Ensino Extracurricular de Programação de Computadores.]: /assets/Articles/2011%20-%20II%20SIEPE.pdf
-[A metodologia de Maratonas de Programação no projeto Ensino Extracurricular de Programação de Computadores.]: https://www.google.com/
-[Ensino Extracurricular de Programação de Computadores.]:https://www.google.com/
-[A metodologia das maratonas de programação em um projeto de extensão: um relato de experiência.]:https://www.google.com/
-[Organização e disponibilização dos conteúdos do projeto Ensino Extracurricular de Programação de Computadores.]:https://www.google.com/
-[Smart-me: Disseminação e Uso de TICs (Tecnologias da Informação e Comunicação).]:https://www.google.com/
-[Plataforma de apoio ao treinamento para a Olimpíada Brasileira de Informática.]:https://www.google.com/
-[Treinamentos em Estrutura de Dados no Projeto E2PC.]:https://www.google.com/
-[Programação de computadores no ensino médio: o estímulo da Olimpíada Brasileira de Informática.]:https://www.google.com/
-[Extensão para os cursos Ténicos de Informática em Guarapuava/PR: O caso das oficinas de Greenfoot.]:https://www.google.com/
-[Ambientes de apoio às competições computacionais no projeto “Ensino Extracurricular de Programação de Computadores”.]:https://www.google.com/
-[Quizz como Ferramenta de Avaliação nos Treinamentos de Programação de Computadores para o Ensino Técnico.]:
-[Oficinas de Greenfoot no Ensino Técnico de Informática.]:https://www.google.com/
-[A Influência de Atividades Externas para a Formação Acadêmica: A Experiência da Maratona de Programação para os Calouros.]:https://www.google.com/
-[Programação em Blocos: A Experiência do Projeto “Treinamento em Lógica e Programação de Computadores”.]:https://www.google.com/
-[Proposta de Oficina de Desenvolvimento Web com Python para o Ensino Técnico em Informática.]:https://www.google.com/
-[Oficinas Remotas com a Plataforma Code.org para o Ensino Técnico em Informática.]: https://www.google.com/
+[Ensino Extracurricular de Programação de Computadores.]: https://e2pc.unicentro.br/assets/Articles/2011%20-%20II%20SIEPE.pdf
+[A metodologia de Maratonas de Programação no projeto Ensino Extracurricular de Programação de Computadores.]: https://e2pc.unicentro.br/assets/Articles/2013 - III SIEPE.pdf
+[Ensino Extracurricular de Programação de Computadores.]: https://e2pc.unicentro.br/assets/Articles/2013 - 31 SEURS.pdf
+[A metodologia das maratonas de programação em um projeto de extensão: um relato de experiência.]: https://e2pc.unicentro.br/assets/Articles/2015%20-%20IV%20CBIE.pdf
+[Organização e disponibilização dos conteúdos do projeto Ensino Extracurricular de Programação de Computadores.]: https://e2pc.unicentro.br/assets/Articles/2015%20-%20IV%20SIEPE.pdf
+[Smart-me: Disseminação e Uso de TICs (Tecnologias da Informação e Comunicação).]: https://e2pc.unicentro.br/assets/Articles/2016%20-%209%20SEC%20(Smart-me).pdf
+[Plataforma de apoio ao treinamento para a Olimpíada Brasileira de Informática.]: https://e2pc.unicentro.br/assets/Articles/2016%20-%209%20SEC%20(OBI).pdf
+[Treinamentos em Estrutura de Dados no Projeto E2PC.]: https://e2pc.unicentro.br/assets/Articles/2017%20-%20V%20SIEPE.pdf
+[Programação de computadores no ensino médio: o estímulo da Olimpíada Brasileira de Informática.]: https://e2pc.unicentro.br/assets/Articles/2018%20-%208%20CBEU%20(OBI).pdf
+[Extensão para os cursos Ténicos de Informática em Guarapuava/PR: O caso das oficinas de Greenfoot.]: https://e2pc.unicentro.br/assets/Articles/
+[Ambientes de apoio às competições computacionais no projeto “Ensino Extracurricular de Programação de Computadores”.]: https://e2pc.unicentro.br/assets/Articles/2018%20-%20XI%20EAEX.pdf
+[Quizz como Ferramenta de Avaliação nos Treinamentos de Programação de Computadores para o Ensino Técnico.]: https://e2pc.unicentro.br/assets/Articles/2019%20-%20VI%20SIEPE%20(OBI).pdf
+[Oficinas de Greenfoot no Ensino Técnico de Informática.]: https://e2pc.unicentro.br/assets/Articles/2019%20-%20VI%20SIEPE%20(Greenfoot).pdf
+[A Influência de Atividades Externas para a Formação Acadêmica: A Experiência da Maratona de Programação para os Calouros.]: https://e2pc.unicentro.br/assets/Articles/2020%20-%20XIII%20EAEX%20(Maratona).pdf
+[Programação em Blocos: A Experiência do Projeto “Treinamento em Lógica e Programação de Computadores”.]: https://e2pc.unicentro.br/assets/Articles/2020%20-%20XIII%20EAEX%20(Code).pdf
+[Proposta de Oficina de Desenvolvimento Web com Python para o Ensino Técnico em Informática.]: https://e2pc.unicentro.br/assets/Articles/
+[Oficinas Remotas com a Plataforma Code.org para o Ensino Técnico em Informática.]: https://e2pc.unicentro.br/assets/Articles/
 
