@@ -12,7 +12,7 @@ type: info
 
 [ROCHA JUNIOR, A. L.]; [MILITÃO, E. P.]; [SILVA, J. V. P.]; [PIEKARSKI, A. E. T.]; [MIAZAKI, M.], [Proposta de Oficina de Desenvolvimento Web com Python para o Ensino Técnico em Informática.] In: XIV EAEX - Encontro Anual de Extensão da UNICENTRO, 2021, Online. Anais..., 2021.  
 
-PRESTES, M. A.; [ROCHA JUNIOR, A. L.]; [PIEKARSKI, A. E. T.]; [MIAZAKI, M.], [Programação em Blocos: A Experiência do Projeto "Treinamento em Lógica e Programação de Computadores".] In: XIII EAEX - Encontro Anual de Extensão da UNICENTRO, 2020, Online. Anais..., 2020. v. 3.  
+PRESTES, M. A.; [ROCHA JUNIOR, A. L.]; [PIEKARSKI, A. E. T.]; [MIAZAKI, M.], [Programação em Blocos: A Experiência do Projeto “Treinamento em Lógica e Programação de Computadores”.] In: XIII EAEX - Encontro Anual de Extensão da UNICENTRO, 2020, Online. Anais..., 2020. v. 3.  
 
 SILVA, E. A.; [PIEKARSKI, A. E. T.], [A Influência de Atividades Externas para a Formação Acadêmica: A Experiência da Maratona de Programação para os Calouros.] In: XIII EAEX - Encontro Anual de Extensão da UNICENTRO, 2020, Online. Anais..., 2020. v. 3.
 
