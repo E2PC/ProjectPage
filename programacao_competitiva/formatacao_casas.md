@@ -30,5 +30,6 @@ O exemplo a seguir mostra como definir a precisão do número de pontos flutuant
 `cout << "Formatando as casas decimais pra 4 casas depois da virgula" <<endl;`
 		 	
 `cout << setprecision(4) << num << endl;`
+
 `return 0;`
 `}`
