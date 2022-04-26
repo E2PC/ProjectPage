@@ -8,7 +8,7 @@ type: programacao_competitiva
 
 # Formatação de casas decimais
 
-A setprecision() faz parte da biblioteca de manipuladores <iomanip> e pode ser utilizada para modificar a precisão padrão dos números de ponto flutuante. A setprecision() é normalmente utilizada em expressões com fluxos de E/S.
+A setprecision() faz parte da biblioteca de manipuladores `<iomanip>` e pode ser utilizada para modificar a precisão padrão dos números de ponto flutuante. A setprecision() é normalmente utilizada em expressões com fluxos de E/S.
 
 O exemplo a seguir mostra como definir a precisão do número de pontos flutuantes para o objeto de fluxo de saída cout. Observe que, setprecision() se aplica ao número inteiro (parte inteira e parte fracionada) e utiliza notação científica quando os números têm uma magnitude maior do que a precisão especificada.
 
