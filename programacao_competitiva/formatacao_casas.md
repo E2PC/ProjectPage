@@ -8,28 +8,32 @@ type: programacao_competitiva
 
 # Formatação de casas decimais
 
-A setprecision() faz parte da biblioteca de manipuladores `<iomanip>` e pode ser utilizada para modificar a precisão padrão dos números de ponto flutuante. A setprecision() é normalmente utilizada em expressões com fluxos de E/S.
+Considere a necessidade de limitar as casas decimais de valores do tipo float. A instrução setprecision, da biblioteca <iomanip>, permite limitar o número de casas decimais. Também é preciso indicar que se espera a notação com ponto decimal, por meio da instrução fixed. 
 
 O exemplo a seguir mostra como definir a precisão do número de pontos flutuantes para o objeto de fluxo de saída cout. Observe que, setprecision() se aplica ao número inteiro (parte inteira e parte fracionada) e utiliza notação científica quando os números têm uma magnitude maior do que a precisão especificada.
 
 ### Exemplo
-`#include <iomanip>`
-
-`#include <ios>`
 
 `#include <iostream>`
 
+`#include <iomanip>`
+
 `using namespace std;`
 
-`int main()`
-`{`
+`int main(){`   
 
-`double num = 3.142857142857;`
-`cout << "Antes de formatar as casas: \n" << num << endl;`
+`float pi;`
 
-`cout << "Formatando as casas decimais pra 4 casas depois da virgula" <<endl;`
-		 	
-`cout << setprecision(4) << num << endl;`
+`pi = 3.14159265359;`
 
-`return 0;`
+`cout << pi << endl;`
+
+`cout << fixed << setprecision(8) << pi << endl;`
+
+`cout << setprecision(2) << pi << endl;`
+
+`cout << setprecision(4) << pi << endl;`
+
 `}`
+
+
