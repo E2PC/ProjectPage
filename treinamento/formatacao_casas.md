@@ -33,6 +33,7 @@ int main(){
 
 Observe a seguir a diferença na saída de dados ao usar o `setprecision`:
 
+![image](https://user-images.githubusercontent.com/65428645/165863274-f751bee7-04e5-4650-9c27-c264657b142a.png)
 
 
 ### Exercicíos
