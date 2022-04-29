@@ -3,7 +3,7 @@ title: Formatação de casas decimais
 layout: template
 filename: Formatação de casas decimais
 button: Formatação de casas decimais
-type: programacao_competitiva
+type: treinamento
 ---
 
 # Formatação de casas decimais
