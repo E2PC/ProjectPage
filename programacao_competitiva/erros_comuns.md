@@ -19,7 +19,8 @@ Dentre os erros mais comuns, baseado nos problemas “Iniciante” estão:
 
 ### Wrong Answer (Resposta errada)
 - Impressão de mensagens fora da especificação (pedir entrada, sem o formato do exemplo)
-```
+
+```c++
 cout << “Digite a distância: ”;
 ```
 
@@ -27,14 +28,14 @@ cout << “Digite a distância: ”;
 - Sinal de igualdade para atribuição (expressão lógica com sintaxe incorreta)
 
 **Código errado:**
-```
+```c++
 if(i = 0){
       //trecho de código
    }
 ```
 
 **Código certo:**
-```
+```c++
 if(i == 0){
       //trecho de código
    }
