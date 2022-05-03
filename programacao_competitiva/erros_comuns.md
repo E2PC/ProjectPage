@@ -4,6 +4,7 @@ layout: template
 filename: erros_comuns
 button: Erros comuns
 type: programacao_competitiva
+order: 4
 ---
 # Erros Comuns
 

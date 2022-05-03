@@ -4,6 +4,7 @@ layout: template
 filename: formato_problemas
 button: Formato dos problemas
 type: programacao_competitiva
+order: 2
 ---
 # Formato dos problemas
 Os enunciados dos problemas de programação competitiva seguem um padrão próprio das competições. O problema é contextualizado, e algumas vezes nem todas as informações que constam do enunciado são necessárias para a resolução do problema. Portanto, os competidores devem exercitar a capacidade de extrair as informações pertinentes à resolução do problema, diferenciando-as daquelas que simplesmente descrevem o cenário. As restrições, que são informações sobre o limite das instâncias de teste, também são apresentadas no enunciado.
