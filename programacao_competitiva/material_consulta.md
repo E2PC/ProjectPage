@@ -4,6 +4,7 @@ layout: template
 filename: material_consulta
 button: Material para consulta
 type: programacao_competitiva
+order: 6
 ---
 # Materiais complementares
 

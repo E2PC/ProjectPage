@@ -3,8 +3,9 @@ title: Comparar arquivos
 layout: template
 button: Comparar arquivos
 filename: comparar_arquivos
-type: treinamento
---- 
+type: programacao_competitiva
+order: 5
+---
 
 Como comparar arquivos de texto usando diff
 -------------------------------------------

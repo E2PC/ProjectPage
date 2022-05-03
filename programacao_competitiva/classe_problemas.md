@@ -4,6 +4,7 @@ layout: template
 filename: classe_problema
 button: Classe dos problemas
 type: programacao_competitiva
+order: 1
 ---
 # Classe dos problemas
 
