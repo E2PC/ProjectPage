@@ -4,6 +4,7 @@ layout: template
 filename: vetores
 button: Vetores
 type: treinamento
+order: 7
 ---
 
 # Vetores

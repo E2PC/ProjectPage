@@ -4,7 +4,7 @@ layout: template
 button: Comparar arquivos
 filename: comparar_arquivos
 type: programacao_competitiva
-order: 5
+order: 6
 ---
 
 Como comparar arquivos de texto usando diff

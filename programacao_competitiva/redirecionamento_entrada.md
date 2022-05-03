@@ -3,7 +3,8 @@ title: Redirecionamento de entrada
 layout: template
 button: Redirecionamento de entrada
 filename: redirecionamento_entrada
-type: treinamento
+type: programacao_competitiva
+order: 5
 --- 
 Fluxos Padrões
 --------------
