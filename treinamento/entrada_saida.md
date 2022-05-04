@@ -88,7 +88,7 @@ cout << "Dobro: " << NV * 2;
 # Exemplo
 [Soma Simples - 1003](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
 
-```
+```C++
 #include <iostream>
 
 using namespace std;
