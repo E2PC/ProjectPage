@@ -93,15 +93,19 @@ cout << "Dobro: " << NV * 2;
 
 using namespace std;
 
-int main(){
-   int a, b, soma;
+int main()
+{
+    int primeirovalor, segundovalor, soma;
+    
+    cin >> primeirovalor;
+    cin >> segundovalor;
+    soma = primeirovalor + segundovalor;
+    
+    cout << "SOMA = " << soma << endl;
 
-   cin >> a;
-   cin >> b;
+    return 0;
+}
 
-   soma = a + b;
-
-   cout << "SOMA = " << soma << endl;
 }
 ```
 
@@ -123,11 +127,7 @@ Para praticar, resolva os seguintes problemas na plataforma Beecrowd:
 Quer mais?
 
 [Distância - 1016](https://www.beecrowd.com.br/judge/pt/problems/view/1016)
+[O maior - 1013](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
 
-[Gasto de Combustível - 1017](https://www.beecrowd.com.br/judge/pt/problems/view/1017)
 
-[Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
 
-[Área do Círculo - 1002](https://www.beecrowd.com.br/judge/pt/problems/view/1002)
-
-[Salário - 1008](https://www.beecrowd.com.br/judge/pt/problems/view/1008)
