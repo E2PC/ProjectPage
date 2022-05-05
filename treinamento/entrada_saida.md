@@ -8,7 +8,7 @@ order: 2
 ---
 # Entrada/Saída de Dados
 
-Comandos de entrada e saída de dados são os que permitem uma interação com o usuário através de dispositivos de saída, por exemplo, o monitor e por dispositivos de entrada de dados, como o teclado. Assista a videoaula sobre esse conteúdo [aqui](https://www.youtube.com/watch?v=sh_fBYbWXSA&ab_channel=COBI)
+Comandos de entrada e saída de dados são os que permitem uma interação com o usuário através de dispositivos de saída, por exemplo, o monitor e por dispositivos de entrada de dados, como o teclado. Assista a video aula sobre esse conteúdo [aqui](https://www.youtube.com/watch?v=sh_fBYbWXSA&ab_channel=COBI)
 
 Sintaxe:
 
@@ -107,7 +107,6 @@ int main()
     return 0;
 }
 
-}
 ```
 
 # Problemas
