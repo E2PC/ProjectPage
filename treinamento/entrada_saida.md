@@ -4,6 +4,7 @@ layout: template
 filename: entrada_saida
 button: Entrada e saída
 type: treinamento
+order: 2
 ---
 # Entrada/Saída de Dados
 

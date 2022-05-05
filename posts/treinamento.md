@@ -5,7 +5,8 @@ button: Treinamento
 filename: treinamento
 type: post
 ---
-{%- assign treinamento_pages = site.pages | where: 'type', 'treinamento' -%}
+{%- assign treinamento_pages = site.pages | where: 'type', 'treinamento' 
+	| sort: 'order' -%}
 # Treinamento introdutório de programação competitiva
 O objetivo dos conteudos abaixo é possibilitar que os interessados em aprender programação, seguindo o modelo da programação competitiva, possam iniciar essa jornada.
 
