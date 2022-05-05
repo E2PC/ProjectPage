@@ -47,4 +47,16 @@ Observe a seguir a diferença na saída de dados ao usar o `setprecision`:
 
 [1012 - Area](https://www.beecrowd.com.br/judge/en/problems/view/1012)
 
+Quer mais?
+
+[Gasto de Combustível - 1017](https://www.beecrowd.com.br/judge/pt/problems/view/1017)
+
+[Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
+
+[Área do Círculo - 1002](https://www.beecrowd.com.br/judge/pt/problems/view/1002)
+
+[Salário - 1008](https://www.beecrowd.com.br/judge/pt/problems/view/1008)
+
+
+
 

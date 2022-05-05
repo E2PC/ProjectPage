@@ -88,20 +88,24 @@ cout << "Dobro: " << NV * 2;
 # Exemplo
 [Soma Simples - 1003](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
 
-```
+```C++
 #include <iostream>
 
 using namespace std;
 
-int main(){
-   int a, b, soma;
+int main()
+{
+    int primeirovalor, segundovalor, soma;
+    
+    cin >> primeirovalor;
+    cin >> segundovalor;
+    soma = primeirovalor + segundovalor;
+    
+    cout << "SOMA = " << soma << endl;
 
-   cin >> a;
-   cin >> b;
+    return 0;
+}
 
-   soma = a + b;
-
-   cout << "SOMA = " << soma << endl;
 }
 ```
 
@@ -124,10 +128,7 @@ Quer mais?
 
 [Distância - 1016](https://www.beecrowd.com.br/judge/pt/problems/view/1016)
 
-[Gasto de Combustível - 1017](https://www.beecrowd.com.br/judge/pt/problems/view/1017)
+[O maior - 1013](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
 
-[Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
 
-[Área do Círculo - 1002](https://www.beecrowd.com.br/judge/pt/problems/view/1002)
 
-[Salário - 1008](https://www.beecrowd.com.br/judge/pt/problems/view/1008)
