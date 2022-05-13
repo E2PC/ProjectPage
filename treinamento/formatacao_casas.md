@@ -52,8 +52,6 @@ Quer mais?
 
 [Gasto de Combustível - 1017](https://www.beecrowd.com.br/judge/pt/problems/view/1017)
 
-[Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
-
 [Área do Círculo - 1002](https://www.beecrowd.com.br/judge/pt/problems/view/1002)
 
 [Salário - 1008](https://www.beecrowd.com.br/judge/pt/problems/view/1008)
