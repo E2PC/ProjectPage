@@ -130,5 +130,7 @@ Quer mais?
 
 [O maior - 1013](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
 
+[Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
+
 
 
