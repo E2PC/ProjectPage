@@ -38,25 +38,23 @@ Observe a seguir a diferença na saída de dados ao usar o `setprecision`:
 
 
 ### Exercicíos
-[1002 - Área do círculo](https://www.beecrowd.com.br/judge/en/problems/view/1002)
+- [1002 - Área do círculo](https://www.beecrowd.com.br/judge/en/problems/view/1002)
 
-[1006 - Média 2](https://www.beecrowd.com.br/judge/en/problems/view/1006)
+- [1006 - Média 2](https://www.beecrowd.com.br/judge/en/problems/view/1006)
 
-[1008 - Salário](https://www.beecrowd.com.br/judge/en/problems/view/1008)
+- [1008 - Salário](https://www.beecrowd.com.br/judge/en/problems/view/1008)
 
-[1015 - Distancia entre dois Pontos](https://www.beecrowd.com.br/judge/en/problems/view/1015)
+- [1015 - Distancia entre dois Pontos](https://www.beecrowd.com.br/judge/en/problems/view/1015)
 
-[1012 - Area](https://www.beecrowd.com.br/judge/en/problems/view/1012)
+- [1012 - Area](https://www.beecrowd.com.br/judge/en/problems/view/1012)
 
 Quer mais?
 
-[Gasto de Combustível - 1017](https://www.beecrowd.com.br/judge/pt/problems/view/1017)
+- [Gasto de Combustível - 1017](https://www.beecrowd.com.br/judge/pt/problems/view/1017)
 
-[Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
+- [Área do Círculo - 1002](https://www.beecrowd.com.br/judge/pt/problems/view/1002)
 
-[Área do Círculo - 1002](https://www.beecrowd.com.br/judge/pt/problems/view/1002)
-
-[Salário - 1008](https://www.beecrowd.com.br/judge/pt/problems/view/1008)
+- [Salário - 1008](https://www.beecrowd.com.br/judge/pt/problems/view/1008)
 
 
 
