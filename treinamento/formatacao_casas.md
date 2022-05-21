@@ -26,9 +26,9 @@ int main(){
         float pi;
         pi = 3.14159265359;
         cout << pi << endl;
-        cout << setprecision(2) << pi << endl;
-        cout << setprecision(4) << pi << endl;
-        cout << setprecision(8) << pi << endl;
+        cout << fixed << setprecision(2) << pi << endl;
+        cout << fixed << setprecision(4) << pi << endl;
+        cout << fixed << setprecision(8) << pi << endl;
 
 }
 
