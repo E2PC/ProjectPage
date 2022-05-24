@@ -1,0 +1,10 @@
+---
+name:
+type:
+begin_year:
+end_year:
+linkedin:
+github:
+link:
+photo:
+---

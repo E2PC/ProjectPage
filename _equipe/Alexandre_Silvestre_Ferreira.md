@@ -1,0 +1,9 @@
+---
+name:
+type:
+begin_year:
+linkedin:
+github:
+link:
+photo:
+---
