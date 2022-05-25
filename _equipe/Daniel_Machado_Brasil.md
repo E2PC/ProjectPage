@@ -1,9 +1,9 @@
 ---
-name: Daniel Machado Brasil 
+name: Daniel M Brasil 
 type: Monitor 
 begin_year: 2021
-linkedin:
-github:
+linkedin: https://www.linkedin.com/in/danielmbrasil/
+github: https://github.com/danielmbrasil
 link:
-photo:
+photo: daniel_m_brasil
 ---
