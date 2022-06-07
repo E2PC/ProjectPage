@@ -1,7 +1,7 @@
 ---
 title: String
 layout: template
-filename: String
+filename: string
 button: String
 type: treinamento
 order: 8
