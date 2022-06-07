@@ -8,7 +8,7 @@ order: 7
 ---
 
 # Vetores
-Vetor (array uni-dimensional) é uma estrutura simples que armazena vários valores do mesmo tipo em um espaço de memória. Assista a videoaula sobre este tipo de estrutura (aqui)[https://www.youtube.com/watch?v=B6MUlVNzWQQ&ab_channel=COBI].
+Vetor (array uni-dimensional) é uma estrutura simples que armazena vários valores do mesmo tipo em um espaço de memória. Assista a videoaula sobre este tipo de estrutura [aqui](https://www.youtube.com/watch?v=B6MUlVNzWQQ&ab_channel=COBI).
 Sintaxe:
 
 <pre>
