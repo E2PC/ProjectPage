@@ -9,7 +9,7 @@ button: Inicio
 {%- assign info_pages = site.pages | where: 'type', 'info' -%}
 
 
-| ![](../assets/images/logo_e2pc.png) |
+![](../assets/images/logo_e2pc.png)
 
 O Programa de Extensão "Ensino Extracurricular de Programação de Computadores e Difusão de TICs" congrega duas iniciativas distintas:
  
