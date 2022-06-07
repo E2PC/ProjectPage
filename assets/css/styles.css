@@ -18,7 +18,8 @@ p{
 .content{
   margin-top: 20px;
   max-width: 640px;
-  padding-inline:20px;
+  padding-inline: 20px;
+  width: 100%;
 }
 
 .content-section{
