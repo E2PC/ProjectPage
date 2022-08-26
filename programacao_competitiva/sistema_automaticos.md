@@ -4,6 +4,7 @@ layout: template
 filename: sistema_automaticos
 button: Sistemas automáticos de avaliação
 type: programacao_competitiva
+order: 3
 ---
 
 # Sistemas automáticos de avaliação

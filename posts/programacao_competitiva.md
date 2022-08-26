@@ -5,7 +5,8 @@ button: Programação competitiva
 filename: programacao_competitiva
 type: post
 ---
-{%- assign programacao_competitiva_pages = site.pages | where: 'type', 'programacao_competitiva' -%}
+{%- assign programacao_competitiva_pages = site.pages | where: 'type', 'programacao_competitiva'
+		| sort: 'order' -%}
 
 # Programação competitiva
 

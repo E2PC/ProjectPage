@@ -1,9 +1,10 @@
 ---
-title: Leitura e escrita
+title: Como resolver um problema
 layout: template
-button: Leitura e escrita de dados
-filename: leitura_escrita
+button: Como resolver um problema - Primeiros passos
+filename: como_resolver_um_problema
 type: treinamento
+order: 1
 --- 
 
 

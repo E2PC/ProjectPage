@@ -4,6 +4,7 @@ layout: template
 filename: Formatação de casas decimais
 button: Formatação de casas decimais
 type: treinamento
+order: 3
 ---
 
 # Formatação de casas decimais
@@ -25,26 +26,36 @@ int main(){
         float pi;
         pi = 3.14159265359;
         cout << pi << endl;
-        cout << setprecision(2) << pi << endl;
-        cout << setprecision(4) << pi << endl;
-        cout << setprecision(8) << pi << endl;
+        cout << fixed << setprecision(2) << pi << endl;
+        cout << fixed << setprecision(4) << pi << endl;
+        cout << fixed << setprecision(8) << pi << endl;
 
 }
 
 Observe a seguir a diferença na saída de dados ao usar o `setprecision`:
 
-![image](https://user-images.githubusercontent.com/65428645/165863274-f751bee7-04e5-4650-9c27-c264657b142a.png)
+![nsdbfnbsdfbnsbdf](https://user-images.githubusercontent.com/52381045/169663017-6f4faf8e-bfa6-4931-ae14-daca9403bce0.png)
 
 
 ### Exercicíos
-[1002 - Área do círculo](https://www.beecrowd.com.br/judge/en/problems/view/1002)
+- [1002 - Área do círculo](https://www.beecrowd.com.br/judge/en/problems/view/1002)
 
-[1006 - Média 2](https://www.beecrowd.com.br/judge/en/problems/view/1006)
+- [1006 - Média 2](https://www.beecrowd.com.br/judge/en/problems/view/1006)
 
-[1008 - Salário](https://www.beecrowd.com.br/judge/en/problems/view/1008)
+- [1008 - Salário](https://www.beecrowd.com.br/judge/en/problems/view/1008)
 
-[1015 - Distancia entre dois Pontos](https://www.beecrowd.com.br/judge/en/problems/view/1015)
+- [1015 - Distancia entre dois Pontos](https://www.beecrowd.com.br/judge/en/problems/view/1015)
 
-[1012 - Area](https://www.beecrowd.com.br/judge/en/problems/view/1012)
+- [1012 - Area](https://www.beecrowd.com.br/judge/en/problems/view/1012)
+
+Quer mais?
+
+- [Gasto de Combustível - 1017](https://www.beecrowd.com.br/judge/pt/problems/view/1017)
+
+- [Área do Círculo - 1002](https://www.beecrowd.com.br/judge/pt/problems/view/1002)
+
+- [Salário - 1008](https://www.beecrowd.com.br/judge/pt/problems/view/1008)
+
+
 
 
