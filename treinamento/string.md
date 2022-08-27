@@ -48,17 +48,17 @@ Sintaxe:
     string projeto = "E2PC";
     //<b>Imprimir um caractere do vetor:</b>
     cout << projeto[0];
-    //<b>A saida será 'E'</b>
+    //<b>A saída será 'E'</b>
 
     //<b>Imprimir toda string:</b>
     cout << projeto;
-    //<b>A saida será 'E2PC'</b>
+    //<b>A saída será 'E2PC'</b>
 
     //<b>Imprimir toda a string acessando cada caractere:</b>
     for(int i=0;projeto[i]!='\0';i++){
         cout << projeto[i];
     }
-    //<b>A saida será 'E2PC'</b>
+    //<b>A saída será 'E2PC'</b>
 
     //<b>Comparando os caracteres da string:</b>
     if(projeto[0]=='E'){
@@ -82,7 +82,7 @@ Sintaxe:
 <br>
 
 ## Outros métodos de leitura
-Normalmente utilizamos **cin**, mas essa intrução tem uma limitação intencional, ela interrompe a leitura se encontrar um espaço.
+Normalmente utilizamos **cin**, mas essa instrução tem uma limitação intencional, ela interrompe a leitura se encontrar um espaço.
 
 Para permitir a leitura de conteúdos contendo espaços, é preciso utilizar outra função de entrada, que obterá toda a linha do fluxo de entrada padrão:
 
@@ -91,7 +91,7 @@ A instrução **getline(cin, projeto)** permitirá que todos os caracteres até 
 
 Se for necessário utilizar outro caractere para delimitar o fim do conteúdo da variável, esse caractere poderá ser especificado (como último parâmetro da função getline): **getline(cin, projeto, '.')**
 
-Com essa instrução, todos os caracteres que antecederem o ponto ('.') serão armazenados na variável projeto.
+Com essa instrução, todos os caracteres que antecedem o ponto ('.') serão armazenados na variável projeto.
 
 <table class="table table-bordered">
     <tr>
@@ -150,7 +150,7 @@ No computador os caracteres são armazenados como números e interpretados como 
     for(int i=0;projeto[i]!='\0';i++){
         cout << (int)projeto[i] << endl;
     }
-    //A saida será '69 50 80 67'
+    //A saída será '69 50 80 67'
 </pre>
 
 Observe que **forçamos** a saída como inteira (**(int)projeto[i]**), mesmo sendo um caractere, isso se chama **casting explícito**. Atenção com o casting, pois ele forçará só o próximo elemento, não todos os outros, então utilize parênteses se precisar utilizar para mais de um elemento:
@@ -163,13 +163,13 @@ Como se trata de números podemos manipular os caracteres, como por exemplo, se 
 
 <pre>
     cout << (char)('A'+1);
-    //A saida será 'B'
+    //A saída será 'B'
     cout << (char)(projeto[0]+1);
-    //A saida será 'F'
+    //A saída será 'F'
     cout << projeto[0]+1;
-    //A saida será '66'
+    //A saída será '66'
     cout << (char)projeto[0]+1;
-    //A saida será '70'
+    //A saída será '70'
 </pre>
 Observe que sem o casting apropriado a saída será um valor inteiro.
 
