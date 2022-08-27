@@ -4,7 +4,7 @@ layout: template
 filename: string
 button: String
 type: treinamento
-order: 8
+order: 9
 ---
 
 # String

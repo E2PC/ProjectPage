@@ -4,7 +4,7 @@ layout: template
 filename: estruturas_repeticao
 button: Estrutura de repetição
 type: treinamento
-order: 6
+order: 7
 ---
 # Estrutura de repetição
 

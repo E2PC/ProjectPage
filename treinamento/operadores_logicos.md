@@ -4,7 +4,7 @@ layout: template
 filename: operadores_logicos
 button: Operadores lógicos
 type: treinamento
-order: 5
+order: 6
 ---
 # Operadores lógicos
 As estruturas de programação, como a  estrutura de seleção e a  estrutura de repetição podem mudar o comportamento de um código. Dependendo de como o código está montado essas estruturas permitem a execução (ou repetição) de parte do código apenas em determinadas situações. O que vai decidir se o código dentro daquela estrutura deve ser executado (como em estruturas de seleção) ou se deve ser repetido (como em estruturas de repetição) é seu parâmetro lógico.
