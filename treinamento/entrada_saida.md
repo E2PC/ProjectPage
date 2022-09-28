@@ -118,8 +118,6 @@ Para praticar, resolva os seguintes problemas na plataforma Beecrowd:
 
 [Diferença - 1007](https://www.beecrowd.com.br/judge/pt/problems/view/1007)
 
-[Cálculo Simples - 1010](https://www.beecrowd.com.br/judge/pt/problems/view/1010)
-
 [Tomadas - 1930](https://www.beecrowd.com.br/judge/pt/problems/view/1930)
 
 [Pneu - 2374](https://www.beecrowd.com.br/judge/pt/problems/view/2374)
