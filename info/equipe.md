@@ -29,5 +29,9 @@ Paulo Roberto Urio (2011)
 Lucas Marcondes Pavelski (2011)  
 Alessandro Dias Batista (2011)  
 
+## Coordenação do Projeto 
+Ana Elisa Tozetto Piekarski
+Mauro Miazaki
+Mauro Henrique Mulati
 
 [Alexandro Luis da Rocha Jr]: https://alexandroluis.github.io/Portfolio/
