@@ -41,6 +41,11 @@ type: info
                                 <a href="{{ pessoa.link }}" target="_blank"><i class="fa fa-link"></i></a>
                             </li>
                         {% endif %}
+                        {% if pessoa.bitbucket %}
+                            <li class="list-inline-item">
+                                <a href="{{ pessoa.bitbucket }}" target="_blank"><i class="fa  fa-bitbucket"></i></a>
+                            </li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>
