@@ -25,7 +25,8 @@ Para você usar uma biblioteca você precisa primeiro chama-la, para chamá-la e
     </code>
 </pre>
 
-**A diferença de importar usando <> e "" é que <> é usada para bibliotecas nativas do compilador, que já são "pré-instaladas", as aspas são usadas quando você quer importar uma biblioteca pessoal. Para você saber oque cada biblioteca faz entre na [documentacao](https://cplusplus.com/reference/), ou procure bibliotecas pela internet, baixe e as use normalmente**
+## A diferença de importar usando <> e "":
+<> é usada para bibliotecas nativas do compilador, que já são "pré-instaladas", as aspas são usadas quando você quer importar uma biblioteca pessoal. Para você saber oque cada biblioteca faz entre na [documentacao](https://cplusplus.com/reference/), ou procure bibliotecas pela internet, baixe e as use normalmente
 
 A documentacao terá tudo oque voce precisa para usar uma biblioteca, por exemplo a **cmath**, podemos usar a função  abs() e floor().
 

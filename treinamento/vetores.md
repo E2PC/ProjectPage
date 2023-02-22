@@ -43,7 +43,9 @@ alfabeto[25] = 'z';                | alfabeto[25]&#160;:= 'z';               | a
 
 #### [Botas Trocadas](https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/botas/)
 
+# TROCAR:::::::::::::::::::::
 <pre>
+    <code class="language-cpp">
 #include &lt;iostream&gt;
 
 using namespace std;
@@ -65,12 +67,12 @@ int main(){
 	for(int i = 0; i &lt; tamanho; i++){
 		if(numeroBota[i] &gt; 0){
 			for(int j = i+1; j&lt;tamanho;j++){
-				if(numeroBota[i] == numeroBota[j] &amp;&amp; peBota[i]&#160;!= peBota[j]){
+				if(numeroBota[i] == numeroBota[j] &amp;&amp; peBota[i] != peBota[j]){
 					pares++;
 					numeroBota[i] = -1;
 					numeroBota[j] = -1;
-					peBota[i] = '';
-					peBota[j] = '';
+					peBota[i] = ' ';
+					peBota[j] = ' ';
 				}
 			}
 		}
@@ -80,6 +82,7 @@ int main(){
 
 	return 0;
 }
+    </code>
 </pre>
 ### Problemas
 

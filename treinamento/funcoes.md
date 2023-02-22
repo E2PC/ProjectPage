@@ -1,21 +1,21 @@
 ---
 title: Funções
 layout: template
-button: Funções
 filename: funcoes
+button: Funções
 type: treinamento
 order: 11
 ---
 
-# Funçöes
+# Funções
 
-Iremos iniciar a explicação de função com uma analogia:
-
-Imagine que você comprou um celular em uma loja online, a loja entregará o produto à uma transportadora e a transportadora enviará o produto até você, note que você não se importa como a transportadora enviara o celular, por avião, caminhão, quem será motorista, quem será o entregador e etc, você apenas espera que o celular chegue até você.
+Imagine que você deseja executar um pedaço de código diversas vezes em diferentes lugares do código inteiro, então temos 2 opções:
+- Repetir o código diversas vezes, mas isso tem diversas desvantagens:
+    - Tornando o código grande
+    - Caso precise alterar essa parte do código é necessario mudar em todos os lugares que ele está.
+- Escrever apenas uma vez e chama-lo quando necessario.
  
-Função é algo similar, ela apenas está interessada nos resultados, não no funcionamento interno de uma ação.
- 
-Por exemplo:
+Por exemplo: Calcular o dobro de um valor
 
 <pre>
     <code class="language-cpp">
@@ -25,9 +25,8 @@ Por exemplo:
     cout << total;
     </code>
 </pre>
-O total não se importa qual número é x ou quais operações ocorrerão com ele, ele apenas quer o resultado.
 
-## Função em código
+Com função:
 <pre>
     <code class="language-cpp">
     #include&lt;iostream&gt;
@@ -35,13 +34,13 @@ O total não se importa qual número é x ou quais operações ocorrerão com el
     //Função dobro
     int dobro(int x){
         int total;
-        total=x*2;
+        int total=x*2;
         return total;
     }
 
     int main(){
         int x=2;
-        total = dobro(x);
+        int total = dobro(x);
         cout << total;
     }
     </code>
@@ -49,25 +48,25 @@ O total não se importa qual número é x ou quais operações ocorrerão com el
 
 Note que a aparência de uma função já é algo que você está acostumado, pois **main** também é uma função. Todo programa em C e C++ inicia executando somente a função **main** as outras funções só serão executadas se o **main** desejar.
 
-Entendendo a função **dobro**:
+## Entendendo a função **dobro**:
 <pre>
     <code class="language-cpp">
     int dobro(int x){
         int total;
-        total=x*2;
+        int total=x*2;
         return total;
     }
 
     /*
+        As funções podem retornar(devolverá para quem chamou) um valor(ou não).
         Note que a função começa com um tipo, esse tipo declarará o tipo
         de retorno que uma funcao retornara, como int, float, double,
         char, string e entre outras.
-
     */
 
 
     /*
-        Dobro é o nome da função, é como ela será chamada no main
+        Dobro é o nome da função, similar ao nome de uma variavel, é como ela será chamada no main
     */
 
     /*
@@ -110,22 +109,26 @@ o mesmo resultado.
     <code class="language-cpp">
     int dobro(int y){
         int total;
-        total=y*2;
+        int total=y*2;
         return total;
     }
     int main(){
         int x=2;
-        total = dobro(x);
+        int total = dobro(x);
         cout << total;
     }
     </code>
 </pre>
 
-É possível fazer return direto.
+É possível fazer de uma maneira mais direta.
 <pre>
     <code class="language-cpp">
     int dobro(int y){
         return y*2;
+    }
+    int main(){
+        int x=2;
+        cout << dobro(x);
     }
     </code>
 </pre>
@@ -149,11 +152,16 @@ Essa é uma das vantagens de se usar função, o desacoplamento significa uma pa
     }
     </code>
 </pre>
-Nesse exemplo, eu posso mudar a função dobro da forma que eu quiser, mas não preciso necessariamente alterar a main, ou seja, dobro é independente da main. A primeira impressão não parece ser muito útil, mas para códigos com milhares ou milhões de linhas, as funções são indispensáveis.
-
+Nesse exemplo, eu posso mudar a função dobro da forma que eu quiser, mas não preciso necessariamente alterar a main, ou seja, dobro é independente da main. Pode parecer que se uma parte do código for executada somente uma vez, não é necessario fazer uma função. Em programação competitiva, onde a velocidade de resolução importa mais que a organização isso pode ser verdade, mas para a programação de software comercial isso não é verdade.
 
 
 ## Parametro ou argumento
+<pre>
+    <code class="language-cpp">
+    int dobro(int y){}
+    total = dobro(x);
+    </code>
+</pre>
 A variável y é chamado de parâmetro e a variável x é chamado de argumento, o parâmetro y é a variável que guardará o argumento x, como analogia poderíamos pensar na variável y como sendo a vaga em um estacionamento e o x sendo um carro, a vaga(parâmetro) sempre estará lá, sendo sempre o mesmo, por outro lado, o carro(argumento) pode ser totalmente diferente um do outro, mas para y isso não importa.
 
 <!--

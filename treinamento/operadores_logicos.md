@@ -11,51 +11,53 @@ As estruturas de programação, como a  estrutura de seleção e a  estrutura de
 Os parâmetros lógicos podem ser verdadeiros ou falsos, se forem verdadeiros a condição é cumprida e o código dentro da estrutura é executado (ou repetido, dependendo da estrutura), se não, aquela área do código é ignorada ou redirecionada.
 
 ## Por exemplo:
-[Estrutura de seleção](/treinamento/Estruturas_selecao)
 
 <pre>
+    <code class="language-plaintext">
 SE chovendo ENTÃO
    ESCREVA("Melhor levar um guarda-chuva");
-
+    </code>
 </pre>
-[Estrutura de repetição](/treinamento/Estruturas_repeticao)
 
 <pre>
+    <code class="language-plaintext">
 ENQUANTO chovendo FAÇA
    ESCREVA("Não vou sair de casa, ainda está chovendo");
 
 ESCREVA("Finalmente parou de chover!");
+    </code>
 </pre>
 
 Os exemplos acima possuem em seu parâmetro uma variável que pode ser verdadeira ou falsa, porem, os parâmetros lógicos também podem ser construídos como expressões aritméticas.
 ## Por exemplo:
 
 <pre>
+    <code class="language-plaintext">
 SE idade MENOR QUE 18 ENTÃO
    ESCREVA("Você é menor de idade!");
-</pre>
-<pre>
+
 SE preço MAIOR OU IGUAL QUE 10 ENTÃO
    ESCREVA("Isso é bem caro!");
-</pre>
-<pre>
+
 SE minhaIdade DIFERENTE QUE suaIdade ENTÃO
    ESCREVA("Não temos a mesma idade!");
+    </code>
 </pre>
 Apesar de toda flexibilidade no código que os parâmetros lógicos possibilitam, é fácil se perder usando-os e criando um código confuso e difícil de entender.
 Por exemplo:
 
 <pre>
+    <code class="language-plaintext">
 SE(sol) ENTÃO
    SE (calor) ENTÃO
       ESCREVA("Maria vai ao parque!&#160;:) ");
-</pre>
 
-<pre>SE(preço &lt;= 10) ENTÃO
+SE(preço &lt;= 10) ENTÃO
    ESCREVA("eu posso comprar isso")
-SE NÃO
+SENÃO
    SE(dinheiro &gt; 10) ENTÃO
       escreva("eu posso comprar isso")
+    </code>
 </pre>
 
 Para isso possuímos operadores lógicos: 
@@ -77,7 +79,7 @@ Por exemplo: "Maria vai ao parque se estiver sol e calor", nesse exemplo Maria v
 <table class="table table-bordered border-dark">
 <caption>Maria vai ao parque?</caption>
    <tbody>
-   <tr><th> Sol </th><th>Calor</th><th>Ela vai ao parque?</th></tr>
+   <tr><th>Sol</th><th>Calor</th><th>Ela vai ao parque?</th></tr>
    <tr><th>Sim</th><td>Sim</td><td>Sim</td></tr>
    <tr><th>Sim</th><td>Não</td><td>Não</td></tr>
    <tr><th>Não</th><td>Sim</td><td>Não</td></tr>
@@ -85,39 +87,46 @@ Por exemplo: "Maria vai ao parque se estiver sol e calor", nesse exemplo Maria v
    </tbody>
 </table>
 
-<pre>Pseudocódigo            
-                        
+<pre>
+    <code class="language-plaintext">
+Pseudocódigo                             
 SE(sol E calor) ENTÃO
    ESCREVA("Maria vai ao parque!&#160;:) ");
 SE NÃO
    ESCREVA("Maria não vai ao parque!&#160;:( ");
+    </code>
+</pre>
 
-________
-
+<pre>
+    <code class="language-c">
 Linguagem C
-
 if(sol &amp;&amp; calor){
    printf("Maria vai ao parque!&#160;:) ");
 }else{
    printf("Maria não vai ao parque!&#160;:( ");
 }
-________
+    </code>
+</pre>
 
+<pre>
+   <code class="language-cpp">
 C++
-
 if(sol &amp;&amp; calor){
    cout &lt;&lt; "Maria vai ao parque!&#160;:) ";
 }else{
    cout &lt;&lt; "Maria não vai ao parque!&#160;:( ";
 }
-________
+   </code>
+</pre>
 
+<pre>
+   <code class="language-python">
 Python
-
 if sol and calor:
    print('Maria vai ao parque!&#160;:) ')
 else:
    print('Maria não vai ao parque!&#160;:( ')
+    </code>
 </pre>
 
 <h2><span id="Operador_'OU'"></span><span class="mw-headline" id="Operador_.27OU.27">Operador 'OU'</span></h2>
@@ -135,39 +144,46 @@ Diferente do operador lógico 'E' que necessita que ambos os parâmetros lógico
    </tbody>
 </table>
 
-<pre>Pseudocódigo            
-                        
+<pre>
+   <code class="language-plaintext">
+Pseudocódigo                                 
 SE(euFiz OU voceFez) ENTÃO
    ESCREVA("A tarefa foi feita");
 SE NÃO
    ESCREVA("A tarefa não foi feita");
+   </code>
+</pre>
 
-________
-
+<pre>
+   <code class="language-cpp">
 Linguagem C
-
 if(euFiz || voceFez){
    printf("A tarefa foi feita");
 }else{
    printf("A tarefa não foi feita");
 }
-________
+   </code>
+</pre>
 
+<pre>
+   <code class="language-cpp">
 C++
-
 if(euFiz || voceFez){
    cout &lt;&lt; "A tarefa foi feita";
 }else{
    cout &lt;&lt; "A tarefa não foi feita";
 }
-________
+    </code>
+</pre>
 
+<pre>
+   <code class="language-cpp">
 Python
-
 if euFiz or voceFez:
    print('A tarefa foi feita')
 else:
    print('A tarefa não foi feita')
+   </code>
 </pre>
 
 
@@ -185,32 +201,38 @@ Algumas das representações mais classicas do símbolo de negação são: ~,&#1
    </tbody>
 </table>
 
-<pre>Pseudocódigo            
-                        
+<pre>
+   <code class="language-plaintext">
+Pseudocódigo                                
 SE(~sol) ENTÃO
    ESCREVA("Está escuro");
+   </code>
+</pre>
 
-________
-
+<pre>
+   <code class="language-c">
 Linguagem C
-
 if(!sol){
    printf("Está escuro");
 }
-________
+   </code>
+</pre>
 
+<pre>
+   <code class="language-cpp">
 C++
-
 if(!sol){
    cout &lt;&lt; "Está escuro";
 }
-________
+   </code>
+</pre>
 
+<pre>
+   <code class="language-python">
 Python
-
 if not sol:
    print('Está escuro')
-
+   </code>
 </pre>
 
 
@@ -219,12 +241,17 @@ if not sol:
 Além de toda flexibilidade que os operadores lógicos nos trazem, existem uma outra propriedade que nos permite ir além, a combinação de operadores. Quando usamos um operador para retirar um valor de um ou dois parâmetros lógicos (port ex: está sol e calor) essa expressão retornará um parâmetro lógico, verdadeiro ou falso, com isso em mente podemos combinar operadores para analises mais complexas.
 
 <pre>
+   <code class="language-plaintext">
 SE chovendo E&#160;!guardachuva ENTÃO
    ESCREVA("Não posso sair, vou me molhar")
+   </code>
 </pre>
 
-<pre>SE sol E calor E fimDeSemana ENTÃO
+<pre>
+    <code class="language-plaintext">
+SE sol E calor E fimDeSemana ENTÃO
    ESCREVA("Hoje podemos ir à praia!")
+   </code>
 </pre>
 
 <h3><span class="mw-headline" id="Problemas">Problemas</span></h3>
