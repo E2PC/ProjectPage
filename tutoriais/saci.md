@@ -8,7 +8,7 @@ type: tutorial
 
 # SACI
 
-Utilizaremos o SACI, ambiente online interpretador de JavaScript próprio da OBI(Olimpíada Brasileira de Informática).
+Utilizaremos o [SACI](https://olimpiada.ic.unicamp.br/saci/cursos/intro_js/), ambiente online interpretador de JavaScript próprio da OBI(Olimpíada Brasileira de Informática).
 
 JavaScript não possui uma maneira fácil de ler dados, pois originalmente ele é feito para receber dados de caixas de texto, pois é uma linguagem originalmente WEB.
 Então esse é um dos motivos para utilizarmos esse ambiente. Poderíamos executar na nossa máquina utilizando NODE, mas é mais complicado configurar.
