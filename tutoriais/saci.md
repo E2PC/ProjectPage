@@ -29,3 +29,24 @@ Utilizamos a palavra-chave **printf("%d\n", *inteiro*)**. %d é o tipo de dados 
 
 ## Exemplo
 <img src="../assets/images/tutoriais/saci/saci.png" style="width:620px;">
+
+## Operadores Lógicos
+As estruturas de programação, como a estrutura de seleção e a estrutura de repetição podem mudar o comportamento de um código. Dependendo de como o código está montado essas estruturas permitem a execução (ou repetição) de parte do código apenas em determinadas situações. O que vai decidir se o código dentro daquela estrutura deve ser executado (como em estruturas de seleção) ou se deve ser repetido (como em estruturas de repetição) é seu parâmetro lógico. Os parâmetros lógicos podem ser verdadeiros ou falsos, se forem verdadeiros a condição é cumprida e o código dentro da estrutura é executado (ou repetido, dependendo da estrutura), se não, aquela área do código é ignorada ou redirecionada.
+
+
+Estrutura de seleção
+<pre>
+ // se
+if (expressão_lógica) {
+   bloco_de_comandos1
+}
+// senao
+else {
+   bloco_de_comandos2
+}
+</pre>
+
+# Exemplo
+Você deve escrever um programa que, dados o preço do litro de álcool, o preço do litro de gasolina e os quilômetros por litro que um carro bi-combustível realiza com cada um desses combustíveis, determine se é mais econômico abastecer os carros da CTT com álcool ou com gasolina. No caso de não haver diferença de custo entre abastecer com álcool ou gasolina a CTT prefere utilizar gasolina. 
+
+![image](https://user-images.githubusercontent.com/65428645/228608298-fe6fe408-2b36-4f03-b62f-fb7cd219c7d0.png)
