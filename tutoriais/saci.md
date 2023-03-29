@@ -33,7 +33,8 @@ Utilizamos a palavra-chave **printf("%d\n", *inteiro*)**. %d é o tipo de dados 
 Obs: É importante ressaltar que para submeter códigos tanto para a OBI quanto para a plataforma Beecrowd, é essencial que seja dada uma quebra de linha, que no caso do JavaScript pode ser dada por "\n", que vem de "new line" (ou nova linha) que força a invocação de outra linha. 
 
 Operações básicas matemáticas utilizando JavaScript
-![image](https://user-images.githubusercontent.com/65428645/228633190-9f834b70-99d2-4848-a5c5-bf2695fa6381.png)
+![image](https://user-images.githubusercontent.com/65428645/228634357-0cb70467-421f-45a4-90e8-8f31cde19fef.png)
+
 
 
 
