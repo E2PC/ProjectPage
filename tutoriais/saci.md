@@ -36,7 +36,7 @@ As estruturas de programação, como a estrutura de seleção e a estrutura de r
 
 Estrutura de seleção
 <pre>
- // se
+// se
 if (expressão_lógica) {
    bloco_de_comandos1
 }
