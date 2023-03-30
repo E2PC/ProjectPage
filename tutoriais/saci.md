@@ -28,7 +28,7 @@ Utilizamos a palavra-chave **printf("%d\n", *inteiro*)**. %d é o tipo de dados 
 
 
 ## Exemplos
-![image](https://user-images.githubusercontent.com/65428645/228700055-192c0949-8000-4134-98e4-b5ccb2c88e28.png)
+![image](https://user-images.githubusercontent.com/65428645/228700398-dc3121cf-924f-40d7-ba30-96b696307809.png)
 
 Obs: É importante ressaltar que para submeter códigos tanto para a OBI quanto para a plataforma Beecrowd, é essencial que seja dada uma quebra de linha, que no caso do JavaScript pode ser dada por "\n", que vem de "new line" (ou nova linha) que força a invocação de outra linha. 
 
