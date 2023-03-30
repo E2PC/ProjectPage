@@ -28,12 +28,12 @@ Utilizamos a palavra-chave **printf("%d\n", *inteiro*)**. %d é o tipo de dados 
 
 
 ## Exemplos
-![image](https://user-images.githubusercontent.com/65428645/228700398-dc3121cf-924f-40d7-ba30-96b696307809.png)
+![](../assets/images/tutoriais/saci/exemploPrintf.png)
 
 Obs: É importante ressaltar que para submeter códigos tanto para a OBI quanto para a plataforma Beecrowd, é essencial que seja dada uma quebra de linha, que no caso do JavaScript pode ser dada por "\n", que vem de "new line" (ou nova linha) que força a invocação de outra linha. 
 
 Operações básicas matemáticas utilizando JavaScript
-![image](https://user-images.githubusercontent.com/65428645/228699759-6b3caf0a-d386-45fc-bffd-76ab0d57dca2.png)
+![](../assets/images/tutoriais/saci/exemploMatematica.png)
 
 
 
@@ -56,7 +56,7 @@ else {
 
 # Exemplo
 Você deve escrever um programa que, dados o preço do litro de álcool, o preço do litro de gasolina e os quilômetros por litro que um carro bi-combustível realiza com cada um desses combustíveis, determine se é mais econômico abastecer os carros da CTT com álcool ou com gasolina. No caso de não haver diferença de custo entre abastecer com álcool ou gasolina a CTT prefere utilizar gasolina. 
-
+![](../assets/images/tutoriais/saci/exemploCondicional.png)
 ![image](https://user-images.githubusercontent.com/65428645/228608298-fe6fe408-2b36-4f03-b62f-fb7cd219c7d0.png)
 
 
