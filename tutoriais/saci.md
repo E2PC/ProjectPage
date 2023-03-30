@@ -34,6 +34,8 @@ Obs: É importante ressaltar que para submeter códigos tanto para a OBI quanto 
 
 Operações básicas matemáticas utilizando JavaScript
 ![image](https://user-images.githubusercontent.com/65428645/228634357-0cb70467-421f-45a4-90e8-8f31cde19fef.png)
+![image](https://user-images.githubusercontent.com/65428645/228699651-b96caaef-f57e-4540-8d36-0122e9529c83.png)
+
 
 
 
