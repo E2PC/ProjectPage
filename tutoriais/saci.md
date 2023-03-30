@@ -57,9 +57,3 @@ else {
 # Exemplo
 Você deve escrever um programa que, dados o preço do litro de álcool, o preço do litro de gasolina e os quilômetros por litro que um carro bi-combustível realiza com cada um desses combustíveis, determine se é mais econômico abastecer os carros da CTT com álcool ou com gasolina. No caso de não haver diferença de custo entre abastecer com álcool ou gasolina a CTT prefere utilizar gasolina. 
 ![](../assets/images/tutoriais/saci/exemploCondicional.png)
-![image](https://user-images.githubusercontent.com/65428645/228608298-fe6fe408-2b36-4f03-b62f-fb7cd219c7d0.png)
-
-
-
-  
-
