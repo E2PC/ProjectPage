@@ -8,7 +8,7 @@ type: tutorial
 
 # SACI
 
-Utilizaremos o [SACI](https://olimpiada.ic.unicamp.br/saci/cursos/intro_js/), ambiente online interpretador de JavaScript próprio da OBI (Olimpíada Brasileira de Informática), seguindo os padrões de [Programação Competitiva](ver link do projeto).
+Utilizaremos o [SACI](https://olimpiada.ic.unicamp.br/saci/cursos/intro_js/), ambiente online interpretador de JavaScript próprio da OBI (Olimpíada Brasileira de Informática), seguindo os padrões de [Programação Competitiva](https://e2pc.unicentro.br/posts/programacao_competitiva.html).
 
 JavaScript não possui uma maneira fácil de ler dados, pois originalmente ele é feito para receber dados de caixas de texto, pois é uma linguagem originalmente WEB.
 Então esse é um dos motivos para utilizarmos o SACI. Poderíamos executar na nossa máquina utilizando NODE, mas é mais complicado configurar.
@@ -50,12 +50,16 @@ citar fontes das figuras
 
 
 ## Estrutura de seleção
-É uma estrutura de desvio do fluxo de controle presente em linguagens de programação que realiza diferentes computações ou ações dependendo se a seleção (ou condição) é verdadeira ou falsa. [Veja mais](link da página de seleção...).
+É uma estrutura de desvio do fluxo de controle presente em linguagens de programação que realiza diferentes computações ou ações dependendo se a seleção (ou condição) é verdadeira ou falsa. [Veja mais](https://e2pc.unicentro.br/treinamento/estruturas_selecao.html).
 
 
 # Exemplo
 Você deve escrever um programa que, dados o preço do litro de álcool, o preço do litro de gasolina e os quilômetros por litro que um carro bi-combustível realiza com cada um desses combustíveis, determine se é mais econômico abastecer os carros da CTT com álcool ou com gasolina. No caso de não haver diferença de custo entre abastecer com álcool ou gasolina a CTT prefere utilizar gasolina. 
 ![](../assets/images/tutoriais/saci/exemploCondicional.png)
 
-
-Incluir link de problemas com seleção do Pratique OBI
+# Pratique
+- [Tênis](https://olimpiada.ic.unicamp.br/pratique/p1/2021/f2/tenis/)
+- [Xadrez](https://olimpiada.ic.unicamp.br/pratique/p1/2018/f1/xadrez/)
+- [Jogo](https://olimpiada.ic.unicamp.br/pratique/p1/2019/f1/jogo/)
+- [Idade](https://olimpiada.ic.unicamp.br/pratique/p1/2019/f1/idade/)
+- [Tesouro](https://olimpiada.ic.unicamp.br/pratique/p1/2020/f1/tesouro/)
