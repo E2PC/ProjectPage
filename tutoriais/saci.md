@@ -38,13 +38,13 @@ Os especificadores de formato %f e %s também se aplicam para a instrução **pr
 
 ## Exemplos
 ![image](https://user-images.githubusercontent.com/65428645/236072281-3ca293a5-8054-4f76-82d2-8957399b1a25.png)
-                                              Fonte: equipe E2PC.
+Fonte: equipe E2PC.
 
 
 Obs: É importante ressaltar que para submeter códigos tanto para a OBI quanto para a plataforma Beecrowd, é essencial que seja dada uma quebra de linha, que no caso do JavaScript pode ser dada por "\n", que vem de "new line" (ou nova linha) que força a invocação de outra linha. 
 
 Operações básicas matemáticas utilizando JavaScript
-![](../assets/images/tutoriais/saci/exemploMatematica.png)
+![image](https://user-images.githubusercontent.com/65428645/236075821-ce85cc6d-7e1e-4783-a12f-0261d1ed4d9d.png)
                                               Fonte: equipe E2PC.
 
 
