@@ -24,7 +24,8 @@ O ambiente para editar e executar os códigos em JavaScript pode ser acessado [a
 ## LEITURA
 Utilizamos a instrução **scanf("%d%f%s",*"var_i", "var_r", "var_s"*)**. 
 Nesse exemplo, são lidos 3 valores, o primeiro %d é o tipo de leitura para um valor inteiro, que será atribuído para a variavel **var_i**, onde será armazenado. 
-O segundo valor.... **continuar**
+O segundo valor, especificado pelo tipo %f, é um valor do tipo real, ou seja, é uma variável que pode conter numeros nos quais existe dígitos significativos a direita do ponto decimal.
+Já o terceiro valor, especificado pelo %s, é um variável do tipo string, que armazena um conjunto de caracteres.
 Então, o símbolo "%" (denominado especificador de formato, ou _placeholder_) indicam o formato do valor que será lido:
 - %d para valor do tipo inteiro.
 - %f para valor do tipo real.
@@ -36,16 +37,15 @@ Nesse exemplo, o %d é o formato do valor que será mostrado, sendo substituído
 Os especificadores de formato %f e %s também se aplicam para a instrução **printf**. 
 
 ## Exemplos
-![](../assets/images/tutoriais/saci/exemploPrintf.png)
+![image](https://user-images.githubusercontent.com/65428645/236072281-3ca293a5-8054-4f76-82d2-8957399b1a25.png)
+                                              Fonte: equipe E2PC.
 
-citar fontes das figuras
 
 Obs: É importante ressaltar que para submeter códigos tanto para a OBI quanto para a plataforma Beecrowd, é essencial que seja dada uma quebra de linha, que no caso do JavaScript pode ser dada por "\n", que vem de "new line" (ou nova linha) que força a invocação de outra linha. 
 
 Operações básicas matemáticas utilizando JavaScript
 ![](../assets/images/tutoriais/saci/exemploMatematica.png)
-
-citar fontes das figuras
+                                              Fonte: equipe E2PC.
 
 
 
@@ -56,6 +56,7 @@ citar fontes das figuras
 # Exemplo
 Você deve escrever um programa que, dados o preço do litro de álcool, o preço do litro de gasolina e os quilômetros por litro que um carro bi-combustível realiza com cada um desses combustíveis, determine se é mais econômico abastecer os carros da CTT com álcool ou com gasolina. No caso de não haver diferença de custo entre abastecer com álcool ou gasolina a CTT prefere utilizar gasolina. 
 ![](../assets/images/tutoriais/saci/exemploCondicional.png)
+                                          Fonte: equipe E2PC.
 
 # Pratique
 - [Tênis](https://olimpiada.ic.unicamp.br/pratique/p1/2021/f2/tenis/)
