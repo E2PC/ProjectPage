@@ -55,7 +55,7 @@ Operações básicas matemáticas utilizando JavaScript
 
 # Exemplo
 Você deve escrever um programa que, dados o preço do litro de álcool, o preço do litro de gasolina e os quilômetros por litro que um carro bi-combustível realiza com cada um desses combustíveis, determine se é mais econômico abastecer os carros da CTT com álcool ou com gasolina. No caso de não haver diferença de custo entre abastecer com álcool ou gasolina a CTT prefere utilizar gasolina. 
-![](../assets/images/tutoriais/saci/exemploCondicional.png)
+![image](https://user-images.githubusercontent.com/65428645/236076594-04dafff6-07cc-4b78-903c-88ecb2bf58b8.png)
                                           Fonte: equipe E2PC.
 
 # Pratique
