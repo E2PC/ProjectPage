@@ -21,7 +21,7 @@ int main()
 }
 </pre>
 
-##  Python
+#  Python
 Olá mundo em Python
 <pre>
 print ('Hello World')
