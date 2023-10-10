@@ -19,6 +19,7 @@ int main()
 
     return 0;
 }
+</pre>
 
 # Python
 Olá mundo em Python
