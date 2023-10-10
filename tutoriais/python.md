@@ -8,7 +8,6 @@ type: tutorial
 
 ##  C++
 ```Olá mundo em C++
-<pre>
 #include <iostream>
 
 using namespace std;
@@ -28,7 +27,9 @@ print ('Hello World')
 
 ```
 ##  Leitura de dados em Python
+
 A função embutida input() do Python sempre retorna um objeto da classe str (string). Portanto, para receber uma entrada de número inteiro, precisamos converter essas entradas em inteiros usando a função int() embutida do Python.
+
 ```
 a = input()
 b = input()
