@@ -6,7 +6,7 @@ button: Introdução ao Python
 type: tutorial
 ---
 
-# C++
+##  C++
 Olá mundo em C++
 <pre>
 #include <iostream>
@@ -21,13 +21,13 @@ int main()
 }
 </pre>
 
-# Python
+##  Python
 Olá mundo em Python
 <pre>
 print ('Hello World')
 </pre>
 
-# Leitura de dados em Python
+##  Leitura de dados em Python
 A função embutida input() do Python sempre retorna um objeto da classe str (string). Portanto, para receber uma entrada de número inteiro, precisamos converter essas entradas em inteiros usando a função int() embutida do Python.
 <pre>
 a = input()
