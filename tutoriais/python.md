@@ -7,7 +7,9 @@ type: tutorial
 ---
 
 # Introdução ao Python
-```Olá mundo em C++
+Olá mundo em C++
+
+```
 #include <iostream>
 
 using namespace std;
@@ -22,8 +24,8 @@ int main()
 ```
 
 #  Python
-```Olá mundo em Python
-
+Olá mundo em Python
+```
 print ('Hello World')
 
 ```
