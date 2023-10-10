@@ -6,7 +6,7 @@ button: Introdução ao Python
 type: tutorial
 ---
 
-##  C++
+# Introdução ao Python
 ```Olá mundo em C++
 #include <iostream>
 
