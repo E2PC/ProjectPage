@@ -4,7 +4,7 @@ layout: template
 filename: estruturas_selecao
 button: Estrutura de seleção
 type: treinamento
-order: 4
+order: 5
 ---
 # Estrutura de seleção 
 É uma estrutura de desvio do fluxo de controle presente em linguagens de programação que realiza diferentes computações ou ações dependendo se a seleção (ou condição) é verdadeira ou falsa. Assista a video aula sobre este tipo de estrutura [aqui](https://www.youtube.com/watch?v=sVkU_wXwO9s&ab_channel=COBI)
@@ -12,42 +12,50 @@ order: 4
 ## Sintaxe:
 
 <pre>
+   <code class="language-plaintext">
 Pseudocódigo            
-                        
 Se (condição) Então     
    (bloco de código)    
 FimSe                   
-________________________
+   </code>
+</pre>
 
+<pre>
+   <code class="language-plaintext">
 Pascal                  
-
 if(condição) then
    begin
       (bloco de código)
    end;
-________________________
+   </code>
+</pre>
 
+<pre>
+   <code class="language-c">
 Linguagem C             
-
 if(condição){
    (bloco de código)
 }
-________________________
+   </code>
+</pre>
 
+<pre>
+   <code class="language-python">
 Phyton
-     
 if condição:   
    (bloco de código)
-                        
-________________________
+   </code>
+</pre>
 
+<pre>
+   <code class="language-cpp">
 C++
-
 if(condição){
    (bloco de código)
 }
-                  
+   </code>
 </pre>
+
 Exemplo:
 
 Verificar e apresentar se x é par ou impar.
@@ -55,17 +63,19 @@ Verificar e apresentar se x é par ou impar.
 var ***x**&#160;: Inteiro.
 
 <pre>
-Pseudocódigo           
-                       
+   <code class="language-plaintext">
+Pseudocódigo                          
 Se (x mod 2 = 0) Então 
    escreva('PAR');     
 Senão                  
    escreva('IMPAR');   
 FimSe                  
-________________________
+    </code>
+</pre>
 
-Pascal               
-
+<pre>
+    <code class="language-plaintext">
+Pascal
 if(condição) then    
    begin             
       write('PAR')   
@@ -74,39 +84,46 @@ else
    begin             
       write('IMPAR') 
    end;              
+    </code>
+</pre>
 
-________________________
-
+<pre>
+   <code class="language-c">
 Linguagem C          
-
 if(x&#160;% 2 == 0){      
    printf("PAR");    
 }else{               
    printf("IMPAR");  
 }
-________________________
+   </code>
+</pre>
 
+<pre>
+    <code class="language-python">
 Phyton
-
 if x% 2 == 0:
    print('PAR');
 else
    print('IMPAR');
-________________________
+    </code>
+</pre>
 
+<pre>
+   <code class="language-cpp">
 C++          
-
 if(x&#160;% 2 == 0){      
   cout &lt;&lt; "PAR";    
 }else{               
   cout &lt;&lt; "IMPAR";
 }
-
+   </code>
 </pre>
+
 ### Exemplo
 #### [Gangorra - 2455](https://www.beecrowd.com.br/judge/pt/problems/view/2455)
 
 <pre>
+   <code class="language-c">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 
@@ -125,6 +142,7 @@ int main(){
       }
    }
 }
+   </code>
 </pre>
 
 ### Problemas

@@ -4,7 +4,7 @@ layout: template
 filename: estruturas_repeticao
 button: Estrutura de repetição
 type: treinamento
-order: 6
+order: 7
 ---
 # Estrutura de repetição
 
@@ -199,6 +199,7 @@ esse incremento é definido na assinatura loop.
 #### [1078 - Tabuada](https://www.beecrowd.com.br/judge/pt/problems/view/1078)
 
 <pre>
+    <code class="language-cpp">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
 
@@ -212,6 +213,7 @@ int main(){
 		printf("%d x&#160;%d =&#160;%d\n",i,n,resultado);
 	}
 }
+    </code>
 </pre>
 
 ### Problemas

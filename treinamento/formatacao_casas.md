@@ -4,7 +4,7 @@ layout: template
 filename: Formatação de casas decimais
 button: Formatação de casas decimais
 type: treinamento
-order: 3
+order: 4
 ---
 
 # Formatação de casas decimais
