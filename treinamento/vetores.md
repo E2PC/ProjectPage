@@ -41,46 +41,36 @@ alfabeto[25] = 'z';                | alfabeto[25]&#160;:= 'z';               | a
 
 ### Exemplo em C++
 
-#### [Botas Trocadas](https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/botas/)
+#### Preenchimento de Vetor I - beecrowd | 1173
 
-<pre>
-#include &lt;iostream&gt;
+Leia um valor e faça um programa que coloque o valor lido na primeira posição de um vetor N[10]. Em cada posição subsequente, coloque o dobro do valor da posição anterior. Por exemplo, se o valor lido for 1, os valores do vetor devem ser 1,2,4,8 e assim sucessivamente. Mostre o vetor em seguida.
+
+**Entrada**
+
+A entrada contém um valor inteiro (V<=50).
+
+**Saída**
+
+Para cada posição do vetor, escreva "N[i] = X", onde i é a posição do vetor e X é o valor armazenado na posição i. O primeiro número do vetor N (N[0]) irá receber o valor de V.
+
+Código 
+
+```c++
+#include <iostream>
 
 using namespace std;
 
-int main(){
-	int tamanho = 0;
-	cin &gt;&gt; tamanho;
-
-	int numeroBota[tamanho];
-	char peBota[tamanho];
-
-	for(int i = 0; i &lt; tamanho; i++){
-		cin &gt;&gt; numeroBota[i];
-		cin &gt;&gt; peBota[i];
-	}
-
-
-	int pares = 0;
-	for(int i = 0; i &lt; tamanho; i++){
-		if(numeroBota[i] &gt; 0){
-			for(int j = i+1; j&lt;tamanho;j++){
-				if(numeroBota[i] == numeroBota[j] &amp;&amp; peBota[i]&#160;!= peBota[j]){
-					pares++;
-					numeroBota[i] = -1;
-					numeroBota[j] = -1;
-					peBota[i] = '';
-					peBota[j] = '';
-				}
-			}
-		}
-	}
-
-	cout &lt;&lt; pares &lt;&lt; endl; 
-
-	return 0;
+int main() {
+    int n[10];
+    int number;
+    cin >> number;
+    for (int i = 0; i < 10; i++) {
+        cout << "N[" << i << "] = " << number << endl;
+        number *= 2;
+    }
 }
-</pre>
+```
+
 ### Problemas
 
 - [Botas trocadas](https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/botas/)
