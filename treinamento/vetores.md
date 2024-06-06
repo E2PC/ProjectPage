@@ -41,34 +41,44 @@ alfabeto[25] = 'z';                | alfabeto[25]&#160;:= 'z';               | a
 
 ### Exemplo em C++
 
-#### Preenchimento de Vetor I - beecrowd | 1173
+#### Troca em Vetor I - 1175
 
-Leia um valor e faça um programa que coloque o valor lido na primeira posição de um vetor N[10]. Em cada posição subsequente, coloque o dobro do valor da posição anterior. Por exemplo, se o valor lido for 1, os valores do vetor devem ser 1,2,4,8 e assim sucessivamente. Mostre o vetor em seguida.
+Faça um programa que leia um vetor N[20]. Troque a seguir, o primeiro elemento com o último, o segundo elemento com o penúltimo, etc., até trocar o 10º com o 11º. Mostre o vetor modificado.
 
 **Entrada**
 
-A entrada contém um valor inteiro (V<=50).
+A entrada contém 20 valores inteiros, positivos ou negativos.
 
 **Saída**
 
-Para cada posição do vetor, escreva "N[i] = X", onde i é a posição do vetor e X é o valor armazenado na posição i. O primeiro número do vetor N (N[0]) irá receber o valor de V.
-
-Código 
+Para cada posição do vetor N, escreva "N[i] = Y", onde i é a posição do vetor e Y é o valor armazenado naquela posição.
 
 ```c++
 #include <iostream>
+#define TAM 20
 
 using namespace std;
 
 int main() {
-    int n[10];
-    int number;
-    cin >> number;
-    for (int i = 0; i < 10; i++) {
-        cout << "N[" << i << "] = " << number << endl;
-        number *= 2;
+    int n[TAM];
+    
+    for (int i = 0; i < TAM; i++) {
+        cin >> n[i];
     }
+    
+    for (int i = 0; i < TAM / 2; i++) {
+        int aux = n[i];
+        n[i] = n[TAM - i - 1];
+        n[TAM - i - 1] = aux;
+    }
+
+    for (int i = 0; i < TAM; i++) {
+        cout << "N[" << i << "] = " << n[i] << endl;
+    }
+    
+    return 0;
 }
+
 ```
 
 ### Problemas
