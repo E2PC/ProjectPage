@@ -84,6 +84,7 @@ int main() {
 ### Problemas
 
 - [Botas trocadas](https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/botas/)
+- [Paciente Zero](https://olimpiada.ic.unicamp.br/pratique/ps/2020/f1/paciente/) 
 - [Frequência de números - 1171](https://www.beecrowd.com.br/judge/pt/problems/view/1171)
 - [Substituição em Vetor I - 1172](https://www.beecrowd.com.br/judge/pt/problems/view/1172)
 - [Preenchimento de Vetor I - 1173](https://www.beecrowd.com.br/judge/pt/problems/view/1173)
