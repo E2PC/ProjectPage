@@ -125,5 +125,6 @@ Quer mais?
 - [Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
 - [Divisão do Tesouro - OBI](https://olimpiada.ic.unicamp.br/pratique/pj/2020/f1/tesouro/)
 - [Corrida - OBI](https://olimpiada.ic.unicamp.br/pratique/p1/2012/f1/corrida/)
+- [Piso da Escola - OBI](https://olimpiada.ic.unicamp.br/pratique/ps/2018/f1/piso/)
 
 
