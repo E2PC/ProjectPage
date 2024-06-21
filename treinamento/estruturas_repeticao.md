@@ -228,3 +228,6 @@ int main(){
 - [1074 - Par ou Ímpar](https://www.beecrowd.com.br/judge/pt/problems/view/1074)
 - [1151 - Fibonacci Fácil](https://www.beecrowd.com.br/judge/pt/problems/view/1151)
 - [2862 - Inseto!](https://www.beecrowd.com.br/judge/pt/problems/view/2862)
+- [Plano de Internet - OBI](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f1/plano/)
+- [Torneio de tênis - OBI](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f1/torneio/)
+- [Camisetas da Olimpíada - OBI](https://olimpiada.ic.unicamp.br/pratique/pj/2020/f1/camisetas/)

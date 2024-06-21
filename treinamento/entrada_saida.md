@@ -112,23 +112,18 @@ int main()
 # Problemas
 Para praticar, resolva os seguintes problemas na plataforma Beecrowd:
 
-[Soma Simples - 1003](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
-
-[Produto Simples - 1004](https://www.beecrowd.com.br/judge/pt/problems/view/1004)
-
-[Diferença - 1007](https://www.beecrowd.com.br/judge/pt/problems/view/1007)
-
-[Tomadas - 1930](https://www.beecrowd.com.br/judge/pt/problems/view/1930)
-
-[Pneu - 2374](https://www.beecrowd.com.br/judge/pt/problems/view/2374)
+- [Soma Simples - 1003](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
+- [Produto Simples - 1004](https://www.beecrowd.com.br/judge/pt/problems/view/1004)
+- [Diferença - 1007](https://www.beecrowd.com.br/judge/pt/problems/view/1007)
+- [Tomadas - 1930](https://www.beecrowd.com.br/judge/pt/problems/view/1930)
+- [Pneu - 2374](https://www.beecrowd.com.br/judge/pt/problems/view/2374)
 
 Quer mais?
 
-[Distância - 1016](https://www.beecrowd.com.br/judge/pt/problems/view/1016)
-
-[O maior - 1013](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
-
-[Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
-
+- [Distância - 1016](https://www.beecrowd.com.br/judge/pt/problems/view/1016)
+- [O maior - 1013](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
+- [Idade em Dias - 1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
+- [Divisão do Tesouro - OBI](https://olimpiada.ic.unicamp.br/pratique/pj/2020/f1/tesouro/)
+- [Corrida - OBI](https://olimpiada.ic.unicamp.br/pratique/p1/2012/f1/corrida/)
 
 

@@ -97,4 +97,5 @@ Quer mais?
 - [Preenchimento de Vetor III - 1178](https://www.beecrowd.com.br/judge/pt/problems/view/1178)
 - [Botas Perdidas - 1245](https://www.beecrowd.com.br/judge/pt/problems/view/1245)
 - [Fechadura - 2449](https://www.beecrowd.com.br/judge/pt/problems/view/2449)
-
+- [Paciente Zero - OBI](https://olimpiada.ic.unicamp.br/pratique/ps/2020/f1/paciente/)
+- [Botas Trocadas - OBI](https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/botas/)
