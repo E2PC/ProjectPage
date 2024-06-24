@@ -89,13 +89,12 @@ int main() {
 - [Substituição em Vetor I - 1172](https://www.beecrowd.com.br/judge/pt/problems/view/1172)
 - [Preenchimento de Vetor I - 1173](https://www.beecrowd.com.br/judge/pt/problems/view/1173)
 - [Troca em Vetor I - 1175](https://www.beecrowd.com.br/judge/pt/problems/view/1175)
-
-
-Quer mais?
-
 - [Fibonacci em Vetor - 1176](https://www.beecrowd.com.br/judge/pt/problems/view/1176)
 - [Preenchimento de Vetor III - 1178](https://www.beecrowd.com.br/judge/pt/problems/view/1178)
 - [Botas Perdidas - 1245](https://www.beecrowd.com.br/judge/pt/problems/view/1245)
 - [Fechadura - 2449](https://www.beecrowd.com.br/judge/pt/problems/view/2449)
+
+Você também pode resolver na plataforma Saci:
+
 - [Paciente Zero - OBI](https://olimpiada.ic.unicamp.br/pratique/ps/2020/f1/paciente/)
 - [Botas Trocadas - OBI](https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/botas/)

@@ -216,18 +216,18 @@ int main(){
 
 ### Problemas
 
+Para praticar, resolva os seguintes problemas na plataforma Beecrowd:
 - [1078 - Tabuada](https://www.beecrowd.com.br/judge/pt/problems/view/1078)
 - [1114 - Senha Fixa](https://www.beecrowd.com.br/judge/pt/problems/view/1114)
 - [1142 - PUM](https://www.beecrowd.com.br/judge/pt/problems/view/1142)
 - [1143 - Quadrado e ao Cubo](https://www.beecrowd.com.br/judge/pt/problems/view/1143)
 - [1153 - Fatorial Simples](https://www.beecrowd.com.br/judge/pt/problems/view/1153)
-
-
-#### Quer mais?
 - [1064 - Positivos e Média](https://www.beecrowd.com.br/judge/pt/problems/view/1064)
 - [1074 - Par ou Ímpar](https://www.beecrowd.com.br/judge/pt/problems/view/1074)
 - [1151 - Fibonacci Fácil](https://www.beecrowd.com.br/judge/pt/problems/view/1151)
 - [2862 - Inseto!](https://www.beecrowd.com.br/judge/pt/problems/view/2862)
+
+Você também pode resolver na plataforma Saci:
 - [Plano de Internet - OBI](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f1/plano/)
 - [Torneio de tênis - OBI](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f1/torneio/)
 - [Camisetas da Olimpíada - OBI](https://olimpiada.ic.unicamp.br/pratique/pj/2020/f1/camisetas/)
