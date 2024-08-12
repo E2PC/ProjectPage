@@ -86,8 +86,8 @@ for _ in range(N):
 ```
 ### Exercícios Propostos
 
-https://olimpiada.ic.unicamp.br/pratique/ps/2021/f1/zero/
-https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/figurinhas/
-https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/anagrama/ 
-https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/pangrama/
-https://olimpiada.ic.unicamp.br/pratique/ps/2016/f1/chaves/
+[Zero para cancelar](https://olimpiada.ic.unicamp.br/pratique/ps/2021/f1/zero/)
+[Figurinhas da copa](https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/figurinhas/)
+[Anagrama](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/anagrama/) 
+[Pangrama](https://olimpiada.ic.unicamp.br/pratique/pj/2021/f2/pangrama/)
+[Chaves](https://olimpiada.ic.unicamp.br/pratique/ps/2016/f1/chaves/)
