@@ -15,20 +15,8 @@ As strings são cadeias de caracteres que podem ser utilizadas para representar 
 - `\n`: Fim de linha;
 - `\t`: Tabulação.
 
-| Posição | Caractere |
-|---------|-----------|
-|    0    |    T      |
-|    1    |    r      |
-|    2    |    e      |
-|    3    |    i      |
-|    4    |    n      |
-|    5    |    a      |
-|    6    |    m      |
-|    7    |    e      |
-|    8    |    n      |
-|    9    |    t      |
-|   10    |    o      |
-|   11    |    \0     |
+| Posição   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+| Caractere | T | r | e | i | n | a | m | e | n | t | o  | \0 |
 
 Nas linguagens de programação, podem existir funções prontas para trabalhar de forma mais eficiente com strings. Em C++, por exemplo, existe na biblioteca `<string>` a função `length()`, que retorna o tamanho de uma string. Em Python, não há necessidade de chamar uma biblioteca específica; basta chamar a função `len()` para obter o mesmo resultado.
 
