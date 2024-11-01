@@ -1,4 +1,41 @@
-# Como criar uma nova página?
+# E2PC ProjectPage
+
+Este é o repositório oficial do projeto de extensão E2PC. Neste README apresentamos algumas instruções para o uso adequado do repositório.
+
+## Como baixar e configurar o repositório
+
+Nas seções subsequentes, apresentamos instruções para o *download* do repositório e execução da página de teste.
+
+### Clonando o repositório
+
+***Disclaimer*:** Este tutorial foi baseado no Ubuntu 22.04 LTS. Se você está utilizando outra distribuição, passos adicionais podem ser necessários, certifique-se de que as ferramentas necessárias estão devidamente instaladas e configuradas.
+
+Realize o clone do repositório, via HTTPS ou SSH.
+
+```sh
+git clone https://github.com/E2PC/ProjectPage.git
+```
+
+Para segurança e praticidade, recomendamos utilização da chave SSH. No artigo [Gerando uma nova chave SSH e adicionando-a ao agente SSH](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) estão contidas instruções para o seu uso.
+
+```sh
+git clone git@github.com:E2PC/ProjectPage.git
+```
+
+### Execução da página com Docker
+
+Para padronizar, recomendamos a utilização do Docker no desenvolvimento. 
+
+Entre do diretório do projeto clonado e utilize `docker compose`.
+
+```sh
+cd ProjectPage && docker compose up --build -d 
+
+```
+
+Após isso a página deve estar disponível em [localhost:4000](http://127.0.0.1:4000).
+
+## Como criar uma nova página?
 
 Todas as publicações devem ser feitas em um arquivo Markdown (`.md`).
 
