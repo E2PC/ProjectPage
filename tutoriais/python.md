@@ -129,11 +129,32 @@ saída:
 
 Aritméticos:
 ```
-H = x + y        # Adição
-H = x - y        # Adição
-H = x + y        # Adição
-H = x + y        # Adição
-H = x + y        # Adição
-H = x + y        # Adição 
+H = x + y        # adição
+H = x - y        # subtração
+H = x * y        # multiplicação
+H = x / y        # divisão
+H = x % y        # módulo, resto da divisão por inteiro
+H = x // y       # resultado da divisão por inteiro 
+H = x ** y       # exponenciação x ^ y
+
 ```
 
+Lógicos:
+```
+H = x and y      # se "x e y forem verdadeiros" H é verdade
+H = x or y       # se "x ou y for verdadeiro" H é verdade
+H = not(x)       # se "x for falso" H é verdade
+
+```
+
+Condicionais:
+```
+H = x > y        #se "x maior que y", H é verdadeiro
+H = x < y        #se "x menor que y", H é verdadeiro
+H = x == y       #se "x é igual y", H é verdadeiro
+H = x != y       #se "x é diferente de y", H é verdadeiro
+H = x >= y       #se "x maior ou igual a y", H é verdadeiro
+H = x <= y       #se "x menor ou igual a y", H é verdadeiro 
+```
+
+# Estruturas condicionais
