@@ -125,4 +125,15 @@ saída:
 ```
 
 
-# Operadores aritméticos e lógicos 
+# Operadores aritméticos, lógicos e Condicionais
+
+Aritméticos:
+```
+H = x + y        # Adição
+H = x - y        # Adição
+H = x + y        # Adição
+H = x + y        # Adição
+H = x + y        # Adição
+H = x + y        # Adição 
+```
+
