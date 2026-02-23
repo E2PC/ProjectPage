@@ -8,6 +8,8 @@ type: tutorial
 
 # Introdução ao Python
 
+Python é uma linguagem de programação de alto nível multiparadigma. Foi desenvolvida pelo matemático e também programador, Guido Van Rossum, com foco na simplicidade de sua sintaxe.
+
 Olá mundo em C++
 
 ```
@@ -24,18 +26,15 @@ int main()
 
 ```
 
-Olá mundo em java script
-
-```
-document.write('Hello World!')
-
-```
-
 Olá mundo em Python
+
 ```
 print ('Hello World')
 
 ```
+
+A linguagem, hoje, é usada principalmente em Ciência de dados e Inteligência Artificial, contudo, ela também tem seu espaço nas áreas de desenvolvimento web, finanças, educação, automação. Notavelmente python é bem popular.
+
 
 # Declaração de váriaveis
 
