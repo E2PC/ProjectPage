@@ -1,8 +1,8 @@
 ---
-title: 4. Operadores aritméticos, lógicos e comparativos em python.md
+title: 4. Operadores aritméticos, lógicos e comparativos em python
 layout: template
 filename: 4_operadores_em_python
-button: 4. Operadores aritméticos, lógicos e comparativos em python.md
+button: 4. Operadores aritméticos, lógicos e comparativos em python
 type: python
 ---
 
