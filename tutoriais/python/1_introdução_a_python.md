@@ -1,8 +1,8 @@
 ---
-title: 1. Introdução ao python
+title: 1. Introdução a python
 layout: template
-filename: 1._Introdução_ao_python
-button: 1. Introdução ao python
+filename: 1._Introdução_a_python
+button: 1. Introdução a python
 type: python
 ---
 
