@@ -1,8 +1,8 @@
 ---
-title: Python
+title: 1. Introdução ao python
 layout: template
-filename: python
-button: Introdução ao Python
+filename: 1._Introdução_ao_python
+button: 1. Introdução ao python
 type: python
 ---
 
@@ -42,5 +42,5 @@ A linguagem, hoje, é usada principalmente em Ciência de dados e Inteligência 
 *The Sims 4 é um exemplo de produto onde python foi amplamente utilizado.
 <br>
 
-[Próxima página](<2. leitura e escrita em python.md>)
+[Próxima página](<2_leitura_e_escrita_em_python.md>)
 [sumário](<python_sumario.md>)
