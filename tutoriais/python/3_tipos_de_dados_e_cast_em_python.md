@@ -1,7 +1,7 @@
 ---
 title: 3. Tipos de dados e cast em python.md
 layout: template
-filename: 3_tipos_de_dados_e_cast_em_python.md
+filename: 3_tipos_de_dados_e_cast_em_python
 button: 3. Tipos de dados e cast em python.md
 type: python
 ---
