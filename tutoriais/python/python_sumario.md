@@ -1,8 +1,8 @@
 ---
-title: python_sumario
+title: Python sumário
 layout: template
-button: Tutoriais
-filename: tutoriais
+button: Python sumário
+filename: python_sumario
 type: post
 ---
 {%- assign python = site.pages | where: 'type', 'python' -%}
