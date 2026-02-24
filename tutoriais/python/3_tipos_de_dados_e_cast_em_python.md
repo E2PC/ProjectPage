@@ -1,8 +1,8 @@
 ---
-title: Python
+title: 3. Tipos de dados e cast em python.md
 layout: template
-filename: python
-button: Introdução ao Python
+filename: 3_tipos_de_dados_e_cast_em_python.md
+button: 3. Tipos de dados e cast em python.md
 type: python
 ---
 
@@ -72,6 +72,6 @@ print(x)
 <br>
 <br>
 
-[Próxima página](<4. operadores aritméticos, lógicos e comparativos em python.md>)
+[Próxima página](<4_operadores_em_python.md>)
 [sumário](<python_sumario.md>)
-[Pagína anterior](<2. leitura e escrita em python.md>)
+[Pagína anterior](<2_leitura_e_escrita_em_python.md>)
