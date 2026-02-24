@@ -1,7 +1,7 @@
 ---
 title: 2. Leitura e escrita em python.md
 layout: template
-filename: python
+filename: 2_leitura_e_escrita_em_python.md
 button: 2. Leitura e escrita em python.md
 type: python
 ---
