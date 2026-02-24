@@ -1,8 +1,8 @@
 ---
-title: Python
+title: 6. laços em python
 layout: template
-filename: python
-button: Introdução ao Python
+filename: 6_laços_em_python
+button: 6. laços em python
 type: python
 ---
 
@@ -115,6 +115,6 @@ saída:
 i = 0 é definido antes da execução do laço, i < 10 é o critério de repetição e i = i + 2 é realizado ao fim de cada loop. 
 <br>
 
-[Próxima página](<7. listas em python.md>)
+[Próxima página](<7_listas_em_python.md>)
 [sumário](<python_sumario.md>)
-[Pagína anterior](<5. estruturas condicionais em python.md>)
+[Pagína anterior](<5_estruturas_condicionais_em_python.md>)
