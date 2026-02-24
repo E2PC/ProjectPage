@@ -1,1 +1,17 @@
+---
+title: python_sumario
+layout: template
+button: Tutoriais
+filename: tutoriais
+type: post
+---
+{%- assign python = site.pages | where: 'type', 'python' -%}
+
+# python
+<ul>
+	{%- for page in python -%}
+		<li><a href="{{page.url}}">{{page.button}}</a></li>
+	{% endfor %}
+</ul>
+<br/>
 
