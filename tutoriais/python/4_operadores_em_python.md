@@ -1,8 +1,8 @@
 ---
-title: Python
+title: 4. Operadores aritméticos, lógicos e comparativos em python.md
 layout: template
-filename: python
-button: Introdução ao Python
+filename: 4_operadores_em_python
+button: 4. Operadores aritméticos, lógicos e comparativos em python.md
 type: python
 ---
 
@@ -30,6 +30,6 @@ São os símbolos e caracteres responsáveis por abstrair a lógica a ser implem
 *imagem retirada de [link](<https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python>)
 <br>
 
-[Próxima página](<5. estruturas condicionais em python.md>)
+[Próxima página](<5_estruturas_condicionais_em_python.md>)
 [sumário](<python_sumario.md>)
-[Pagína anterior](<3. tipos de dados e cast em python.md>)
+[Pagína anterior](<3_tipos_de_dados_e_cast_em_python.md>)
