@@ -1,8 +1,8 @@
 ---
-title: Python
+title: 7. listas em python
 layout: template
-filename: python
-button: Introdução ao Python
+filename: 7_listas_em_python
+button: 7. listas em python
 type: python
 ---
 
@@ -70,4 +70,4 @@ vermelho
 <br>
 
 [sumário](<python_sumario.md>)
-[Pagína anterior](<6. laços em python.md>)
+[Pagína anterior](<6_laços_em_python.md>)
