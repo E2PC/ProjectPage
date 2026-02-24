@@ -1,8 +1,8 @@
 ---
-title: Python
+title: 2. Leitura e escrita em python.md
 layout: template
 filename: python
-button: Introdução ao Python
+button: 2. Leitura e escrita em python.md
 type: python
 ---
 
@@ -83,6 +83,6 @@ azul
 <br>
 <br>
 
-[Próxima página](<3. tipos de dados e cast em python.md>)
+[Próxima página](<3_tipos_de_dados_e_cast_em_python.md>)
 [sumário](<python_sumario.md>)
-[Página anterior](<1. introdução a python.md>)
+[Página anterior](<1_introdução_a_python.md>)
