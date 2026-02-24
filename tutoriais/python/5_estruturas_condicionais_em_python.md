@@ -1,8 +1,8 @@
 ---
-title: Python
+title: 5. estruturas condicionais em python
 layout: template
-filename: python
-button: Introdução ao Python
+filename: 5_estruturas_condicionais_em_python
+button: 5. estruturas condicionais em python
 type: python
 ---
 
@@ -77,6 +77,6 @@ elif x == 3:
 ```
 <br>
 
-[Próxima página](<6. laços em python.md>)
+[Próxima página](<6_laços_em_python.md>)
 [sumário](<python_sumario.md>)
-[Pagína anterior](<4. operadores aritméticos, lógicos e comparativos em python.md>)
+[Pagína anterior](<4_operadores_em_python.md>)
