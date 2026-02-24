@@ -11,7 +11,7 @@ button: Inicio
 
 ![](../assets/images/logo_e2pc.png)
 
-O Programa de Extensão "Ensino Extracurricular de Programação de Computadores e Difusão de TICs" congrega duas iniciativas distintas:
+O abab Programa de Extensão "Ensino Extracurricular de Programação de Computadores e Difusão de TICs" congrega duas iniciativas distintas:
  
 - **Ensino Extracurricular de Programação de Computadores**: consiste em treinamentos e eventos envolvendo programação competitiva, em especial a [Maratona de Programação](http://maratona.sbc.org.br/) da Sociedade Brasileira de Computação.
 
