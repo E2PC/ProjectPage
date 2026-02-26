@@ -23,7 +23,7 @@ b, c = "Carro", 13.5   # string, float
 
 A biblioteca nativa do python conta com diversos tipos de dados, cada um tem sua própria função dentro do código.
 
-![tabela de tipos de dados](python_imagens/tabela_dados_python.png)
+![tabela de tipos de dados](../../assets/images/tutoriais/python_images/tabela_dados_python.png)
 *imagem retirada de [link](https://www.w3schools.com/python/python_datatypes.asp)
 # Cast (conversão de dados)
 
