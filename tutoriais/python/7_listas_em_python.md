@@ -1,0 +1,73 @@
+---
+title: 7. listas em python
+layout: template
+filename: 7_listas_em_python
+button: 7. listas em python
+type: python
+---
+
+# Listas
+
+Por ser um tipo de vetor, listas são capazes de armazenar vários itens em uma única variável. Cada espaço tem um índice associado, começando em 0, facilitando o acesso a informações especificas. 
+<br>
+
+exemplo:
+```
+lista = ["amarelo", "azul", "vermelho"]
+print(lista)
+lista[2] = "laranja"
+print(lista)
+
+```
+saída:
+```
+["amarelo", "azul", "vermelho"]
+["amarelo", "azul", "laranja"]
+
+```
+* é importante perceber que, por conta do primeiro índice da lista ser 0, o último índice da lista sempre é seu tamanho - 1.
+<br>
+
+## Percorrer listas
+Por conterem múltiplos itens, na maioria das vezes, listas devem ser percorridas por meio de laços. Para isso, são usadas funções como len(), que retorna o tamanho da lista.
+<br>
+
+exemplo:
+```
+lista = ["amarelo", "azul", "vermelho"]
+tamanho_da_lista = len(lista) - 1
+while tamanho_da_lista != 0:
+  print(lista[tamanho_da_lista])
+  tamanho_da_lista = tamanho_da_lista - 1
+
+```
+saída:
+```
+amarelo
+azul
+vermelho
+
+```
+<br>
+
+Também pode ser utilizado o for, visto que esse é o caso ideal para ele.
+<br>
+
+exemplo:
+```
+lista = ["amarelo", "azul", "vermelho"]
+for item in lista:
+  print(item)
+
+```
+saída:
+```
+amarelo
+azul
+vermelho
+
+```
+<br>
+
+[sumário](<python_sumario.md>)
+[Pagína anterior](<6_laços_em_python.md>)

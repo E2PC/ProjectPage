@@ -1,0 +1,46 @@
+---
+title: 1. Introdução a python
+layout: template
+filename: 1._Introdução_a_python
+button: 1. Introdução a python
+type: python
+---
+
+# Introdução ao Python
+
+Python é uma linguagem de programação de alto nível multiparadigma. Foi desenvolvida pelo matemático e também programador, Guido Van Rossum, com foco na simplicidade da sintaxe.
+
+Olá mundo em C++:
+
+```
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Hello World";
+
+    return 0;
+}
+
+```
+<br>
+
+Olá mundo em Python:
+
+```
+print ('Hello World')
+
+```
+<br>
+
+A linguagem, hoje, é usada principalmente em Ciência de dados e Inteligência Artificial, contudo, ela também tem seu espaço nas áreas de desenvolvimento web, finanças, educação, automação e jogos. Notavelmente python é bem popular.
+
+![The Sims 4](https://conteudo.imguol.com.br/c/entretenimento/4c/2017/11/01/o-simulador-the-sims-4-vai-ganhar-uma-edicao-caprichada-para-os-consoles-ps4-e-xbox-one-1509548494790_v2_4x3.jpg)
+
+*The Sims 4 é um exemplo de produto onde python foi amplamente utilizado.
+<br>
+
+[Próxima página](<2_leitura_e_escrita_em_python.md>)
+[sumário](<python_sumario.md>)

@@ -1,0 +1,82 @@
+---
+title: 5. estruturas condicionais em python
+layout: template
+filename: 5_estruturas_condicionais_em_python
+button: 5. estruturas condicionais em python
+type: python
+---
+
+# Estruturas condicionais
+
+São responsáveis por controlar o fluxo do algoritmo, a depender da situação.
+
+## if
+
+If é utilizado para realizar desvios no código caso tal condição se concretize.
+<br>
+
+exemplo:
+```
+x = int(input())
+if x > 20:
+  print("é maior que 20")
+
+```
+
+caso a entrada (x) for maior que 20 a saída deve coressponder a:
+```
+é maior que 20
+
+```
+
+## else
+
+Else é executado caso a condição do if(), o qual o antecede, for falsa. Seu uso só pode ser feito após um if().
+<br>
+
+exemplo:
+```
+x = int(input())
+if x > 20:
+  print("é maior que 20")
+else:
+  print("é menor que 20")
+
+```
+<br>
+
+Sobre a indentação, em python o inicio e fim de ação de um laço, condicional ou função, são definidos pelo espaço deixado entre o início da linha e o primeiro caractere. 
+
+## elif (else if)
+
+Elif atua como uma combinação de else com if. Sua condição só é averiguada caso o if, ou elif, anterior tenha falhado. Diferente do else, ele não é automaticamente executado em caso de uma falha anterior.
+
+exemplo:
+```
+x = int(input())
+if x > 20:
+  print("é maior que 20")
+elif x == 20:
+  print("x é igual a 20")
+else:
+  print("é menor que 20")
+
+```
+<br>
+
+exemplo:
+```
+x = int(input())
+if x == 1:
+  print("x é igual a 1")
+elif x == 2:
+  print("x é igual a 2")
+elif x == 3:
+  print("x é igual a 3")
+
+```
+<br>
+
+[Próxima página](<6_laços_em_python.md>)
+[sumário](<python_sumario.md>)
+[Pagína anterior](<4_operadores_em_python.md>)
