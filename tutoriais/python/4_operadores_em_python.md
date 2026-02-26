@@ -12,20 +12,20 @@ São os símbolos e caracteres responsáveis por abstrair a lógica a ser implem
 
 ## Operadores Aritméticos
 
-![tabela](python_imagens/operadores_aritméticos_python.png)
+![tabela](../../assets/images/tutoriais/python_images/operadores_aritméticos_python.png)
 <br>
 *imagem retirada de [link](<https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python>)
 
 ## Operadores Lógicos
 
-![tabela](python_imagens/operadores_lógicos_python.png)
+![tabela](../../assets/images/tutoriais/python_images//operadores_lógicos_python.png)
 <br>
 *imagem retirada de [link](<https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python>)
 
 
 ## Operadores de Comparação
 
-![tabela](python_imagens/operadores_comparação_python.png)
+![tabela](../../assets/images/tutoriais/python_images/operadores_comparação_python.png)
 <br>
 *imagem retirada de [link](<https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python>)
 <br>
