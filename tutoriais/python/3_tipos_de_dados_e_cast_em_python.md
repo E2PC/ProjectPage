@@ -72,6 +72,6 @@ print(x)
 <br>
 <br>
 
-[Próxima página](<4_operadores_em_python.md>)
-[sumário](<python_sumario.md>)
-[Pagína anterior](<2_leitura_e_escrita_em_python.md>)
+[Próxima página](./4_operadores_em_python.md)
+[sumário](./python_sumario.md)
+[Pagína anterior](./2_leitura_e_escrita_em_python.md)
