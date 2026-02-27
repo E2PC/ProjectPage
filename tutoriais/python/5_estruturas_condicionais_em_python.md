@@ -77,6 +77,6 @@ elif x == 3:
 ```
 <br>
 
-[Próxima página](./6_laços_em_python.md)
+[Próxima página](./6_lacos_em_python.md)
 [sumário](./python_sumario.md)
 [Pagína anterior](./4_operadores_em_python.md)
