@@ -85,4 +85,4 @@ azul
 
 [Próxima página](./3_tipos_de_dados_e_cast_em_python.md)
 [sumário](./python_sumario.md)
-[Página anterior](./1_introdução_a_python.md)
+[Página anterior](./1_introducao_a_python.md)
