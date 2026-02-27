@@ -70,4 +70,4 @@ vermelho
 <br>
 
 [sumário](./python_sumario.md)
-[Pagína anterior](./6_laços_em_python.md)
+[Pagína anterior](./6_lacos_em_python.md)
