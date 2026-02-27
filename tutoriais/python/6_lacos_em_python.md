@@ -1,7 +1,7 @@
 ---
 title: 6. laços em python
 layout: template
-filename: 6_laços_em_python
+filename: 6_lacos_em_python
 button: 6. laços em python
 type: python
 ---
@@ -16,6 +16,7 @@ Seu uso configura em um loop de um conjunto comandos até que sua condição dei
 <br>
 
 exemplo:
+
 ```
 x = 5
 while x != 0:
@@ -25,6 +26,7 @@ while x != 0:
 ```
 
 saída:
+
 ```
 5
 4
@@ -33,6 +35,7 @@ saída:
 1
 
 ```
+
 <br>
 no sexto loop, quando x = 0, x != 0 é falso, então o loop é encerrado
 
@@ -42,12 +45,15 @@ For é a estrutura utilizada quando se quer percorrer um vetor, ele extrai cada 
 <br>
 
 exemplo:
+
 ```
 for i in ["a", "b", "c"]:
   print(i)
  
 ```
+
 saída:
+
 ```
 a
 b
@@ -65,11 +71,14 @@ Um aliado no uso do for(), a função range(), define um início, fim e incremen
 #### exemplos:
 
 1:
+
 ```
 for i in range(3)  #3 fim
   print(i)
 ```
+
 saída:
+
 ```
 0
 1
@@ -81,11 +90,14 @@ i < 3 é o critério de repetição do laço.
 <br>
   
 2:
+
 ```
 for i in range(4, 8)
   print(i)
 ```
+
 saída:
+
 ```
 4
 5
@@ -98,11 +110,14 @@ i = 4 é definido antes da execução do laço e i < 8 é o critério de repeti�
 <br>
 
 3:
+
 ```
 for i in range(0, 10, 2) #0 ínicio, 10 fim, 2 passo
   print(i)
 ```
+
 saída:
+
 ```
 0
 2
@@ -115,6 +130,6 @@ saída:
 i = 0 é definido antes da execução do laço, i < 10 é o critério de repetição e i = i + 2 é realizado ao fim de cada loop. 
 <br>
 
-[Próxima página](<7_listas_em_python.md>)
-[sumário](<python_sumario.md>)
-[Pagína anterior](<5_estruturas_condicionais_em_python.md>)
+[Próxima página](./7_listas_em_python.md)
+[sumário](./python_sumario.md)
+[Pagína anterior](./5_estruturas_condicionais_em_python.md)
