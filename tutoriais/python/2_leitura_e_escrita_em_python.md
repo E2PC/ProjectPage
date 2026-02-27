@@ -60,7 +60,7 @@ boa noite!
 ```
 <br>
 
-*Seu uso não é limitado a variaveis.
+*Seu uso não é limitado a variáveis.
 
 codigo:
 ```
@@ -83,6 +83,6 @@ azul
 <br>
 <br>
 
-[Próxima página](<3_tipos_de_dados_e_cast_em_python.md>)
-[sumário](<python_sumario.md>)
-[Página anterior](<1_introdução_a_python.md>)
+[Próxima página](./3_tipos_de_dados_e_cast_em_python.md)
+[sumário](./python_sumario.md)
+[Página anterior](./1_introdução_a_python.md)
