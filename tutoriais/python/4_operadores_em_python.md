@@ -30,6 +30,6 @@ São os símbolos e caracteres responsáveis por abstrair a lógica a ser implem
 *imagem retirada de [link](<https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python>)
 <br>
 
-[Próxima página](<5_estruturas_condicionais_em_python.md>)
-[sumário](<python_sumario.md>)
-[Pagína anterior](<3_tipos_de_dados_e_cast_em_python.md>)
+[Próxima página](./5_estruturas_condicionais_em_python.md)
+[sumário](./python_sumario.md)
+[Pagína anterior](./3_tipos_de_dados_e_cast_em_python.md)
