@@ -17,7 +17,7 @@ Seu uso configura em um loop de um conjunto comandos até que sua condição dei
 
 exemplo:
 
-```
+```python
 x = 5
 while x != 0:
   print(x)
