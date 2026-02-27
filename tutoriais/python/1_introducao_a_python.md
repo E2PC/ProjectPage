@@ -42,5 +42,5 @@ A linguagem, hoje, é usada principalmente em Ciência de dados e Inteligência 
 *The Sims 4 é um exemplo de produto onde python foi amplamente utilizado.
 <br>
 
-[Próxima página](<2_leitura_e_escrita_em_python.html>)
-[sumário](<python_sumario.html>)
+[Próxima página](./2_leitura_e_escrita_em_python.md)
+[sumário](./python_sumario.md)
