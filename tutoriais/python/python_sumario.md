@@ -1,5 +1,5 @@
 ---
-title: Python sumário
+title: Python tutorial
 layout: template
 button: Python sumário
 filename: python_sumario
