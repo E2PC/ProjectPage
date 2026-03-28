@@ -6,7 +6,7 @@ button: Equipe
 type: info
 ---
 
-{% assign todos_equipe = site.equipe | sort_natural:"name" | sort:"end_year" %}
+{% assign todos_equipe = site.equipe | sort:"end_year", "last" | reverse %}
 ![](../assets/images/logo_e2pc.png) 
 
 ## Equipe do Projeto  
@@ -24,6 +24,8 @@ type: info
                     <p class="mb-0 small text-muted align-center">{{ pessoa.type }}</p>
                     {% if pessoa.end_year %}
                         <p class="small text-muted">{{ pessoa.begin_year }} - {{ pessoa.end_year }}</p>
+                    {% else %}
+                        <p class="small text-muted">{{ pessoa.begin_year }} - Atualmente</p>
                     {% endif %}
                     <ul class="social mb-0 list-inline mt-3">
                         {% if pessoa.github %}
